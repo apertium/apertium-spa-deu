@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<modes>
+  <mode name="de-es" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="de-es.t1x"/>
+        <file name="de-es.t1x.bin"/>
+        <file name="de-es.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="de-es.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="de-es.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="de-es-anmor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+<mode name="de-es-tagger">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-es.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="de-es-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="de-es-transfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="de-es.t1x"/>
+        <file name="de-es.t1x.bin"/>
+        <file name="de-es.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+<mode name="de-es-gen">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="de-es.t1x"/>
+        <file name="de-es.t1x.bin"/>
+        <file name="de-es.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="de-es.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  
+  <mode name="es-de" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-de.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="es-de.t1x"/>
+        <file name="es-de.t1x.bin"/>
+        <file name="es-de.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-de.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="es-de.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-de-anmor">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-de-tagger">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-de.prob"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-de-pretransfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-de.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+  <mode name="es-de-transfer">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-de.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="es-de.t1x"/>
+        <file name="es-de.t1x.bin"/>
+        <file name="es-de.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="es-de-gen">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-de.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="es-de.t1x"/>
+        <file name="es-de.t1x.bin"/>
+        <file name="es-de.autobil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-de.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+  <!-- multi -->
+  
+    <mode name="es-de-multi" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="es-de.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="es-de.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-multiple-translations">
+        <file name="es-de.t1x.bin"/>
+        <file name="es-de.lextormono.bin"/>
+      </program>
+      <program name="apertium-transfer">
+        <file name="es-de.t1x"/>
+        <file name="es-de.t1x.bin"/>
+        <file name="es-de.lextorbil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="es-de.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="es-de.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="de-es-multi" install="yes">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="de-es.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="de-es.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-multiple-translations">
+        <file name="de-es.t1x.bin"/>
+        <file name="de-es.lextormono.bin"/>
+      </program>
+
+      <program name="apertium-transfer">
+        <file name="de-es.t1x"/>
+        <file name="de-es.t1x.bin"/>
+        <file name="de-es.lextorbil.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="de-es.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="de-es.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
+
+</modes>
