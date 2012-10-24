@@ -45,6 +45,3 @@ AC_DEFUN([PKG_CHECK_APERTIUM], [
 PKG_CHECK_APERTIUM
 
 AC_OUTPUT([Makefile])
-AC_OUTPUT([i_to_p.awk])
-AC_OUTPUT([sustituye_caracteres.awk])
-AC_OUTPUT([inline_e.awk])
