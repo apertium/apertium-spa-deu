@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="apertium-es-de.es-de.t1x" uri="transfer.rnc"/>
+  <uri resource="apertium-es-de.es-de.t2x" uri="interchunk.rnc"/>
+  <uri resource="apertium-es-de.es-de.t3x" uri="postchunk.rnc"/>
+  <uri resource="apertium-es-de.de-es.t1x" uri="transfer.rnc"/>
+  <uri resource="apertium-es-de.de-es.t2x" uri="interchunk.rnc"/>
+  <uri resource="apertium-es-de.de-es.t3x" uri="postchunk.rnc"/>
+  <uri resource="apertium-es-de.de.dix" uri="dix.rnc"/>
+  <uri resource="apertium-es-de.es-de.dix" uri="dix.rnc"/>
+  <uri resource="apertium-es-de.es.dix" uri="dix.rnc"/>
+  <uri resource="apertium-es-de.post-de.dix" uri="dix.rnc"/>
+  <uri resource="apertium-es-de.post-es.dix" uri="dix.rnc"/>
+  <uri resource="apertium-es-de.es.tsx" uri="tagger.rnc"/>
+  <uri resource="apertium-es-de.de.tsx" uri="tagger.rnc"/>
+  <uri resource="modes.xml" uri="modes.rnc"/>
+</locatingRules>
