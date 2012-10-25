@@ -10,7 +10,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="de-es.t1x"/>
+        <file name="apertium-es-de.de-es.t1x"/>
         <file name="de-es.t1x.bin"/>
         <file name="de-es.autobil.bin"/>
       </program>
@@ -66,7 +66,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="de-es.t1x"/>
+        <file name="apertium-es.de.de-es.t1x"/>
         <file name="de-es.t1x.bin"/>
         <file name="de-es.autobil.bin"/>
       </program>
@@ -83,7 +83,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="de-es.t1x"/>
+        <file name="apertium-es-de.de-es.t1x"/>
         <file name="de-es.t1x.bin"/>
         <file name="de-es.autobil.bin"/>
       </program>
@@ -103,7 +103,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="es-de.t1x"/>
+        <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
         <file name="es-de.autobil.bin"/>
       </program>
@@ -159,7 +159,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="es-de.t1x"/>
+        <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
         <file name="es-de.autobil.bin"/>
       </program>
@@ -177,7 +177,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="apertium-transfer">
-        <file name="es-de.t1x"/>
+        <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
         <file name="es-de.autobil.bin"/>
       </program>
@@ -205,7 +205,7 @@
         <file name="es-de.lextormono.bin"/>
       </program>
       <program name="apertium-transfer">
-        <file name="es-de.t1x"/>
+        <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
         <file name="es-de.lextorbil.bin"/>
       </program>
@@ -233,7 +233,7 @@
       </program>
 
       <program name="apertium-transfer">
-        <file name="de-es.t1x"/>
+        <file name="apertium-es-de.de-es.t1x"/>
         <file name="de-es.t1x.bin"/>
         <file name="de-es.lextorbil.bin"/>
       </program>
