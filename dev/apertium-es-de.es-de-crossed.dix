@@ -1,0 +1,4312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Dictionary:
+	Sections: 1
+	Entries: 1053
+	Sdefs: 97
+	Last processed by: apertium-dixtools reverse-bil apertium-de-es.de-es.dix apertium-es-de.es-de.dix
+
+-->
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="nt" 	c="Neuter"/> 
+    <sdef n="p3" 	c="Third person"/> 
+    <sdef n="np" 	c="Proper noun"/> 
+    <sdef n="p2" 	c="Second person"/> 
+    <sdef n="p1" 	c="First person"/> 
+    <sdef n="nn" 	c="Inanimate"/> 
+    <sdef n="vblex" 	c="Verb"/> 
+    <sdef n="pos" 	c="Possessive"/> 
+    <sdef n="time" 	c="Time"/> 
+    <sdef n="preadv" 	c="Preadverb"/> 
+    <sdef n="vaux" 	c="Auxiliary verb"/> 
+    <sdef n="loc" 	c="Location (not locative!)"/> 
+    <sdef n="mon" 	c="Currency / valuta"/> 
+    <sdef n="pres" 	c="Present tense (indicative)"/> 
+    <sdef n="vbser" 	c="Verb 'to be'"/> 
+    <sdef n="nom" /> 
+    <sdef n="unc" /> 
+    <sdef n="vbdo" 	c="The verb 'to do'"/> 
+    <sdef n="lquest" 	c="Left question mark"/> 
+    <sdef n="pl" 	c="Plural"/> 
+    <sdef n="itg" 	c="Interrogative"/> 
+    <sdef n="ND" 	c="Number to be determined"/> 
+    <sdef n="GD" 	c="Gender to be determined"/> 
+    <sdef n="det" 	c="Determiner"/> 
+    <sdef n="ord" 	c="Ordinal"/> 
+    <sdef n="vbhaver" 	c="Verb 'to have'"/> 
+    <sdef n="cni" 	c="Conditional"/> 
+    <sdef n="def" 	c="Definite"/> 
+    <sdef n="mf" 	c="Masculine / feminine"/> 
+    <sdef n="cnjcoo" 	c="Co-ordinating conjunction"/> 
+    <sdef n="dem" 	c="Demonstrative"/> 
+    <sdef n="enc" 	c="Enclitic"/> 
+    <sdef n="f" 	c="Feminine"/> 
+    <sdef n="comp" 	c="Comparative"/> 
+    <sdef n="n" 	c="Noun"/> 
+    <sdef n="pron" 	c="Pronominal"/> 
+    <sdef n="web" 	c="URL address"/> 
+    <sdef n="m" 	c="Masculine"/> 
+    <sdef n="detnt" 	c="Determiner neuter(?)"/> 
+    <sdef n="ref" 	c="Reflexive"/> 
+    <sdef n="num" 	c="Numeral"/> 
+    <sdef n="cog" 	c="Cognomen (family name)"/> 
+    <sdef n="obj" 	c="Object"/> 
+    <sdef n="rel" 	c="Relative"/> 
+    <sdef n="iobj" /> 
+    <sdef n="tn" 	c="Tonic"/> 
+    <sdef n="percent" 	c="Percentage"/> 
+    <sdef n="predet" 	c="Pre-determiner"/> 
+    <sdef n="imp" 	c="Imperative"/> 
+    <sdef n="fti" 	c="Future indicative"/> 
+    <sdef n="vbmod" 	c="Modal verb"/> 
+    <sdef n="sent" 	c="Sentence marker"/> 
+    <sdef n="apos" 	c="Apostrophe"/> 
+    <sdef n="ind" 	c="Indefinite"/> 
+    <sdef n="ant" 	c="Anthroponym"/> 
+    <sdef n="gen" 	c="Genitive"/> 
+    <sdef n="sp" 	c="Singular / plural"/> 
+    <sdef n="sint" 	c="Synthetic"/> 
+    <sdef n="ger" 	c="Gerund"/> 
+    <sdef n="inf" 	c="Infinitive"/> 
+    <sdef n="dobj" /> 
+    <sdef n="rpar" 	c="Right parenthesis"/> 
+    <sdef n="sg" 	c="Singular"/> 
+    <sdef n="cnjsub" 	c="Subordinating conjunction"/> 
+    <sdef n="url" 	c="Web address"/> 
+    <sdef n="dat" /> 
+    <sdef n="fts" 	c="Future subjunctive"/> 
+    <sdef n="lpar" 	c="Left parenthesis"/> 
+    <sdef n="cm" 	c="Comma"/> 
+    <sdef n="email" 	c="Email"/> 
+    <sdef n="ifi" 	c="Preterite indicative"/> 
+    <sdef n="pprs" 	c="Present participle"/> 
+    <sdef n="adj" 	c="Adjective"/> 
+    <sdef n="sup" 	c="Superlative"/> 
+    <sdef n="subj" 	c="Subject"/> 
+    <sdef n="atn" 	c="Atonic"/> 
+    <sdef n="subs" 	c="Substantive"/> 
+    <sdef n="qnt" 	c="Quantifier"/> 
+    <sdef n="adv" 	c="Adverb"/> 
+    <sdef n="prs" 	c="Present subjunctive"/> 
+    <sdef n="ij" 	c="Interjection"/> 
+    <sdef n="guio" 	c="Hyphen"/> 
+    <sdef n="cnjadv" 	c="Adverbial conjunction"/> 
+    <sdef n="past" 	c="Past"/> 
+    <sdef n="acc" /> 
+    <sdef n="pii" 	c="Imperfect indicative"/> 
+    <sdef n="al" 	c="Other (altre)"/> 
+    <sdef n="pri" 	c="Present indicative"/> 
+    <sdef n="an" 	c="Animate / inanimate"/> 
+    <sdef n="pro" 	c="Proclitic"/> 
+    <sdef n="prn" 	c="Pronoun"/> 
+    <sdef n="sep" 	c="Separable verb"/> 
+    <sdef n="aa" 	c="Animate"/> 
+    <sdef n="pis" 	c="Imperative subjunctive"/> 
+    <sdef n="pp" 	c="Past participle"/> 
+    <sdef n="acr" 	c="Acronym"/> 
+    <sdef n="pr" 	c="Preposition"/> 
+  </sdefs>
+  <section id="main" type="standard">
+<e>       <re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+
+<e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
+
+
+<e>       <re>[Â¿Â¡]</re><p><l><s n="lquest"/></l>     <r><s n="lquest"/></r></p></e>
+
+<e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>       <r><s n="lpar"/></r></p></e>
+
+<e>       <re>[\)\]]</re><p><l><s n="rpar"/></l>       <r><s n="rpar"/></r></p></e>
+
+<e>       <re>[0-9]+([.,][0-9]+)?%</re><p><l><s n="num"/><s n="percent"/></l><r><s n="num"/><s n="percent"/></r></p></e>
+
+<e>       <re>[0-9]+[.:][0-5][0-9](pm|PM|am|AM|h)</re><p><l><s n="num"/><s n="time"/></l><r><s n="num"/><s n="time"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>anguila<s n="n"/><s n="f"/></l>        <r>Aal<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>andanza<s n="n"/><s n="f"/></l>        <r>Abenteuer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aventura<s n="n"/><s n="f"/></l>       <r>Abenteuer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Andorra<s n="np"/><s n="loc"/><s n="f"/></l><r>Andorra<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>respuesta<s n="n"/><s n="f"/></l>      <r>Antwort<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aparato<s n="n"/><s n="m"/></l>        <r>Apparat<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="(només en plural, arms (en-ca). En plural serà polisèmica de en a ca, (braços, armes) i en sg es traduirà només com a 'braç')"><p><l>arma<s n="n"/><s n="f"/><s n="pl"/></l><r>Arm<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>brazo<s n="n"/><s n="m"/><s n="sg"/></l><r>Arm<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>brazo<s n="n"/><s n="m"/><s n="pl"/></l><r>Arm<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>patilla<s n="n"/><s n="f"/></l>        <r>Arm<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Australia<s n="np"/><s n="loc"/><s n="f"/></l><r>Australien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>autopista<s n="n"/><s n="f"/></l>      <r>Autobahn<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>labrador<s n="n"/><s n="GD"/></l>      <r>Bauer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>labrador<s n="n"/></l>                 <r>Bauer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pata<s n="n"/><s n="f"/></l>           <r>Bein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pierna<s n="n"/><s n="f"/></l>         <r>Bein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pernera<s n="n"/><s n="f"/></l>        <r>Bein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ejemplo<s n="n"/><s n="m"/></l>        <r>Beispiel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Bélgica<s n="np"/><s n="loc"/><s n="f"/></l><r>Belgien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>montaña<s n="n"/><s n="f"/></l>        <r>Berg<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>monte<s n="n"/><s n="m"/></l>          <r>Berg<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>visita<s n="n"/><s n="f"/></l>         <r>Besuch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cama<s n="n"/><s n="f"/></l>           <r>Bett<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lecho<s n="n"/><s n="f"/></l>          <r>Bett<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cerveza<s n="n"/><s n="f"/></l>        <r>Bier<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cuadro<s n="n"/><s n="m"/></l>         <r>Bild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fotografía<s n="n"/><s n="f"/></l>     <r>Bild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lápiz<s n="n"/><s n="m"/><s n="ND"/></l><r>Bleistift<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lápiz<s n="n"/><s n="m"/><s n="pl"/></l><r>Bleistift<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lápiz<s n="n"/><s n="m"/><s n="sg"/></l><r>Bleistift<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>flor<s n="n"/><s n="f"/></l>           <r>Blume<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Brasil<s n="np"/><s n="loc"/><s n="m"/></l><r>Brasilien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>carta<s n="n"/><s n="f"/></l>          <r>Brief<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>letra<s n="n"/><s n="f"/></l>          <r>Brief<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pan<s n="n"/><s n="m"/></l>            <r>Brot<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>libro<s n="n"/><s n="m"/></l>          <r>Buch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Bulgaria<s n="np"/><s n="loc"/><s n="f"/></l><r>Bulgarien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>China<s n="np"/><s n="loc"/><s n="f"/></l><r>China<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ordenador<s n="n"/><s n="m"/></l>      <r>Computer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>computadora<s n="n"/><s n="f"/></l>    <r>Computer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>computador<s n="n"/><s n="m"/></l>     <r>Computer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mujer<s n="n"/><s n="f"/></l>          <r>Dame<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Alemania<s n="np"/><s n="loc"/><s n="f"/></l><r>Deutschland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>poeta<s n="n"/><s n="mf"/></l>         <r>Dichter<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ladrón<s n="n"/><s n="f"/></l>         <r>Dieb<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ladrón<s n="n"/><s n="GD"/></l>        <r>Dieb<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ladrón<s n="n"/></l>                   <r>Dieb<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ladrón<s n="n"/><s n="m"/></l>         <r>Dieb<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cosa<s n="n"/><s n="f"/></l>           <r>Ding<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>doctor<s n="n"/><s n="GD"/></l>        <r>Doktor<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>doctor<s n="n"/></l>                   <r>Doktor<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>médico<s n="n"/></l>                   <r>Doktor<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>catedral<s n="n"/><s n="f"/></l>       <r>Dom<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>seo<s n="n"/><s n="f"/></l>            <r>Dom<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>domo<s n="n"/><s n="m"/></l>           <r>Dom<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Dinamarca<s n="np"/><s n="loc"/><s n="f"/></l><r>Dänemark<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>huevo<s n="n"/><s n="m"/></l>          <r>Ei<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cubo<s n="n"/><s n="m"/></l>           <r>Eimer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Inglaterra<s n="np"/><s n="loc"/><s n="f"/></l><r>England<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>burro<s n="n"/><s n="m"/></l>          <r>Esel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Estonia<s n="np"/><s n="loc"/><s n="f"/></l><r>Estland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Europa<s n="np"/><s n="loc"/><s n="f"/></l><r>Europa<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>factoría<s n="n"/><s n="f"/></l>       <r>Fabrik<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fábrica<s n="n"/><s n="f"/></l>        <r>Fabrik<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bicicleta<s n="n"/><s n="f"/></l>      <r>Fahrrad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>familia<s n="n"/><s n="f"/></l>        <r>Familie<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>faisán<s n="n"/><s n="m"/></l>         <r>Fasan<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>faisán<s n="n"/><s n="f"/></l>         <r>Fasan<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>equivocación<s n="n"/><s n="f"/></l>   <r>Fehler<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>incorrección<s n="n"/><s n="f"/></l>   <r>Fehler<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>campo<s n="n"/><s n="m"/></l>          <r>Feld<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ámbito<s n="n"/><s n="m"/></l>         <r>Feld<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cancha<s n="n"/><s n="f"/></l>         <r>Feld<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ventana<s n="n"/><s n="f"/></l>        <r>Fenster<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>televisión<s n="n"/><s n="f"/></l>     <r>Fernseher<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>televisor<s n="n"/><s n="m"/></l>      <r>Fernseher<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>festival<s n="n"/><s n="m"/></l>       <r>Fest<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>película<s n="n"/><s n="f"/></l>       <r>Film<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dedo<s n="n"/><s n="m"/></l>           <r>Finger<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Finlandia<s n="np"/><s n="loc"/><s n="f"/></l><r>Finnland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pescado<s n="n"/><s n="m"/></l>        <r>Fisch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pez<s n="n"/><s n="m"/></l>            <r>Fisch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cuestión<s n="n"/><s n="f"/></l>       <r>Frage<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pregunta<s n="n"/><s n="f"/></l>       <r>Frage<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>interrogación<s n="n"/><s n="f"/></l>  <r>Frage<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Francia<s n="np"/><s n="loc"/><s n="f"/></l><r>Frankreich<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mujer<s n="n"/><s n="f"/></l>          <r>Frau<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>amigo<s n="n"/><s n="GD"/></l>         <r>Freund<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>amigo<s n="n"/></l>                    <r>Freund<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>poema<s n="n"/><s n="m"/></l>          <r>Gedicht<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fantasma<s n="n"/><s n="mf"/></l>      <r>Geist<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dinero<s n="n"/><s n="m"/></l>         <r>Geld<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>don<s n="n"/><s n="m"/></l>            <r>Geschenk<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>regalo<s n="n"/><s n="m"/></l>         <r>Geschenk<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>negocio<s n="n"/><s n="m"/></l>        <r>Geschäft<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cara<s n="n"/><s n="f"/></l>           <r>Gesicht<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>rostro<s n="n"/><s n="m"/></l>         <r>Gesicht<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cereal<s n="n"/><s n="m"/></l>         <r>Getreide<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>grado<s n="n"/><s n="m"/></l>          <r>Grad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>título<s n="n"/><s n="m"/></l>         <r>Grad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>licenciatura<s n="n"/><s n="f"/></l>   <r>Grad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>titulación<s n="n"/><s n="f"/></l>     <r>Grad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Grecia<s n="np"/><s n="loc"/><s n="f"/></l><r>Griechenland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cuadrilla<s n="n"/><s n="f"/></l>      <r>Gruppe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>conjunto<s n="n"/><s n="m"/></l>       <r>Gruppe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>grupo<s n="n"/><s n="m"/></l>          <r>Gruppe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>casa<s n="n"/><s n="f"/></l>           <r>Haus<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cámara<s n="n"/><s n="f"/></l>         <r>Haus<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>vivienda<s n="n"/><s n="f"/></l>       <r>Haus<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>libreta<s n="n"/><s n="f"/></l>        <r>Heft<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>héroe<s n="n"/><s n="m"/></l>          <r>Held<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>otoño<s n="n"/><s n="m"/></l>          <r>Herbst<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pastor<s n="n"/><s n="GD"/></l>        <r>Hirt<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pastor<s n="n"/></l>                   <r>Hirt<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>perro<s n="n"/><s n="GD"/></l>         <r>Hund<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>perro<s n="n"/></l>                    <r>Hund<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>India<s n="np"/><s n="ant"/></l>       <r>Indien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>isla<s n="n"/><s n="f"/></l>           <r>Insel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Iraq<s n="np"/><s n="loc"/><s n="m"/></l><r>Irak<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Irak<s n="np"/><s n="loc"/><s n="m"/></l><r>Irak<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Irán<s n="np"/><s n="loc"/><s n="m"/></l><r>Iran<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Irlanda<s n="np"/><s n="loc"/><s n="f"/></l><r>Irland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Islandia<s n="np"/><s n="loc"/><s n="f"/></l><r>Island<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Israel<s n="np"/><s n="ant"/></l>      <r>Israel<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Israel<s n="np"/><s n="loc"/><s n="m"/></l><r>Israel<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Italia<s n="np"/><s n="loc"/><s n="f"/></l><r>Italien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>año<s n="n"/><s n="m"/></l>            <r>Jahr<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Japón<s n="np"/><s n="loc"/><s n="m"/></l><r>Japan<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Yemen<s n="np"/><s n="loc"/><s n="m"/></l><r>Jemen<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>chico<s n="n"/><s n="m"/></l>          <r>Junge<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>chiquillo<s n="n"/><s n="m"/></l>      <r>Junge<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>muchacho<s n="n"/><s n="m"/></l>       <r>Junge<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nene<s n="n"/><s n="m"/></l>           <r>Junge<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>niño<s n="n"/><s n="m"/></l>           <r>Junge<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Canadá<s n="np"/><s n="loc"/><s n="m"/></l><r>Kanada<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>carta<s n="n"/><s n="f"/></l>          <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tarjeta<s n="n"/><s n="f"/></l>        <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>documento<s n="n"/><s n="m"/></l>      <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>billete<s n="n"/><s n="f"/></l>        <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>entrada<s n="n"/><s n="f"/></l>        <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tique<s n="n"/><s n="m"/></l>          <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tiquete<s n="n"/><s n="m"/></l>        <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>boleto<s n="n"/><s n="m"/></l>         <r>Karte<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>gato<s n="n"/><s n="GD"/></l>          <r>Katze<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>gato<s n="n"/></l>                     <r>Katze<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bodega<s n="n"/><s n="f"/></l>         <r>Keller<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>camarero<s n="n"/><s n="m"/></l>       <r>Kellner<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cadena<s n="n"/><s n="f"/></l>         <r>Kette<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hijo<s n="n"/><s n="m"/><s n="pl"/></l><r>Kind<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>infante<s n="n"/></l>                  <r>Kind<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>crío<s n="n"/></l>                     <r>Kind<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>niño<s n="n"/><s n="m"/></l>           <r>Kind<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>iglesia<s n="n"/><s n="f"/></l>        <r>Kirche<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cereza<s n="n"/><s n="f"/></l>         <r>Kirsche<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>piano<s n="n"/><s n="m"/></l>          <r>Klavier<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>vestido<s n="n"/><s n="m"/></l>        <r>Kleid<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>maleta<s n="n"/><s n="f"/></l>         <r>Koffer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>concierto<s n="n"/><s n="m"/></l>      <r>Konzert<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Kosovo<s n="np"/><s n="loc"/><s n="m"/></l><r>Kosovo<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>guerra<s n="n"/><s n="f"/></l>         <r>Krieg<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Croacia<s n="np"/><s n="loc"/><s n="f"/></l><r>Kroatien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pastel<s n="n"/><s n="m"/></l>         <r>Kuchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tarta<s n="n"/><s n="f"/></l>          <r>Kuchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>rey<s n="n"/><s n="m"/></l>            <r>König<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>salmón<s n="n"/><s n="m"/></l>         <r>Lachs<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>puerro<s n="n"/><s n="m"/></l>         <r>Lauch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>maestro<s n="n"/></l>                  <r>Lehrer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>profesor<s n="n"/><s n="GD"/></l>      <r>Lehrer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Letonia<s n="np"/><s n="loc"/><s n="f"/></l><r>Lettland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Líbano<s n="np"/><s n="loc"/><s n="m"/></l><r>Libanon<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Liechtenstein<s n="np"/><s n="loc"/><s n="m"/></l><r>Liechtenstein<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>canción<s n="n"/><s n="f"/></l>        <r>Lied<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Lituania<s n="np"/><s n="loc"/><s n="f"/></l><r>Litauen<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Luxemburgo<s n="np"/><s n="loc"/><s n="m"/></l><r>Luxemburg<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cuchara<s n="n"/><s n="f"/></l>        <r>Löffel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sello<s n="n"/><s n="m"/></l>          <r>Marke<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Macedonia<s n="np"/><s n="ant"/></l>   <r>Mazedonien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>océano<s n="n"/><s n="m"/></l>         <r>Meer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mar<s n="n"/><s n="mf"/></l>           <r>Meer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="MG: Pensar en com diferenciar 'gent' de 'persones' en-ca"><p><l>gente<s n="n"/><s n="f"/><s n="sg"/></l><r>Mensch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>gente<s n="n"/><s n="f"/><s n="pl"/></l><r>Mensch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="MG: hi ha tb el plurarl de 'person' (persons) i 'people' tb es podria traduir com a 'gent'"><p><l>persona<s n="n"/><s n="f"/></l><r>Mensch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cuchillo<s n="n"/><s n="m"/></l>       <r>Messer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Méjico<s n="np"/><s n="loc"/><s n="m"/></l><r>Mexiko<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>México<s n="np"/><s n="loc"/><s n="m"/></l><r>Mexiko<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sinceramente<s n="adv"/></l>           <r>MfG<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>minuto<s n="n"/><s n="m"/></l>         <r>Minute<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mes<s n="n"/><s n="m"/></l>            <r>Monat<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>luna<s n="n"/><s n="f"/></l>           <r>Mond<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Mónaco<s n="np"/><s n="loc"/><s n="m"/></l><r>Monoco<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>chico<s n="n"/><s n="f"/></l>          <r>Mädchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>chiquillo<s n="n"/><s n="f"/></l>      <r>Mädchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>muchacho<s n="n"/><s n="f"/></l>       <r>Mädchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nene<s n="n"/><s n="f"/></l>           <r>Mädchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>niño<s n="n"/><s n="f"/></l>           <r>Mädchen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nombre<s n="n"/><s n="m"/></l>         <r>Name<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nación<s n="n"/><s n="f"/></l>         <r>National<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Noruega<s n="np"/><s n="loc"/><s n="f"/></l><r>Norwegen<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>artículo<s n="n"/><s n="m"/></l>       <r>Papier<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>papel<s n="n"/><s n="m"/></l>          <r>Papier<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>camino<s n="n"/><s n="m"/></l>         <r>Pfad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trayectoria<s n="n"/><s n="f"/></l>    <r>Pfad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ruta<s n="n"/><s n="f"/></l>           <r>Pfad<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>caballo<s n="n"/><s n="m"/></l>        <r>Pferd<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Polonia<s n="np"/><s n="loc"/><s n="f"/></l><r>Polen<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>policía<s n="n"/><s n="f"/><s n="sg"/></l><r>Polizei<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>policía<s n="n"/><s n="mf"/><s n="sg"/></l><r>Polizei<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>policía<s n="n"/><s n="f"/><s n="pl"/></l><r>Polizei<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>policía<s n="n"/><s n="mf"/></l>       <r>Polizist<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>policía<s n="n"/><s n="mf"/><s n="pl"/></l><r>Polizist<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>guardia<s n="n"/><s n="mf"/></l>       <r>Polizist<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>precio<s n="n"/><s n="m"/></l>         <r>Preis<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tarifa<s n="n"/><s n="f"/></l>         <r>Preis<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>premio<s n="n"/><s n="m"/></l>         <r>Preis<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>problema<s n="n"/><s n="m"/></l>       <r>Problem<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>inconveniente<s n="n"/><s n="m"/></l>  <r>Problem<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>producto<s n="n"/><s n="m"/></l>       <r>Produkt<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pulso<s n="n"/><s n="m"/></l>          <r>Puls<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>punto<s n="n"/><s n="m"/></l>          <r>Punkt<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>muñeca<s n="n"/><s n="f"/></l>         <r>Puppe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>muñeco<s n="n"/><s n="m"/></l>         <r>Puppe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ganado<s n="n"/><s n="m"/></l>         <r>Rind<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>anillo<s n="n"/><s n="m"/></l>         <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aro<s n="n"/><s n="m"/></l>            <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cerco<s n="n"/><s n="m"/></l>          <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>círculo<s n="n"/><s n="m"/></l>        <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>red<s n="n"/><s n="f"/></l>            <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trompo<s n="n"/><s n="m"/></l>         <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sortija<s n="n"/><s n="f"/></l>        <r>Ring<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sosiego<s n="n"/><s n="m"/></l>        <r>Ruhe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>paz<s n="n"/><s n="f"/></l>            <r>Ruhe<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Rumania<s n="np"/><s n="loc"/><s n="f"/></l><r>Rumänien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Rumanía<s n="np"/><s n="loc"/><s n="f"/></l><r>Rumänien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Rusia<s n="np"/><s n="loc"/><s n="f"/></l><r>Russland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ensalada<s n="n"/><s n="f"/></l>       <r>Salat<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>salmón<s n="n"/><s n="m"/></l>         <r>Salm<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>frase<s n="n"/><s n="f"/></l>          <r>Satz<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="Jur."><p><l>sentencia<s n="n"/><s n="f"/></l>    <r>Satz<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bufanda<s n="n"/><s n="f"/></l>        <r>Schal<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>barco<s n="n"/><s n="m"/></l>          <r>Schiff<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nave<s n="n"/><s n="f"/></l>           <r>Schiff<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>señal<s n="n"/><s n="f"/></l>          <r>Schild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cartel<s n="n"/><s n="m"/></l>         <r>Schild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>signo<s n="n"/><s n="m"/></l>          <r>Schild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>letrero<s n="n"/><s n="m"/></l>        <r>Schild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="check"><p><l>distintivo<s n="n"/><s n="m"/></l>  <r>Schild<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Escocia<s n="np"/><s n="loc"/><s n="f"/></l><r>Schottland<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>zapato<s n="n"/><s n="m"/></l>         <r>Schuh<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>colegio<s n="n"/><s n="m"/></l>        <r>Schule<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>escuela<s n="n"/><s n="f"/></l>        <r>Schule<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cole<s n="n"/><s n="m"/></l>           <r>Schule<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>idiota<s n="n"/><s n="mf"/></l>        <r>Schwachkopf<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Suecia<s n="np"/><s n="loc"/><s n="f"/></l><r>Schweden<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cerdo<s n="n"/><s n="m"/></l>          <r>Schwein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>puerco<s n="n"/></l>                   <r>Schwein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Suiza<s n="np"/><s n="loc"/><s n="f"/></l><r>Schweiz<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hermano<s n="n"/><s n="f"/></l>        <r>Schwester<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>alumno<s n="n"/></l>                   <r>Schüler<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>estudiante<s n="n"/><s n="mf"/></l>    <r>Schüler<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>estanque<s n="n"/><s n="m"/></l>       <r>See<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lago<s n="n"/><s n="m"/></l>           <r>See<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aspa<s n="n"/><s n="f"/></l>           <r>Segel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>vela<s n="n"/><s n="f"/></l>           <r>Segel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Eslovenia<s n="np"/><s n="loc"/><s n="f"/></l><r>Slowenien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>España<s n="np"/><s n="loc"/><s n="f"/></l><r>Spanien<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>juego<s n="n"/><s n="m"/></l>          <r>Spiel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>partida<s n="n"/><s n="f"/></l>        <r>Spiel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>partido<s n="n"/><s n="f"/></l>        <r>Spiel<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>estado<s n="n"/><s n="m"/></l>         <r>Staat<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hueso<s n="n"/><s n="m"/></l>          <r>Stein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>piedra<s n="n"/><s n="f"/></l>         <r>Stein<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>material<s n="n"/><s n="m"/></l>       <r>Stoff<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>calle<s n="n"/><s n="f"/></l>          <r>Straße<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>alumno<s n="n"/></l>                   <r>Student<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>estudiante<s n="n"/><s n="mf"/></l>    <r>Student<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="MG: aquest hauria de ser quan 'hora' és plural en català, l'altra (time) en sg"><p><l>hora<s n="n"/><s n="f"/></l><r>Stunde<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pedazo<s n="n"/><s n="m"/></l>         <r>Stück<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pieza<s n="n"/><s n="f"/></l>          <r>Stück<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trozo<s n="n"/><s n="m"/></l>          <r>Stück<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prenda<s n="n"/><s n="f"/></l>         <r>Stück<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>día<s n="n"/><s n="m"/></l>            <r>Tag<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>jornada<s n="n"/><s n="f"/></l>        <r>Tag<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tía<s n="n"/><s n="f"/></l>            <r>Tante<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="Dep."><p><l>copa<s n="n"/><s n="f"/></l>         <r>Tasse<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>taza<s n="n"/><s n="f"/></l>           <r>Tasse<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>parte<s n="n"/><s n="f"/></l>          <r>Teil<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>papel<s n="n"/><s n="f"/></l>          <r>Teil<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>teléfono<s n="n"/><s n="m"/></l>       <r>Telefon<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lámina<s n="n"/><s n="f"/></l>         <r>Teller<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>placa<s n="n"/><s n="f"/></l>          <r>Teller<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>plato<s n="n"/><s n="m"/></l>          <r>Teller<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trono<s n="n"/><s n="m"/></l>          <r>Thron<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>animal<s n="n"/><s n="m"/></l>         <r>Tier<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>res<s n="n"/><s n="f"/></l>            <r>Tier<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mesa<s n="n"/><s n="f"/></l>           <r>Tisch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tabla<s n="n"/><s n="f"/></l>          <r>Tisch<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>puerta<s n="n"/><s n="f"/></l>         <r>Tür<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Turquía<s n="np"/><s n="loc"/><s n="f"/></l><r>Türkei<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Ucrania<s n="np"/><s n="loc"/><s n="f"/></l><r>Ukraine<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Hungría<s n="np"/><s n="loc"/><s n="f"/></l><r>Ungarn<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>universidad<s n="n"/><s n="f"/></l>    <r>Universität<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>primo<s n="n"/><s n="GD"/></l>         <r>Vetter<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>primo<s n="n"/></l>                    <r>Vetter<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>auto<s n="n"/><s n="m"/></l>           <r>Wagen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>automóvil<s n="n"/><s n="m"/></l>      <r>Wagen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>coche<s n="n"/><s n="m"/></l>          <r>Wagen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>carro<s n="n"/><s n="m"/></l>          <r>Wagen<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Gales<s n="np"/><s n="loc"/><s n="m"/></l><r>Wales<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>agua<s n="n"/><s n="f"/></l>           <r>Wasser<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>camino<s n="n"/><s n="m"/></l>         <r>Weg<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>manera<s n="n"/><s n="f"/></l>         <r>Weg<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>modo<s n="n"/><s n="m"/></l>           <r>Weg<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>viento<s n="n"/><s n="m"/></l>         <r>Wind<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>semana<s n="n"/><s n="f"/></l>         <r>Woche<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>palabra<s n="n"/><s n="f"/></l>        <r>Wort<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>vocablo<s n="n"/><s n="m"/></l>        <r>Wort<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hora<s n="n"/><s n="f"/></l>           <r>Zeit<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tiempo<s n="n"/><s n="m"/><s n="ND"/></l><r>Zeit<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tiempo<s n="n"/><s n="m"/><s n="pl"/></l><r>Zeit<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tiempo<s n="n"/><s n="m"/><s n="sg"/></l><r>Zeit<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>vez<s n="n"/><s n="f"/></l>            <r>Zeit<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>diario<s n="n"/><s n="m"/></l>         <r>Zeitung<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>periódico<s n="n"/><s n="m"/></l>      <r>Zeitung<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="check"><p><l>rotativo<s n="n"/><s n="m"/></l>    <r>Zeitung<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>material<s n="n"/><s n="m"/></l>       <r>Zeug<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>habitación<s n="n"/><s n="f"/></l>     <r>Zimmer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sala<s n="n"/><s n="f"/></l>           <r>Zimmer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>espacio<s n="n"/><s n="f"/></l>        <r>Zimmer<s n="n"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Chipre<s n="np"/><s n="loc"/><s n="m"/></l><r>Zypern<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pero<s n="cnjcoo"/></l>                <r>aber<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sino<s n="cnjcoo"/></l>                <r>aber<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mas<s n="cnjcoo"/></l>                 <r>aber<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ausente<s n="adj"/><s n="mf"/></l>     <r>abwesend<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>respetar<s n="vblex"/></l>             <r>achten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dieciocho<s n="num"/><s n="mf"/></l>   <r>achtzehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>viejo<s n="adj"/></l>                  <r>alt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<s n="pr"/></l>                       <r>an<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<s n="pr"/></l>                      <r>an<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobre<s n="pr"/></l>                   <r>an<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacia<s n="pr"/></l>                   <r>an<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>contestar<s n="vblex"/></l>            <r>antworten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>responder<s n="vblex"/></l>            <r>antworten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>explotar<s n="vblex"/></l>             <r>arbeiten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>funcionar<s n="vblex"/></l>            <r>arbeiten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trabajar<s n="vblex"/></l>             <r>arbeiten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>obrar<s n="vblex"/></l>                <r>arbeiten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<s n="pr"/></l>                       <r>auf<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<s n="pr"/></l>                      <r>auf<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobre<s n="pr"/></l>                   <r>auf<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacia<s n="pr"/></l>                   <r>auf<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>atento<s n="adj"/></l>                 <r>aufmerksam<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>proveniente<b/>de<s n="pr"/></l>       <r>aus<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>provenientes<b/>de<s n="pr"/></l>      <r>aus<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<b/>partir<b/>de<s n="pr"/></l>       <r>aus<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>de<s n="pr"/></l>                      <r>aus<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>desde<s n="pr"/></l>                   <r>aus<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>excelente<s n="adj"/><s n="mf"/></l>   <r>ausgezeichnet<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobresaliente<s n="adj"/><s n="mf"/></l><r>ausgezeichnet<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>excepto<s n="pr"/></l>                 <r>außer<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>salvo<s n="pr"/></l>                   <r>außer<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fuera<b/>de<s n="pr"/></l>             <r>außerhalb<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cocer<s n="vblex"/></l>                <r>backen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pronto<s n="adv"/></l>                 <r>bald<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>significar<s n="vblex"/></l>           <r>bedeuten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>encontrar<s n="vblex"/></l>            <r>begegnen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>comenzar<s n="vblex"/></l>             <r>beginnen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>empezar<s n="vblex"/></l>              <r>beginnen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="keep + ger (keep doing...) -> transfer?. En direcció ca-en tb s'hauria de detectar la construcció amb gerundi"><p><l>continuar<s n="vblex"/></l><r>behalten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mantener<s n="vblex"/></l>             <r>behalten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<s n="pr"/></l>                       <r>bei<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<s n="pr"/></l>                      <r>bei<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>por<s n="pr"/></l>                     <r>bei<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cerca<s n="pr"/></l>                   <r>bei<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>morder<s n="vblex"/></l>               <r>beißen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sabido<s n="adj"/></l>                 <r>bekannt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>alcanzar<s n="vblex"/></l>             <r>bekommen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="(a taxi, the flu)"><p><l>coger<s n="vblex"/></l> <r>bekommen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>conseguir<s n="vblex"/></l>            <r>bekommen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>llegar<s n="vblex"/></l>               <r>bekommen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>recibir<s n="vblex"/></l>              <r>bekommen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>agraviar<s n="vblex"/></l>             <r>beleidigen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ofender<s n="vblex"/></l>              <r>beleidigen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>listo<s n="adj"/></l>                  <r>bereit<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>preparado<s n="adj"/></l>              <r>bereit<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>denunciar<s n="vblex"/></l>            <r>berichten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>informar<s n="vblex"/></l>             <r>berichten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>reportar<s n="vblex"/></l>             <r>berichten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>célebre<s n="adj"/><s n="mf"/></l>     <r>berühmt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>famoso<s n="adj"/></l>                 <r>berühmt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>de<b/>propio<s n="adv"/></l>           <r>bes.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>especial<s n="adv"/></l>         <r>bes.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>especialmente<s n="adv"/></l>          <r>bes.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobre<b/>todo<s n="adv"/></l>          <r>bes.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ocupado<s n="adj"/></l>                <r>beschäftigt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>de<b/>propio<s n="adv"/></l>           <r>besonders<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>especial<s n="adv"/></l>         <r>besonders<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>especialmente<s n="adv"/></l>          <r>besonders<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobre<b/>todo<s n="adv"/></l>          <r>besonders<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ordenar<s n="vblex"/></l>              <r>bestellen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>visitar<s n="vblex"/></l>              <r>besuchen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>recorrer<s n="vblex"/></l>             <r>besuchen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>considerablemente<s n="adv"/></l>      <r>beträchtlich<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>costear<s n="vblex"/></l>              <r>bezahlen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pagar<s n="vblex"/></l>                <r>bezahlen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>complacer<s n="vblex"/></l>            <r>bitten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>quedar<s n="vblex"/></l>               <r>bleiben<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>quedarse<s n="vblex"/><s n="pron"/></l><r>bleiben<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pedir<g><b/>prestado</g><s n="vblex"/></l><r>borgen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tomar<g><b/>prestado</g><s n="vblex"/></l><r>borgen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>necesitar<s n="vblex"/></l>            <r>brauchen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ancho<s n="adj"/></l>                  <r>breit<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>traer<s n="vblex"/></l>                <r>bringen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>respectivamente<s n="adv"/></l>        <r>bzw.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aproximadamente<s n="adv"/></l>        <r>ca.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>i.e.<s n="adv"/></l>                   <r>d.h.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dar<g><b/>las<b/>gracias<b/>a</g><s n="vblex"/></l><r>danken<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>opinar<s n="vblex"/></l>               <r>denken<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pensar<s n="vblex"/></l>               <r>denken<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>el<s n="det"/><s n="def"/><s n="GD"/><s n="ND"/></l><r>der<s n="det"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>el<s n="det"/></l>                     <r>der<s n="det"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="det"/></l>                     <r>der<s n="det"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>interpretar<s n="vblex"/></l>          <r>deuten<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>grueso<s n="adj"/></l>                 <r>dick<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="frases negatives"><p><l>aún<s n="adv"/></l>      <r>doch<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>todavía<s n="adv"/></l>                <r>doch<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trece<s n="num"/><s n="mf"/></l>       <r>dreizehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>por<s n="pr"/></l>                     <r>durch<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<b/>través<b/>de<s n="pr"/></l>       <r>durch<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>delgado<s n="adj"/></l>                <r>dünn<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>realmente<s n="adv"/></l>              <r>eigentlich<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>de<b/>hecho<s n="adv"/></l>            <r>eigtl.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>uno<s n="det"/><s n="ind"/><s n="GD"/></l><r>ein<s n="det"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>uno<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></l><r>ein<s n="det"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>uno<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></l><r>ein<s n="det"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>once<s n="num"/><s n="mf"/></l>        <r>elf<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>acoger<s n="vblex"/></l>               <r>empfangen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cobijar<s n="vblex"/></l>              <r>empfangen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>recibir<s n="vblex"/></l>              <r>empfangen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sugerir<s n="vblex"/></l>              <r>empfehlen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>finalmente<s n="adv"/></l>             <r>endlich<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>por<b/>último<s n="adv"/></l>          <r>endlich<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>al<b/>fin<s n="adv"/></l>              <r>endlich<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sacar<s n="vblex"/></l>                <r>entfernen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>retirar<s n="vblex"/></l>              <r>entfernen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>quitar<s n="vblex"/></l>               <r>entfernen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>distante<s n="adj"/><s n="mf"/></l>    <r>entfernt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<b/>lo<b/>largo<b/>de<s n="pr"/></l>  <r>entlang<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>consiguientemente<s n="adv"/></l>      <r>entspr.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>inventar<s n="vblex"/></l>             <r>erfinden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>acordar<s n="vblex"/></l>              <r>erinnern<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>recordar<s n="vblex"/></l>             <r>erinnern<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>contar<s n="vblex"/></l>               <r>erklären<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>explicar<s n="vblex"/></l>             <r>erklären<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>comer<s n="vblex"/></l>                <r>essen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aproximadamente<s n="adv"/></l>        <r>etwa<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>viajar<s n="vblex"/></l>               <r>fahren<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>caer<s n="vblex"/></l>                 <r>fallen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>encontrar<s n="vblex"/></l>            <r>finden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hallar<s n="vblex"/></l>               <r>finden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>diligente<s n="adj"/><s n="mf"/></l>   <r>fleißig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>volar<s n="vblex"/></l>                <r>fliegen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="ask sb to do smth"><p><l>pedir<s n="vblex"/></l> <r>fragen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>preguntar<s n="vblex"/></l>            <r>fragen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>gratuito<s n="adj"/></l>               <r>frei<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>libre<s n="adj"/><s n="mf"/></l>       <r>frei<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fresco<s n="adj"/></l>                 <r>frisch<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>feliz<s n="adj"/><s n="mf"/></l>       <r>fröhlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>contento<s n="adj"/></l>               <r>fröhlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>capaz<s n="adj"/><s n="mf"/></l>       <r>fähig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sentir<s n="vblex"/></l>               <r>fühlen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>quince<s n="num"/><s n="mf"/></l>      <r>fünfzehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>nombre<b/>de<s n="pr"/></l>      <r>für<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>durante<s n="pr"/></l>                 <r>für<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>para<s n="pr"/></l>                    <r>für<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>contra<s n="pr"/></l>                  <r>gegen<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacia<s n="pr"/></l>                   <r>gegenüber<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ir<s n="vblex"/></l>                   <r>gehen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>rodar<s n="vblex"/></l>                <r>gehen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="MG: 'This is just what I need -> tb es pot traduir per 'just' la majoria de vegades'"><p><l>exactamente<s n="adv"/></l><r>gerade<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="MG: 'he was just leaving'"><p><l>justo<s n="adv"/></l><r>gerade<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sólo<s n="adv"/></l>                   <r>gerade<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>con<b/>mucho<b/>gusto<s n="adv"/></l>  <r>gern<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>habitual<s n="adj"/><s n="mf"/></l>    <r>gewöhnlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>usual<s n="adj"/><s n="mf"/></l>       <r>gewöhnlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dentro<b/>de<b/>poco<s n="adv"/></l>   <r>gleich<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>afortunado<s n="adj"/></l>             <r>glücklich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>grande<s n="adj"/><s n="mf"/></l>      <r>groß<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>haber<s n="vbhaver"/></l>              <r>haben<s n="vbhaver"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>odiar<s n="vblex"/></l>                <r>hassen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>alegre<s n="adj"/><s n="mf"/></l>      <r>heiter<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nombrar<s n="vblex"/></l>              <r>heißen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>socorrer<s n="vblex"/></l>             <r>helfen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>socorrer<g><b/>a</g><s n="vblex"/></l> <r>helfen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ayudar<s n="vblex"/></l>               <r>helfen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>auxiliar<s n="vblex"/></l>             <r>helfen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>espléndido<s n="adj"/></l>             <r>herrlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sincero<s n="adj"/></l>                <r>herzlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hoy<s n="adv"/></l>                    <r>heute<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>acá<s n="adv"/></l>                    <r>hier<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ahí<s n="adv"/></l>                    <r>hier<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aquí<s n="adv"/></l>                   <r>hier<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>útil<s n="adj"/><s n="mf"/></l>        <r>hilfsbereit<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>detrás<b/>de<s n="pr"/></l>            <r>hinter<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aguardar<s n="vblex"/></l>             <r>hoffen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>esperar<s n="vblex"/></l>              <r>hoffen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bonito<s n="adj"/></l>                 <r>hübsch<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>siempre<s n="adv"/></l>                <r>immer<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<s n="pr"/></l>                      <r>in<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<s n="pr"/></l>                       <r>in<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dentro<b/>de<s n="pr"/></l>            <r>innerhalb<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>inteligente<s n="adj"/><s n="mf"/></l> <r>intelligent<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>interesante<s n="adj"/><s n="mf"/></l> <r>interessant<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>joven<s n="adj"/><s n="mf"/></l>       <r>jung<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mozo<s n="adj"/></l>                   <r>jung<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>frío<s n="adj"/></l>                   <r>kalt<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>claro<s n="adj"/></l>                  <r>klar<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pequeño<s n="adj"/></l>                <r>klein<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>menudo<s n="adj"/></l>                 <r>klein<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>listo<s n="adj"/></l>                  <r>klug<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>venir<s n="vblex"/></l>                <r>kommen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>poderoso<s n="adj"/></l>               <r>kraftvoll<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>potente<s n="adj"/><s n="mf"/></l>     <r>kraftvoll<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bajo<s n="adj"/></l>                   <r>kurz<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>corto<s n="adj"/></l>                  <r>kurz<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>delicioso<s n="adj"/></l>              <r>köstlich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fresco<s n="adj"/></l>                 <r>kühl<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fuerte<s n="adj"/><s n="mf"/></l>      <r>laut<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>fácil<s n="adj"/><s n="mf"/></l>       <r>leicht<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>aprender<s n="vblex"/></l>             <r>lernen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>leer<s n="vblex"/></l>                 <r>lesen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>amar<s n="vblex"/></l>                 <r>lieben<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>encantar<s n="vblex"/></l>             <r>lieben<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>querer<s n="vblex"/></l>               <r>lieben<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>confeccionar<s n="vblex"/></l>         <r>machen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacer<s n="vblex"/></l>                <r>machen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>suave<s n="adj"/><s n="mf"/></l>       <r>mild<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>con<s n="pr"/></l>                     <r>mit<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>moderno<s n="adj"/></l>                <r>modern<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mañana<s n="adv"/></l>                 <r>morgen<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>posible<s n="adj"/><s n="mf"/></l>     <r>möglich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cansado<s n="adj"/></l>                <r>müde<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tras<s n="pr"/></l>                    <r>nach<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tras<b/>de<s n="pr"/></l>              <r>nach<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>después<b/>de<s n="pr"/></l>           <r>nach<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>pos<b/>de<s n="pr"/></l>         <r>nach<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<s n="pr"/></l>                       <r>nach<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacia<s n="pr"/></l>                   <r>nach<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nutritivo<s n="adj"/></l>              <r>nahrhaft<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mojado<s n="adj"/></l>                 <r>nass<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>junto<b/>a<s n="pr"/></l>              <r>neben<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>simpático<s n="adj"/></l>              <r>nett<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bueno<s n="adj"/></l>                  <r>nett<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>novedoso<s n="adj"/></l>               <r>neu<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nuevo<s n="adj"/></l>                  <r>neu<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>curioso<s n="adj"/></l>                <r>neugierig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>diecinueve<s n="num"/><s n="mf"/></l>  <r>neunzehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="MG: Després d'un verb (lèxic, modal, do, have)"><p><l>no<s n="adv"/></l><r>nicht<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>humilde<s n="adj"/><s n="mf"/></l>     <r>niedrig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="frases afirmatives i interrogatives"><p><l>aún<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>todavía<s n="adv"/></l>                <r>noch<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cero<s n="num"/><s n="mf"/></l>        <r>null<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>lo<b/>que<b/>sigue<s n="adv"/></l><r>nun<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ahora<s n="adv"/></l>                  <r>nun<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>solamente<s n="adv"/></l>              <r>nur<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>solo<s n="adv"/></l>                   <r>nur<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sólo<s n="adv"/></l>                   <r>nur<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>únicamente<s n="adv"/></l>             <r>nur<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>o<s n="cnjcoo"/></l>                   <r>oder<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>o<b/>bien<s n="cnjcoo"/></l>           <r>oder<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sin<s n="pr"/></l>                     <r>ohne<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="iobj"/><s n="p1"/><s n="mf"/><s n="dat"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="nom"/><s n="sg"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="em, et, li, etc"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ti<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'se lo', és sp, per ara es tradueix com a him, també pot ser 'her', 'it' o 'them'"><p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mí<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="dóna-li - give him (de moment sempre en masculí)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="això és el 'se' de 'dáselo', 3 pers però pot ser sg  o pl (dáselo a él, dáselo a ellos)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>prpers<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="donar-los)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-lo - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-la - take it(de moment en neutre)"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-los - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="agafar-les - take them"><p><l>prpers<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="mf"/><s n="nom"/><s n="pl"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hablar<s n="vblex"/></l>               <r>reden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>rico<s n="adj"/></l>                   <r>reich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>correcto<s n="adj"/></l>               <r>richtig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>derecho<s n="adj"/></l>                <r>richtig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tranquilo<s n="adj"/></l>              <r>ruhig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>callado<s n="adj"/></l>                <r>ruhig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>decir<s n="vblex"/></l>                <r>sagen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dormir<s n="vblex"/></l>               <r>schlafen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mal<s n="adj"/></l>                    <r>schlecht<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>malo<s n="adj"/></l>                   <r>schlecht<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>peor<s n="adj"/><s n="mf"/></l>        <r>schlecht<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mal<s n="adj"/></l>                    <r>schlimm<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>malo<s n="adj"/></l>                   <r>schlimm<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>peor<s n="adj"/><s n="mf"/></l>        <r>schlimm<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>rápido<s n="adj"/></l>                 <r>schnell<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ya<s n="adv"/></l>                     <r>schon<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>horrible<s n="adj"/><s n="mf"/></l>    <r>schrecklich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>escribir<s n="vblex"/></l>             <r>schreiben<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pesado<s n="adj"/></l>                 <r>schwer<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>difícil<s n="adj"/><s n="mf"/></l>     <r>schwierig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lindo<s n="adj"/></l>                  <r>schön<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bello<s n="adj"/></l>                  <r>schön<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bonito<s n="adj"/></l>                 <r>schön<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hermoso<s n="adj"/></l>                <r>schön<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>dieciséis<s n="num"/><s n="mf"/></l>   <r>sechszehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pasar<g><b/>consulta</g><s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ver<s n="vblex"/></l>                  <r>sehen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>ser<s n="vbser"/></l>                  <r>sein<s n="vbser"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>nombre<b/>de<s n="pr"/></l>      <r>seit<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>durante<s n="pr"/></l>                 <r>seit<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>para<s n="pr"/></l>                    <r>seit<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>desde<s n="pr"/></l>                   <r>seit<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>diecisiete<s n="num"/><s n="mf"/></l>  <r>siebzehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pero<s n="cnjcoo"/></l>                <r>sondern<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sino<s n="cnjcoo"/></l>                <r>sondern<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>mas<s n="cnjcoo"/></l>                 <r>sondern<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>interpretar<s n="vblex"/></l>          <r>spielen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>jugar<s n="vblex"/></l>                <r>spielen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>reproducir<s n="vblex"/></l>           <r>spielen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="(un instrumento)"><p><l>tocar<s n="vblex"/></l>  <r>spielen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tardío<s n="adj"/></l>                 <r>spät<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="(transitiu)"><p><l>aguantar<s n="vblex"/></l>    <r>stehen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="(intransitiu)"><p><l>estar<s n="vblex"/></l>     <r>stehen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tranquilo<s n="adj"/></l>              <r>still<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>caro<s n="adj"/></l>                   <r>teuer<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>triste<s n="adj"/><s n="mf"/></l>      <r>traurig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<b/>pesar<b/>de<s n="pr"/></l>        <r>trotz<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacer<s n="vblex"/></l>                <r>tun<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>valiente<s n="adj"/><s n="mf"/></l>    <r>tüchtig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>atrevido<s n="adj"/></l>               <r>tüchtig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>alrededor<b/>de<s n="pr"/></l>         <r>um<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>torno<b/>a<s n="pr"/></l>        <r>um<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>y<s n="cnjcoo"/></l>                   <r>und<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="tant això com allò"><p><l>como<s n="cnjcoo"/></l><r>und<s n="cnjcoo"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>entre<s n="pr"/></l>                   <r>unter<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>bajo<s n="pr"/></l>                    <r>unter<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>debajo<b/>de<s n="pr"/></l>            <r>unter<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>so<s n="pr"/></l>                      <r>unter<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>etc.<s n="adv"/></l>                   <r>usw.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>quizá<s n="adv"/></l>                  <r>vielleicht<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>quizás<s n="adv"/></l>                 <r>vielleicht<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>catorce<s n="num"/><s n="mf"/></l>     <r>vierzehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lleno<s n="adj"/></l>                  <r>voll<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pleno<s n="adj"/></l>                  <r>voll<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>repleto<s n="adj"/></l>                <r>voll<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>acerca<b/>de<s n="pr"/></l>            <r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e c="possible polisèmia sobre - on/about"><p><l>sobre<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>proveniente<b/>de<s n="pr"/></l>       <r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>provenientes<b/>de<s n="pr"/></l>      <r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<b/>partir<b/>de<s n="pr"/></l>       <r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>de<s n="pr"/></l>                      <r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>desde<s n="pr"/></l>                   <r>von<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>antes<b/>de<s n="pr"/></l>             <r>vor<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hace<s n="adv"/></l>                   <r>vor<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>excelente<s n="adj"/><s n="mf"/></l>   <r>vorzüglich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobresaliente<s n="adj"/><s n="mf"/></l><r>vorzüglich<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cálido<s n="adj"/></l>                 <r>warm<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>tibio<s n="adj"/></l>                  <r>warm<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>lejano<s n="adj"/></l>                 <r>weit<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>pasar<g><b/>a<b/>ser</g><s n="vblex"/></l><r>werden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>acaecer<s n="vblex"/></l>              <r>werden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>acontecer<s n="vblex"/></l>            <r>werden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>devenir<s n="vblex"/></l>              <r>werden<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>importante<s n="adj"/><s n="mf"/></l>  <r>wichtig<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>contra<s n="pr"/></l>                  <r>wider<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>novedosamente<s n="adv"/></l>          <r>wieder<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>nuevamente<s n="adv"/></l>             <r>wieder<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>otra<b/>vez<s n="adv"/></l>            <r>wieder<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>de<b/>nuevo<s n="adv"/></l>            <r>wieder<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>conocer<s n="vblex"/></l>              <r>wissen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>saber<s n="vblex"/></l>                <r>wissen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>vivir<s n="vblex"/></l>                <r>wohnen<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>maravilloso<s n="adj"/></l>            <r>wunderbar<s n="adj"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>durante<s n="pr"/></l>                 <r>während<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>parte<s n="adv"/></l>            <r>z.T.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>actualmente<s n="adv"/></l>            <r>z.Z.<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>diez<s n="num"/><s n="mf"/></l>        <r>zehn<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>nombre<b/>de<s n="pr"/></l>      <r>zu<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>durante<s n="pr"/></l>                 <r>zu<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>para<s n="pr"/></l>                    <r>zu<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<s n="pr"/></l>                       <r>zu<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>hacia<s n="pr"/></l>                   <r>zu<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>entre<s n="pr"/></l>                   <r>zwischen<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>por<b/>entre<s n="pr"/></l>            <r>zwischen<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>doce<s n="num"/><s n="mf"/></l>        <r>zwölf<s n="num"/><s n="sp"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>Austria<s n="np"/><s n="loc"/><s n="f"/></l><r>Österreich<s n="np"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>cambiar<s n="vblex"/></l>              <r>ändern<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>canjear<s n="vblex"/></l>              <r>ändern<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>trocar<s n="vblex"/></l>               <r>ändern<s n="vblex"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>extremadamente<s n="adv"/></l>         <r>äußerst<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sumamente<s n="adv"/></l>              <r>äußerst<s n="adv"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>por<b/>encima<b/>de<s n="pr"/></l>     <r>über<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>a<b/>través<b/>de<s n="pr"/></l>       <r>über<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>durante<s n="pr"/></l>                 <r>über<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>sobre<s n="pr"/></l>                   <r>über<s n="pr"/></r></p></e>
+
+    <!-- forced 'null' restriction
+      default -->
+<e>       <p><l>en<b/>todas<b/>partes<s n="adv"/></l>  <r>überall<s n="adv"/></r></p></e>
+
+  </section>
+</dictionary>
