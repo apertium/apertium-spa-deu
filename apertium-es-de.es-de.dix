@@ -73,6 +73,13 @@
     <sdef n="web" /> 
   </sdefs>
 <section id="main" type="standard">
-<e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen</r></p></e>
+<e><p><l>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+<e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen<s n="ij"/></r></p></e>
+<e><p><l>ser<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
+<e><p><l>haber<s n="vbhaver"/></l><r>haben<s n="vbhaver"/></r></p></e>
+<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ein<s n="det"/><s n="ind"/></r></p></e>
+
+<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
 </section>
 </dictionary>
