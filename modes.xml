@@ -110,7 +110,7 @@
       <program name="lt-proc -b">
         <file name="es-de.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc -t">
+      <program name="lrx-proc -t">
         <file name="es-de.lrx.bin"/>
       </program>
     </pipeline>
@@ -129,9 +129,11 @@
       <program name="lt-proc -b">
         <file name="es-de.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+<!--
+      <program name="lrx-proc">
         <file name="es-de.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
@@ -151,9 +153,11 @@
       <program name="lt-proc -b">
         <file name="es-de.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+<!--
+      <program name="lrx-proc">
         <file name="es-de.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
@@ -177,9 +181,11 @@
       <program name="lt-proc -b">
         <file name="es-de.autobil.bin"/>
       </program>
-      <program name="apertium-lrx-proc">
+<!--
+      <program name="lrx-proc">
         <file name="es-de.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-es-de.es-de.t1x"/>
         <file name="es-de.t1x.bin"/>
