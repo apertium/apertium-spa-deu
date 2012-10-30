@@ -5,6 +5,7 @@
     <sdef n="v2" /> 
     <sdef n="acr" /> 
     <sdef n="predet" /> 
+    <sdef n="pers" /> 
     <sdef n="detnt" /> 
     <sdef n="loc" /> 
     <sdef n="ant" /> 
@@ -30,6 +31,10 @@
     <sdef n="an" /> 
     <sdef n="aa" /> 
     <sdef n="ind" /> 
+    <sdef n="lquot" /> 
+    <sdef n="rquot" /> 
+    <sdef n="guio" /> 
+    <sdef n="apos" /> 
     <sdef n="itg" /> 
     <sdef n="det" /> 
     <sdef n="dem" /> 
@@ -73,13 +78,72 @@
     <sdef n="web" /> 
   </sdefs>
 <section id="main" type="standard">
+
+<e><p><l>o<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
+
 <e><p><l>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
-<e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen<s n="ij"/></r></p></e>
+<e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+<e><p><l>de<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+<e><p><l>de<s n="pr"/></l><r>aus<s n="pr"/></r></p></e>
+<e><p><l>en<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+<e><p><l>contra<s n="pr"/></l><r>gegen<s n="pr"/></r></p></e>
+<e><p><l>por<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
+<e><p><l>a<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+
+<e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>er<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ein<s n="det"/><s n="ind"/></r></p></e>
+<e><p><l>el<s n="det"/><s n="def"/></l><r>der<s n="det"/><s n="def"/></r></p></e>
+
+<e><p><l>uno<s n="num"/></l><r>ein<s n="num"/></r></p></e>
+<e><p><l>dos<s n="num"/></l><r>zwei<s n="num"/></r></p></e>
+<e><p><l>tres<s n="num"/></l><r>drei<s n="num"/></r></p></e>
+<e><p><l>cuatro<s n="num"/></l><r>vier<s n="num"/></r></p></e>
+<e><p><l>cinco<s n="num"/></l><r>fünf<s n="num"/></r></p></e>
+<e><p><l>séis<s n="num"/></l><r>sechs<s n="num"/></r></p></e>
+<e><p><l>siete<s n="num"/></l><r>sieben<s n="num"/></r></p></e>
+<e><p><l>ocho<s n="num"/></l><r>acht<s n="num"/></r></p></e>
+<e><p><l>nueve<s n="num"/></l><r>neun<s n="num"/></r></p></e>
+<e><p><l>diez<s n="num"/></l><r>zehn<s n="num"/></r></p></e>
+
+<e><p><l>mujer<s n="n"/><s n="f"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>casa<s n="n"/><s n="f"/></l><r>Haus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>trabajo<s n="n"/><s n="m"/></l><r>Arbeit<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>coche<s n="n"/><s n="m"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ventana<s n="n"/><s n="f"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL"><p><l>niño<s n="n"/><s n="GD"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>niño<s n="n"/><s n="f"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>niño<s n="n"/><s n="m"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>problema<s n="n"/><s n="m"/></l><r>Problem<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>situación<s n="n"/><s n="f"/></l><r>Situation<s n="n"/><s n="f"/></r></p></e>
+
+<e><p><l>no<s n="adv"/></l><r>nicht<s n="adv"/></r></p></e>
+
 <e><p><l>ser<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
 <e><p><l>haber<s n="vbhaver"/></l><r>haben<s n="vbhaver"/></r></p></e>
-<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ein<s n="det"/><s n="ind"/></r></p></e>
+<e><p><l>poder<s n="vbmod"/></l><r>können<s n="vbmod"/></r></p></e>
 
-<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+<e><p><l>analizar<s n="vblex"/></l><r>analysieren<s n="vblex"/></r></p></e>
+<e><p><l>comer<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
+<e><p><l>dar<s n="vblex"/></l><r>geben<s n="vblex"/></r></p></e>
+<e><p><l>luchar<s n="vblex"/></l><r>kämpfen<s n="vblex"/></r></p></e>
+
+<e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen<s n="ij"/></r></p></e>
+
+<e><p><l>,<s n="cm"/></l>                  <r>,<s n="cm"/></r></p></e>
+<e><p><l>(<s n="lpar"/></l>                <r>(<s n="lpar"/></r></p></e>
+<e><p><l>)<s n="rpar"/></l>                <r>)<s n="rpar"/></r></p></e>
+<e><p><l>[<s n="lpar"/></l>                <r>[<s n="lpar"/></r></p></e>
+<e><p><l>]<s n="rpar"/></l>                <r>]<s n="rpar"/></r></p></e>
+<e><p><l>«<s n="lquot"/></l>               <r>«<s n="lquot"/></r></p></e>
+<e><p><l>»<s n="rquot"/></l>               <r>»<s n="rquot"/></r></p></e>
+<e><p><l>“<s n="lquot"/></l>               <r>“<s n="lquot"/></r></p></e>
+<e><p><l>”<s n="rquot"/></l>               <r>”<s n="rquot"/></r></p></e>
+<e><p><l>-<s n="guio"/></l>                <r>-<s n="guio"/></r></p></e>
+<e><p><l>—<s n="guio"/></l>                <r>—<s n="guio"/></r></p></e>
+<e><p><l>'<s n="apos"/></l>                <r>'<s n="apos"/></r></p></e>
+<e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
 </section>
 </dictionary>
