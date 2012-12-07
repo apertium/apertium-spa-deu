@@ -32,7 +32,7 @@ for i in $POS; do
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v '<v' | grep -v REGEX |  wc -l`;
 	else
 		TOTAL=`cat $INC | grep "<$i>" | grep -v REGEX | wc -l`; 
-		AT=`cat $INC | grep "<$i>" | grep '@'  | grep -v REGEX | wc -l`;
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v '>  *#' | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v REGEX |  wc -l`;
 	fi
 	UNCLEAN=`calc $AT+$HASH`;
