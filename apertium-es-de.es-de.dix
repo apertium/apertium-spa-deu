@@ -90,6 +90,154 @@
 <e><p><l>por<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
 <e><p><l>a<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
 
+    <e><p><l>por<b/>el<b/>bien<b/>de<s n="pr"/></l><r>zum<g><b/>Wohl</g><s n="pr"/></r></p></e> <!-- jemandes -->
+    <e><p><l>al<b/>otro<b/>lado<b/>de<s n="pr"/></l><r>auf<b/>der<b/>anderen<b/>Seite<s n="pr"/></r></p></e>   <!-- genitive -->
+    <e><p><l>directo<b/>a<b/>través<s n="pr"/></l><r>direkt<b/>durch<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>otro<b/>lado<b/>del<b/>charco<s n="pr"/></l><r>auf<b/>der<b/>anderen<b/>Seite<b/>des<b/Pfützes><s n="pr"/></r></p></e>
+    <e><p><l>en<b/>detrimento<b/>de<s n="pr"/></l><r>zu<b/>Schaden<s n="pr"/></r></p></e>     <!-- jemandes -->
+    <e><p><l>en<b/>vísperas<b/>de<s n="pr"/></l><r>kurz<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>proveniente<b/>de<s n="pr"/></l><r>herkommend<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>provenientes<b/>de<s n="pr"/></l><r>herkommend<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>gracia<b/>a<s n="pr"/></l><r>angesichts<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>menoscabo<b/>de<s n="pr"/></l><r>zu<b/>Schaden<s n="pr"/></r></p></e>    <!-- genitive -->
+    <e><p><l>en<b/>menoscabo<b/>de<s n="pr"/></l><r>auf<b/>Kosten<s n="pr"/></r></p></e>     <!-- genitive -->
+    <e><p><l>sin<b/>menoscabo<b/>de<s n="pr"/></l><r>unbeschadet<s n="pr"/></r></p></e>
+    <e><p><l>bajo<b/>la<b/>jefatura<b/>de<s n="pr"/></l><r>unter<b/>der<b/>Leitung<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>la<b/>espera<b/>de<s n="pr"/></l><r>in<b/>Erwartung<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>costa<b/>de<s n="pr"/></l><r>auf<b/>Kosten<s n="pr"/></r></p></e>      <!-- jemandes -->
+    <e><p><l>del<b/>orden<b/>de<s n="pr"/></l><r>@<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>miras<b/>a<s n="pr"/></l><r>im<b/>Hinblick<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>frente<b/>a<s n="pr"/></l><r>gegen<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>nombre<b/>de<s n="pr"/></l><r>im<b/>Namen<s n="pr"/></r></p></e>   <!-- genitive -->
+    <e><p><l>propio<b/>de<s n="pr"/></l><r>eigen<s n="pr"/></r></p></e>
+    <e><p><l>propio<b/>para<s n="pr"/></l><r>geeignet<b/>für<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>el<b/>fondo<b/>de<s n="pr"/></l><r>im<b/>Grunde<s n="pr"/></r></p></e>     <!-- genitive -->
+    <e><p><l>de<b/>frente<b/>a<s n="pr"/></l><r>direkt<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>medio<b/>de<s n="pr"/></l><r>inmitten<s n="pr"/></r></p></e>      <!--genitive -->
+    <e><p><l>por<b/>ello<s n="pr"/></l><r>deshalb<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>orden<b/>de<s n="pr"/></l><r>auf<b/>Befehl<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>orden<b/>de<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>sin<b/>el<b/>estorbo<b/>de<s n="pr"/></l><r>ohne<b/>den<b/>Hindernis<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>la<b/>mayoría<s n="pr"/></l><r>die<b/>meisten<s n="pr"/></r></p></e>
+    <e><p><l>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+    <e><p><l>con<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>expensas<b/>de<s n="pr"/></l><r>auf<b/>Kosten<s n="pr"/></r></p></e>     <!-- jemandes -->
+    <e><p><l>aparte<b/>de<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>aparte<b/>de<s n="pr"/></l><r>abgesehen<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>lo<b/>largo<b/>de<s n="pr"/></l><r>entlang<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>partir<b/>de<s n="pr"/></l><r>ab<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>diferencia<b/>de<s n="pr"/></l><r>im<b/>Unterschied<b/>zu<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>pesar<b/>de<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>raíz<b/>de<s n="pr"/></l><r>als<b/>Folge<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>acerca<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>acorde<b/>con<s n="pr"/></l><r>in<b/>Übereinstimmung<b/>mit<s n="pr"/></r></p></e>
+    <e><p><l>además<b/>de<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>objeto<b/>de<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>objeto<b/>de<s n="pr"/></l><r>damit<s n="pr"/></r></p></e>
+    <e><p><l>alrededor<b/>de<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>alrededor<b/>de<s n="pr"/></l><r>ungefähr<s n="pr"/></r></p></e>
+    <e><p><l>ante<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>bajo<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>cerca<s n="pr"/></l><r>in<b/>der<b/>Nähe<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>como<s n="pr"/></l><r>wie<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>objeto<b/>de<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>objeto<b/>de<s n="pr"/></l><r>damit<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>relación<b/>a<s n="pr"/></l><r>im<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>relación<b/>a<s n="pr"/></l><r>bezüglich<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>respecto<b/>a<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>respecto<b/>de<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>través<b/>de<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>de<b/>acuerdo<b/>con<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>de<b/>acuerdo<b/>con<s n="pr"/></l><r>gemäß<s n="pr"/></r></p></e>
+    <e><p><l>debajo<b/>de<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>dentro<b/>de<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>dentro<b/>de<s n="pr"/></l><r>innerhalb<s n="pr"/></r></p></e>
+    <e><p><l>arriba<b/>de<s n="pr"/></l><r>oberhalb<s n="pr"/></r></p></e>
+    <e><p><l>fuera<b/>de<s n="pr"/></l><r>aus<s n="pr"/></r></p></e>
+    <e><p><l>fuera<b/>de<s n="pr"/></l><r>außerhalb<s n="pr"/></r></p></e>
+    <e><p><l>debido<b/>a<s n="pr"/></l><r>wegen<s n="pr"/></r></p></e>
+    <e><p><l>delante<b/>de<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>detrás<b/>de<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>después<b/>de<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>poco<b/>después<b/>de<s n="pr"/></l><r>gleich<b/>nach<s n="pr"/></r></p></e>
+    <e><p><l>antes<b/>de<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>antes<b/>de<s n="pr"/></l><r>bevor<s n="pr"/></r></p></e>
+    <e><p><l>poco<b/>antes<b/>de<s n="pr"/></l><r>gleich<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>poco<b/>antes<b/>de<s n="pr"/></l><r>gleich<b/>bevor<s n="pr"/></r></p></e>
+    <e><p><l>desde<s n="pr"/></l><r>seit<s n="pr"/></r></p></e>
+    <e><p><l>desde<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>durante<s n="pr"/></l><r>während<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>conformidad<b/>con<s n="pr"/></l><r>in<b/>Übereinstimmung<b/>mit<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>consonancia<b/>con<s n="pr"/></l><r>in<b/>Einklang<b/>mit<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>cuanto<b/>a<s n="pr"/></l><r>was<b/>betrifft<s n="pr"/></r></p></e>                  <!-- accusative -->
+    <e><p><l>en<b/>frente<b/>de<s n="pr"/></l><r>gegenüber<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>was<b/>angeht<s n="pr"/></r></p></e>     <!-- accusative -->
+    <e><p><l>en<b/>lo<b/>que<b/>se<b/>refiere<b/>a<s n="pr"/></l><r>was<b/>betrifft<s n="pr"/></r></p></e>     <!--accusative -->
+    <e><p><l>en<b/>lo<b/>referente<b/>a<s n="pr"/></l><r>mit<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>referente<b/>a<s n="pr"/></l><r>im<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>lo<b/>relativo<b/>a<s n="pr"/></l><r>im<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>orden<b/>a<s n="pr"/></l><r>bezüglich<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>pos<b/>de<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>anstatt<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>statt<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>persecución<b/>de<s n="pr"/></l><r>verfolgend<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vista<b/>de<s n="pr"/></l><r>angesichts<s n="pr"/></r></p></e>
+    <e><p><l>entre<s n="pr"/></l><r>zwischen<s n="pr"/></r></p></e>
+    <e><p><l>de<b/>entre<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>excepto<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>gracias<b/>a<s n="pr"/></l><r>dank<s n="pr"/></r></p></e>
+    <e><p><l>hacia<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>hacia<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+    <e><p><l>hasta<s n="pr"/></l><r>bis<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>a<s n="pr"/></l><r>neben<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>a<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+    <e><p><l>mediante<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>mediante<s n="pr"/></l><r>mittels<s n="pr"/></r></p></e>
+    <e><p><l>merced<b/>a<s n="pr"/></l><r>dank<s n="pr"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
+    <e><p><l>pese<b/>a<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>encima<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>entre<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>intermedio<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>was<b/>angeht<s n="pr"/></r></p></e>      <!-- accusative -->
+    <e><p><l>por<b/>medio<b/>de<s n="pr"/></l><r>mittels<s n="pr"/></r></p></e> 
+    <e><p><l>respecto<b/>a<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>respecto<b/>de<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>salvo<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>según<s n="pr"/></l><r>laut<s n="pr"/></r></p></e>
+    <e><p><l>según<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>sin<s n="pr"/></l><r>ohne<s n="pr"/></r></p></e>
+    <e><p><l>so<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+    <e><p><l>tras<b/>de<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>tras<b/>de<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>frente<b/>de<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>mediados<b/>de<s n="pr"/></l><r>Mitte<s n="pr"/></r></p></e>    <!-- genitive -->
+    <e><p><l>a<b/>fuerza<b/>de<s n="pr"/></l><r>mittels<s n="pr"/></r></p></e>
+    <e><p><l>justo<b/>delante<b/>de<s n="pr"/></l><r>genau<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>más<b/>que<s n="pr"/></l><r>mehr<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>más<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>más<b/>de<s n="pr"/></l><r>mehr<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>menos<b/>que<s n="pr"/></l><r>weniger<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>menos<b/>de<s n="pr"/></l><r>weniger<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>vía<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
+    <e><p><l>vía<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>causa<b/>de<s n="pr"/></l><r>aufgrund<s n="pr"/></r></p></e>
+    <e><p><l>más<s n="pr"/></l><r>mehr<s n="pr"/></r></p></e>
+    <e><p><l>más<s n="pr"/></l><r>lieber<s n="pr"/></r></p></e>
+    <e><p><l>allende<s n="pr"/></l><r>jenseits<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>torno<b/>a<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>torno<b/>a<s n="pr"/></l><r>um<b/>herum<s n="pr"/></r></p></e>    <!-- etwas -->
+    <e><p><l>conforme<b/>a<s n="pr"/></l><r>gemäß<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>razón<b/>de<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>principios<b/>de<s n="pr"/></l><r>Anfang<s n="pr"/></r></p></e>
+    <e><p><l>esperando<b/>a<s n="pr"/></l><r>in<b/>Erwartung<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>concerniente<b/>a<s n="pr"/></l><r>betreffend<s n="pr"/></r></p></e>        <!-- accusative -->
+    <e><p><l>con<b/>anterioridad<b/>a<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>propósito<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+
+
 <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>er<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 
