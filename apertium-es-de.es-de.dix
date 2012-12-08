@@ -79,7 +79,134 @@
   </sdefs>
 <section id="main" type="standard">
 
+<!-- SECCIÓN: Conjunciones -->
+
+    <e><p><l>que<s n="cnjsub"/></l><r>@<s n="cnjsub"/></r></p></e>
+    <e><p><l>siempre<b/>que<s n="cnjsub"/></l><r>@<s n="cnjsub"/></r></p></e>
+
+
 <e><p><l>o<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
+    <e><p><l>que<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ni<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+    <e><p><l>o<b/>bien<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+    <e><p><l>sino<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pero<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tanto<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+    <e><p><l>mas<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+    <e><p><l>y<s n="cnjcoo"/></l><r>und<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>como<b/>su<b/>propio<b/>nombre<b/>indica<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>hoy<b/>toca<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>quien<b/>madruga<b/>Dios<b/>le<b/>ayuda<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>fila<b/>de<b/>a<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>filas<b/>de<b/>a<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sobre<b/>la<b/>marcha<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>mucha<b/>gracia<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>faltar<b/>punto<b/>ni<b/>coma<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>pasara<b/>lo<b/>que<b/>pasara<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>la<b/>frente<b/>alta<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>la<b/>frente<b/>muy<b/>alta<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>como<b/>su<b/>propio<b/>nombre<b/>dice<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>ende<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>perjuicio<b/>de<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>su<b/>propio<b/>pie<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<b/>y<b/>conforme<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>pase<b/>lo<b/>que<b/>pase<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>frente<b/>a<b/>frente<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>frente<b/>por<b/>frente<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>que<b/>conste<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>para<b/>que<b/>así<b/>conste<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>la<b/>que<b/>sigue<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>el<b/>que<b/>sigue<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>lo<b/>que<b/>sigue<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>forma<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>debido<b/>a<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>para<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>manera<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>hasta<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>ya<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>condición<b/>de<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>pesar<b/>de<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>desde<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>antes<b/>de<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>después<b/>de<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>suerte<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>que<b/>conste<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>así<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>aunque<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>según<b/>qué<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>resulta<b/>irónico<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>dado<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>modo<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sino<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>es<b/>por<b/>eso<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>cuanto<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>puesto<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>no<b/>ser<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>porque<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>mientras<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>lo<b/>que<b/>pasa<b/>es<b/>que<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>si<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>aun<b/>así<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>aún<b/>así<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>como<b/>si<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>si<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>nada<b/>en<b/>especial<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>lo<b/>particular<b/>a<b/>lo<b/>general<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>si<b/>bien<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>propio<b/>bien<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>seguir<b/>bien<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>particular<b/>énfasis<b/>en<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>las<b/>que<b/>siguen<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>los<b/>que<b/>siguen<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>aun<b/>cuando<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>siempre<b/>y<b/>cuando<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>nombre<b/>propio<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>beneficio<b/>propio<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>muy<b/>propio<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>domicilio<b/>fijo<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>ello<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>como<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>así<b/>como<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>tanto<b/>como<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>casi<b/>tanto<b/>como<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>tal<b/>y<b/>como<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<b/>y<b/>como<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>no<b/>por<b/>mucho<b/>madrugar<b/>amanece<b/>más<b/>temprano<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>al<b/>propio<b/>tiempo<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>eso<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>al<b/>respecto<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>la<b/>frente<b/>en<b/>alto<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>lo<b/>tanto<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>tanto<b/>en<b/>cuanto<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>al<b/>llegar<b/>a<b/>este<b/>punto<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>este<b/>particular<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sobre<b/>este<b/>particular<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>nada<b/>en<b/>particular<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>lo<b/>general<b/>a<b/>lo<b/>particular<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>título<b/>particular<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>otro<b/>particular<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>el<b/>fondo<b/>del<b/>mar<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>seguir<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>babor<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>tandas<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>asociación<b/>de<b/>ideas<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>puntos<b/>y<b/>comas<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>apenas<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>mientras<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>mis<b/>propias<b/>narices<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>entonces<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>pues<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>todo<b/>el<b/>trayecto<b/>a<b/>través<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>para<b/>que<b/>consten<b/>los<b/>hechos<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>propios<b/>y<b/>extraños<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>entre<b/>otros<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+
+<!-- SECCIÓN: Preposiciones -->
 
 <e><p><l>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
 <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
