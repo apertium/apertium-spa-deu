@@ -79,6 +79,33 @@
   </sdefs>
 <section id="main" type="standard">
 
+<!-- SECCIÓN: Pronombres -->
+
+    <e><p><l>algo<s n="prn"/><s n="tn"/><s n="m"/></l><r>etwas<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+
+    <e r="LR"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendein<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendein<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendein<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendein<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>alguno<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>alguno<s n="prn"/><s n="tn"/><s n="f"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>ambos<s n="prn"/><s n="tn"/><s n="m"/></l><r>beides<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>ambos<s n="prn"/><s n="tn"/><s n="m"/></l><r>beide<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+
+    <e r="LR"><p><l>aquel<s n="prn"/><s n="tn"/><s n="m"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>aquel<s n="prn"/><s n="tn"/><s n="f"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>aquel<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>aquel<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>aquel<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>aquello<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+
+
 <!-- SECCIÓN: Conjunciones -->
 
     <e><p><l>que<s n="cnjsub"/></l><r>dass<s n="cnjsub"/></r></p></e>
@@ -93,7 +120,7 @@
     <e><p><l>o<b/>bien<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
     <e><p><l>sino<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
     <e><p><l>pero<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
-    <e><p><l>tanto<s n="cnjcoo"/></l><r>sowohl<s n="cnjcoo"/></r></p></e>         <!sowohl…als auch -->
+    <e><p><l>tanto<s n="cnjcoo"/></l><r>sowohl<s n="cnjcoo"/></r></p></e>         <!--sowohl…als auch -->
     <e><p><l>como<s n="cnjcoo"/></l><r>als<b/>auch<s n="cnjcoo"/></r></p></e>
     <e><p><l>mas<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
     <e><p><l>y<s n="cnjcoo"/></l><r>und<s n="cnjcoo"/></r></p></e>
@@ -101,11 +128,10 @@
     <e><p><l>como<b/>su<b/>propio<b/>nombre<b/>indica<s n="cnjadv"/></l><r>wie<b/>sein<b/>Name<b/>andeutet<s n="cnjadv"/></r></p></e>
     <e><p><l>hoy<b/>toca<s n="cnjadv"/></l><r>heute<b/>haben<s n="cnjadv"/></r></p></e>     <!-- jemand -->
     <e><p><l>a<b/>quien<b/>madruga<b/>Dios<b/>le<b/>ayuda<s n="cnjadv"/></l><r>Morgenstunde<b/>hat<b/>Gold<b/>im<b/>Munde<s n="cnjadv"/></r></p></e>
-    <e><p><l>en<b/>fila<b/>de<b/>a<s n="cnjadv"/></l><r>in<b/>Reihe<von><s n="cnjadv"/></r></p></e>
-    <e><p><l>en<b/>filas<b/>de<b/>a<s n="cnjadv"/></l><r>in<b/>Reihen<von><s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>fila<b/>de<b/>a<s n="cnjadv"/></l><r>in<b/>Reihe<b/>von<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>filas<b/>de<b/>a<s n="cnjadv"/></l><r>in<b/>Reihen<b/>von<s n="cnjadv"/></r></p></e>
     <e><p><l>sobre<b/>la<b/>marcha<s n="cnjadv"/></l><r>zum<b/>richtigen<b/>Zeitpunkt<s n="cnjadv"/></r></p></e>
     <e><p><l>con<b/>mucha<b/>gracia<s n="cnjadv"/></l><r>sehr<b/>geistreich<s n="cnjadv"/></r></p></e>
-    <e><p><l>sin<b/>faltar<b/>punto<b/>ni<b/>coma<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
     <e><p><l>pasara<b/>lo<b/>que<b/>pasara<s n="cnjadv"/></l><r>auf<b/>jeden<b/>Fall<s n="cnjadv"/></r></p></e>
     <e><p><l>con<b/>la<b/>frente<b/>alta<s n="cnjadv"/></l><r>hocherhobenen<b/>Hauptes<s n="cnjadv"/></r></p></e>
     <e><p><l>con<b/>la<b/>frente<b/>muy<b/>alta<s n="cnjadv"/></l><r>hocherhobenen<b/>Hauptes<s n="cnjadv"/></r></p></e>
