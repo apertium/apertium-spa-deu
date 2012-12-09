@@ -153,6 +153,16 @@
     <e r="RL"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     <e r="RL"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
 
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>er<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></l><r>wir<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></l><r>ihr<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 
 <!-- SECCIÓN: Conjunciones -->
 
