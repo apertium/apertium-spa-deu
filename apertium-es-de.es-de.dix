@@ -487,6 +487,8 @@
 <e><p><l>mujer<s n="n"/><s n="f"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>casa<s n="n"/><s n="f"/></l><r>Haus<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>trabajo<s n="n"/><s n="m"/></l><r>Arbeit<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>Studentin<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>Student<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>coche<s n="n"/><s n="m"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>ventana<s n="n"/><s n="f"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
 <e r="RL"><p><l>niño<s n="n"/><s n="GD"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>

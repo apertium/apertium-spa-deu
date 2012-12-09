@@ -2695,7 +2695,9 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 	    <lu>   
 	      <clip pos="1" side="tl" part="lemh"/> 
 	      <clip pos="1" side="tl" part="a_nom"/>
+	      <clip pos="1" side="tl" part="gen"/>
 	      <clip pos="1" side="tl" part="nbr" link-to="3"/>
+              <lit-tag v="nom"/>
 	      <clip pos="1" side="tl" part="lemq"/>
 	    </lu>
 	  </chunk>
