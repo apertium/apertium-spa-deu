@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
+
+
 <dictionary>
   <alphabet></alphabet>
   <sdefs>
     <sdef n="v2" /> 
     <sdef n="acr" /> 
+    <sdef n="qnt" /> 
+    <sdef n="pron" /> 
     <sdef n="predet" /> 
     <sdef n="pers" /> 
     <sdef n="detnt" /> 
@@ -80,6 +84,14 @@
 <section id="main" type="standard">
 
 <!-- SECCIÓN: Pronombres -->
+
+<!--
+      3 ^se<prn><pro><ref><p3><mf><sp>/@se<prn><pro><ref><p3><mf><sp>$
+      1 ^prpers<prn><enc><p1><mf><sg>/@prpers<prn><enc><p1><mf><sg>$
+-->
+    <e><p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>das<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>das<s n="prn"/><s n="ind"/></r></p></e>
+
 
     <e><p><l>algo<s n="prn"/><s n="tn"/><s n="m"/></l><r>etwas<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     <e><p><l>nada<s n="prn"/><s n="tn"/><s n="m"/></l><r>nichts<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
@@ -570,13 +582,43 @@
 
 <e><p><l>uno<s n="det"/><s n="ind"/></l><r>ein<s n="det"/><s n="ind"/></r></p></e>
 <e><p><l>el<s n="det"/><s n="def"/></l><r>der<s n="det"/><s n="def"/></r></p></e>
+<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>sein<s n="det"/><s n="pos"/></r></p></e>
+<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>ihr<s n="det"/><s n="pos"/></r></p></e>
+
+<e r="LR"><p><l>otro<s n="det"/><s n="ind"/><s n="m"/></l><r>ander<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>otro<s n="det"/><s n="ind"/><s n="f"/></l><r>ander<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="GD"/></l><r>ander<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="GD"/></l><r>ander<s n="det"/><s n="ind"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="GD"/></l><r>ander<s n="det"/><s n="ind"/><s n="nt"/></r></p></e>
+
+<e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="m"/></l><r>kein<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="f"/></l><r>kein<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/></l><r>kein<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/></l><r>kein<s n="det"/><s n="ind"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/></l><r>kein<s n="det"/><s n="ind"/><s n="nt"/></r></p></e>
+
+<e r="LR"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="nt"/><s n="pl"/></r></p></e>
+
+<e r="LR"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="nt"/><s n="pl"/></r></p></e>
 
 <e><p><l>uno<s n="num"/></l><r>ein<s n="num"/></r></p></e>
 <e><p><l>dos<s n="num"/></l><r>zwei<s n="num"/></r></p></e>
 <e><p><l>tres<s n="num"/></l><r>drei<s n="num"/></r></p></e>
 <e><p><l>cuatro<s n="num"/></l><r>vier<s n="num"/></r></p></e>
 <e><p><l>cinco<s n="num"/></l><r>fünf<s n="num"/></r></p></e>
-<e><p><l>séis<s n="num"/></l><r>sechs<s n="num"/></r></p></e>
+<e><p><l>seis<s n="num"/></l><r>sechs<s n="num"/></r></p></e>
 <e><p><l>siete<s n="num"/></l><r>sieben<s n="num"/></r></p></e>
 <e><p><l>ocho<s n="num"/></l><r>acht<s n="num"/></r></p></e>
 <e><p><l>nueve<s n="num"/></l><r>neun<s n="num"/></r></p></e>
@@ -594,17 +636,130 @@
 <e r="LR"><p><l>niño<s n="n"/><s n="m"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>problema<s n="n"/><s n="m"/></l><r>Problem<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>situación<s n="n"/><s n="f"/></l><r>Situation<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>perro<s n="n"/><s n="m"/></l><r>Hund<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>agua<s n="n"/><s n="f"/></l><r>Wasser<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>madre<s n="n"/><s n="f"/></l><r>Mutter<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>jardín<s n="n"/><s n="m"/></l><r>Garten<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gato<s n="n"/><s n="m"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>árbol<s n="n"/><s n="m"/></l><r>Baum<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>año<s n="n"/><s n="m"/></l><r>Jahr<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sonido<s n="n"/><s n="m"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e> <!-- XX -->
+<e><p><l>silla<s n="n"/><s n="f"/></l><r>Stuhl<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ruido<s n="n"/><s n="m"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>respuesta<s n="n"/><s n="f"/></l><r>Antwort<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pregunta<s n="n"/><s n="f"/></l><r>Frage<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ojo<s n="n"/><s n="m"/></l><r>Auge<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>mesa<s n="n"/><s n="f"/></l><r>Tisch<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mano<s n="n"/><s n="f"/></l><r>Hand<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>juego<s n="n"/><s n="m"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>hermano<s n="n"/><s n="f"/></l><r>Bruder<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gente<s n="n"/><s n="f"/><s n="sg"/></l><r>Leute<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>gente<s n="n"/><s n="f"/><s n="pl"/></l><r>Volk<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+<e><p><l>clima<s n="n"/><s n="m"/></l><r>Wetter<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>clima<s n="n"/><s n="m"/></l><r>Klima<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>cabeza<s n="n"/><s n="f"/></l><r>Kopf<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ave<s n="n"/><s n="f"/></l><r>Vogel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>atención<s n="n"/><s n="f"/></l><r>Aufmerksamkeit<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>animal<s n="n"/><s n="m"/></l><r>Tier<s n="n"/><s n="nt"/></r></p></e>
+
+<e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+<e><p><l>viejo<s n="adj"/></l><r>alt<s n="adj"/></r></p></e>
+<e><p><l>pequeño<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
+<e><p><l>grande<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
+<e><p><l>junto<s n="adj"/></l><r>zusammen<s n="adj"/></r></p></e>
+<e><p><l>gran<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
+<e><p><l>frío<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
+<e><p><l>feliz<s n="adj"/></l><r>froh<s n="adj"/></r></p></e>
+<e><p><l>de<b/>atrás<s n="adj"/></l><r>hinter<s n="adj"/></r></p></e>
+<e><p><l>claro<s n="adj"/></l><r>klar<s n="adj"/></r></p></e>
+<e><p><l>cálido<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+<e><p><l>bajo<s n="adj"/></l><r>tief<s n="adj"/></r></p></e>
+<e><p><l>agradable<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
+
 
 <e><p><l>no<s n="adv"/></l><r>nicht<s n="adv"/></r></p></e>
 
+<e><p><l>dónde<s n="adv"/><s n="itg"/></l><r>wo<s n="adv"/></r></p></e>
+<e><p><l>donde<s n="rel"/><s n="adv"/></l><r>wo<s n="adv"/></r></p></e>
+
+<e><p><l>muy<s n="preadv"/></l><r>sehr<s n="adv"/></r></p></e>
+<e><p><l>también<s n="adv"/></l><r>auch<s n="adv"/></r></p></e>
+<e><p><l>ahora<s n="adv"/></l><r>jetzt<s n="adv"/></r></p></e>
+<e><p><l>por<b/>qué<s n="adv"/><s n="itg"/></l><r>warum<s n="adv"/></r></p></e>
+<e><p><l>ahí<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
+<e><p><l>ya<s n="adv"/></l><r>schon<s n="adv"/></r></p></e>
+<e><p><l>un<b/>poco<s n="adv"/></l><r>ein<b/>bisschen<s n="adv"/></r></p></e>
+<e><p><l>siempre<s n="adv"/></l><r>immer<s n="adv"/></r></p></e>
+<e><p><l>rápidamente<s n="adv"/></l><r>schnell<s n="adv"/></r></p></e>
+<e><p><l>probablemente<s n="adv"/></l><r>vielleicht<s n="adv"/></r></p></e>
+<e><p><l>otra<b/>vez<s n="adv"/></l><r>nocht<b/>einmal<s n="adv"/></r></p></e>
+<e><p><l>nunca<s n="adv"/></l><r>nie<s n="adv"/></r></p></e>
+<e><p><l>nada<s n="adv"/></l><r>nichts<s n="adv"/></r></p></e>
+<e><p><l>mucho<s n="adv"/></l><r>viel<s n="adv"/></r></p></e>
+<e><p><l>luego<s n="adv"/></l><r>dannach<s n="adv"/></r></p></e>
+<e><p><l>lentamente<s n="adv"/></l><r>langsam<s n="adv"/></r></p></e>
+<e><p><l>hoy<s n="adv"/></l><r>heute<s n="adv"/></r></p></e>
+<e><p><l>en<b/>todas<b/>partes<s n="adv"/></l><r>überalle<s n="adv"/></r></p></e>
+<e><p><l>cerca<s n="adv"/></l><r>nah<s n="adv"/></r></p></e>
+<e><p><l>bien<s n="adv"/></l><r>gut<s n="adv"/></r></p></e>
+<e><p><l>ayer<s n="adv"/></l><r>gestern<s n="adv"/></r></p></e>
+<e><p><l>aún<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
+<e><p><l>alrededor<s n="adv"/></l><r>herum<s n="adv"/></r></p></e>
+<e><p><l>afuera<s n="adv"/></l><r>draußen<s n="adv"/></r></p></e>
+
+
 <e><p><l>ser<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
+<e><p><l>estar<s n="vblex"/></l><r>sein<s n="vblex"/></r></p></e>
 <e><p><l>haber<s n="vbhaver"/></l><r>haben<s n="vbhaver"/></r></p></e>
 <e><p><l>poder<s n="vbmod"/></l><r>können<s n="vbmod"/></r></p></e>
+<e><p><l>querer<s n="vbmod"/></l><r>möchten<s n="vbmod"/></r></p></e>
+<e><p><l>querer<s n="vbmod"/></l><r>wollen<s n="vbmod"/></r></p></e>
+<e><p><l>deber<s n="vblex"/></l><r>müssen<s n="vblex"/></r></p></e>
 
+<e><p><l>ser<g><b/>hora<b/>de</g><s n="vblex"/></l><r>sein<g><b/>Zeit</g><s n="vblex"/></r></p></e>
 <e><p><l>analizar<s n="vblex"/></l><r>analysieren<s n="vblex"/></r></p></e>
 <e><p><l>comer<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
 <e><p><l>dar<s n="vblex"/></l><r>geben<s n="vblex"/></r></p></e>
 <e><p><l>luchar<s n="vblex"/></l><r>kämpfen<s n="vblex"/></r></p></e>
+<e><p><l>acercarse<s n="vblex"/><s n="pron"/></l><r>nähern<s n="vblex"/></r></p></e>
+<e><p><l>bajar<s n="vblex"/></l><r>gehen<g><b/>unten</g><s n="vblex"/></r></p></e>
+<e><p><l>buscar<s n="vblex"/></l><r>suchen<s n="vblex"/></r></p></e>
+<e><p><l>caminar<s n="vblex"/></l><r>laufen<s n="vblex"/></r></p></e>
+<e><p><l>caminar<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+<e><p><l>contar<s n="vblex"/></l><r>zahlen<s n="vblex"/></r></p></e>
+<e><p><l>contestar<s n="vblex"/></l><r>antworten<s n="vblex"/></r></p></e>
+<e><p><l>correr<s n="vblex"/></l><r>rennen<s n="vblex"/></r></p></e>
+<e><p><l>decir<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
+<e><p><l>dormir<s n="vblex"/></l><r>schlafen<s n="vblex"/></r></p></e>
+<e><p><l>encantar<s n="vblex"/></l><r>lieben<s n="vblex"/></r></p></e>
+<e><p><l>encontrar<s n="vblex"/></l><r>finden<s n="vblex"/></r></p></e>
+<e><p><l>esconder<s n="vblex"/></l><r>verstecken<s n="vblex"/></r></p></e>
+<e><p><l>escuchar<s n="vblex"/></l><r>suchen<s n="vblex"/></r></p></e>
+<e><p><l>gustar<s n="vblex"/></l><r>mögen<s n="vblex"/></r></p></e>
+<e><p><l>hablar<s n="vblex"/></l><r>spechen<s n="vblex"/></r></p></e>
+<e><p><l>hacer<s n="vblex"/></l><r>machen<s n="vblex"/></r></p></e>
+<e><p><l>ir<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+<e><p><l>jugar<s n="vblex"/></l><r>spielen<s n="vblex"/></r></p></e>
+<e><p><l>lograr<s n="vblex"/></l><r>schaffen<s n="vblex"/></r></p></e>
+<e><p><l>mirar<s n="vblex"/></l><r>gucken<s n="vblex"/></r></p></e>
+<e><p><l>observar<s n="vblex"/></l><r>schauen<s n="vblex"/></r></p></e>
+<e><p><l>obtener<s n="vblex"/></l><r>kriegen<s n="vblex"/></r></p></e>
+<e><p><l>oír<s n="vblex"/></l><r>hören<s n="vblex"/></r></p></e>
+<e><p><l>pensar<s n="vblex"/></l><r>denken<s n="vblex"/></r></p></e>
+<e><p><l>preguntar<s n="vblex"/></l><r>fragen<s n="vblex"/></r></p></e>
+<e><p><l>reír<s n="vblex"/></l><r>lachen<s n="vblex"/></r></p></e>
+<e><p><l>saber<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
+<e><p><l>sentar<s n="vblex"/></l><r>setzen<s n="vblex"/></r></p></e> <!-- XX: sitzen -->
+<e><p><l>tener<s n="vblex"/></l><r>haben<s n="vblex"/></r></p></e>
+<e><p><l>terminar<s n="vblex"/></l><r>sein<g><b/>fertig</g><s n="vblex"/></r></p></e>
+<e><p><l>tomar<s n="vblex"/></l><r>nehmen<s n="vblex"/></r></p></e>
+<e><p><l>tratar<s n="vblex"/></l><r>versuchen<s n="vblex"/></r></p></e>
+<e><p><l>tratar<s n="vblex"/></l><r>behandeln<s n="vblex"/></r></p></e>
+<e><p><l>venir<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
+<e><p><l>ver<s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
+
 
 <e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen<s n="ij"/></r></p></e>
 
@@ -620,7 +775,12 @@
 <e><p><l>-<s n="guio"/></l>                <r>-<s n="guio"/></r></p></e>
 <e><p><l>—<s n="guio"/></l>                <r>—<s n="guio"/></r></p></e>
 <e><p><l>'<s n="apos"/></l>                <r>'<s n="apos"/></r></p></e>
+<e r="LR"><p><l>¡<s n="lquest"/></l>              <r></r></p></e>
+<e r="LR"><p><l>¿<s n="lquest"/></l>              <r></r></p></e>
 <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 
+<e>       <re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
 </section>
+
 </dictionary>
