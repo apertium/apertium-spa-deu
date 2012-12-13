@@ -2206,7 +2206,7 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		</test>
 		<let>
 		  <clip pos="1" side="tl" part="temps"/>		     
-		  <lit-tag v="pres"/>
+		  <clip pos="1" side="sl" part="temps"/>		     
 		</let>
 
 		<let>
@@ -2225,6 +2225,8 @@ Si se quiere empezar a tratar las frase impersonales en el t2x, habría que hace
 		    <clip pos="1" side="tl" part="a_verb"/>
 		    <clip pos="1" side="tl" part="sep"/>
 		    <clip pos="1" side="tl" part="temps"/>
+		    <clip pos="1" side="tl" part="pers"/>
+		    <clip pos="1" side="tl" part="nbr"/>
 		  </concat>
 		</let>
 	      </when>

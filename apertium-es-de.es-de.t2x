@@ -210,6 +210,7 @@
 
   <section-def-vars>
     <def-var n="uno"/>
+    <def-var n="pronom_lema" v=""/>
     <def-var n="paraula"/>
     <def-var n="fifrase" v="yes"/>
     <def-var n="que_cnjsub" v="no"/>
@@ -257,6 +258,18 @@
 
 
  <def-macro n="generate_subject" npar="1">  <!--ATENCIÓN: se si crean nuevos chunks verbales en el t1x con nuevos lemas, hay que añadirlos a la lista SV_personals en el caso de que sean SV con formas personales. De lo contrario no se creará el sujeto correspondiente cuando aparezcan en un texto. -->
+
+   <choose>
+     <when>
+       <test>
+          <and>
+            <equal><clip pos="1" part="pers"/><lit-tag v="p1"/></equal>
+            <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
+          </and>
+       </test>
+       <let><var n="pronom_lema"/><lit v="ich"/></let>
+     </when>
+   </choose>
      
    <choose>
      <when>
@@ -301,9 +314,9 @@
 		    <clip pos="1" part="nbr"/>
 		    <lit v="{^"/>
 		    <get-case-from pos="1">
-		      <lit v="prpers"/>
+		      <var n="pronom_lema"/>
 		    </get-case-from>
-		    <lit-tag v="prn.subj.3.4.5"/>
+		    <lit-tag v="prn.pers.3.4.5.nom"/>
 		    <lit v="$}"/>
 		  </chunk>
 		  <b/>	   
