@@ -2,7 +2,7 @@
 
 INC=$1
 OUT=testvoc-summary.txt
-POS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv post prn rel vaux vblex vbser"
+POS="abbr adj adv cm cnjadv cnjcoo cnjsub det guio ij n np num pr preadv post prn rel vaux vblex vbser vbhaver"
 
 echo "" > $OUT;
 
@@ -19,9 +19,9 @@ for i in $POS; do
 		AT=`cat $INC | grep "<$i>" |  grep '@' | grep -v -e '<adv>'  | grep -v REGEX | wc -l`;
 		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<adv>' | grep -v REGEX | wc -l`;
 	elif [ "$i" = "prn" ]; then
-		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<adv>' -e '<v' | grep -v REGEX | wc -l`; 
-		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<adv>' -e '<v'  | grep -v REGEX | wc -l`;
-		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<adv>' -e '<v' | grep -v REGEX |  wc -l`;
+		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<pr>' -e '<adv>' -e '<v' | grep -v REGEX | wc -l`; 
+		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<pr>' -e '<adv>' -e '<v'  | grep -v REGEX | wc -l`;
+		HASH=`cat $INC | grep "<$i>" | grep '>  *#' | grep -v -e '<pr>' -e '<adv>' -e '<v' | grep -v REGEX |  wc -l`;
 	elif [ "$i" = "preadv" ]; then
 		TOTAL=`cat $INC | grep "<$i>" | grep -v -e '<adj>' -e '<adv>' | grep -v REGEX | wc -l`; 
 		AT=`cat $INC | grep "<$i>" | grep '@' | grep -v -e '<adj>' -e '<adv>'  | grep -v REGEX | wc -l`;

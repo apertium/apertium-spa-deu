@@ -88,10 +88,10 @@
     <e><p><l>la<b/>mayoría<s n="prn"/><s n="tn"/><s n="m"/></l><r>die<b/>meisten<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
     <e><p><l>bastantes<s n="prn"/><s n="tn"/><s n="mf"/></l><r>genug<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
 
-    <e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sn"/></l><r>wer<s n="prn"/><s n="itg"/><s n="mf"/><s n="sn"/></r></p></e>
+    <e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>wer<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></l><r>wer<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e><p><l>de<b/>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sn"/></l><r>wessen<s n="prn"/><s n="itg"/><s n="mf"/><s n="sn"/></r></p></e>
+    <e><p><l>de<b/>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>wessen<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>de<b/>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></l><r>wessen<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
 
     <e><p><l>qué<s n="prn"/><s n="itg"/><s n="m"/></l><r>was<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
@@ -153,11 +153,11 @@
     <e><p><l>cualquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>qualquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e><p><l>quienquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="sn"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="sn"/></r></p></e>
+    <e><p><l>quienquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
     <e><p><l>quienquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
 
-    <e><p><l>cualquier<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/><s n="sn"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="nt"/><s n="sn"/></r></p></e>
-    <e><p><l>cualquier<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/><s n="sn"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sn"/></r></p></e>
+    <e><p><l>cualquier<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>cualquier<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 
     <e><p><l>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     <e><p><l>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
