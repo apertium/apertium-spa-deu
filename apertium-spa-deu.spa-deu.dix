@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- -*-nxml-*- -->
+
+
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="v2" /> 
+    <sdef n="acr" /> 
+    <sdef n="qnt" /> 
+    <sdef n="pron" /> 
+    <sdef n="predet" /> 
+    <sdef n="pers" /> 
+    <sdef n="detnt" /> 
+    <sdef n="loc" /> 
+    <sdef n="ant" /> 
+    <sdef n="al" /> 
+    <sdef n="atn" /> 
+    <sdef n="enc" /> 
+    <sdef n="pro" /> 
+    <sdef n="tn" /> 
+    <sdef n="n" /> 
+    <sdef n="np" /> 
+    <sdef n="adj" /> 
+    <sdef n="f" /> 
+    <sdef n="m" /> 
+    <sdef n="mf" /> 
+    <sdef n="sg" /> 
+    <sdef n="pl" /> 
+    <sdef n="adv" /> 
+    <sdef n="preadv" /> 
+    <sdef n="pr" /> 
+    <sdef n="prn" /> 
+    <sdef n="rel" /> 
+    <sdef n="nn" /> 
+    <sdef n="an" /> 
+    <sdef n="aa" /> 
+    <sdef n="ind" /> 
+    <sdef n="lquot" /> 
+    <sdef n="rquot" /> 
+    <sdef n="guio" /> 
+    <sdef n="apos" /> 
+    <sdef n="itg" /> 
+    <sdef n="det" /> 
+    <sdef n="dem" /> 
+    <sdef n="def" /> 
+    <sdef n="cnjcoo" /> 
+    <sdef n="cnjsub" /> 
+    <sdef n="cnjadv" /> 
+    <sdef n="nt" /> 
+    <sdef n="vbser" /> 
+    <sdef n="vbhaver" /> 
+    <sdef n="vblex" /> 
+    <sdef n="vbmod" /> 
+    <sdef n="inf" /> 
+    <sdef n="ger" /> 
+    <sdef n="pp" /> 
+    <sdef n="pri" /> 
+    <sdef n="p1" /> 
+    <sdef n="p2" /> 
+    <sdef n="p3" /> 
+    <sdef n="pii" /> 
+    <sdef n="ifi" /> 
+    <sdef n="fti" /> 
+    <sdef n="cni" /> 
+    <sdef n="prs" /> 
+    <sdef n="pis" /> 
+    <sdef n="fts" /> 
+    <sdef n="imp" /> 
+    <sdef n="pos" /> 
+    <sdef n="sp" /> 
+    <sdef n="ref" /> 
+    <sdef n="sup" /> 
+    <sdef n="num" /> 
+    <sdef n="ij" /> 
+    <sdef n="sent" /> 
+    <sdef n="cm" /> 
+    <sdef n="lpar" /> 
+    <sdef n="rpar" /> 
+    <sdef n="lquest" /> 
+    <sdef n="ND" /> 
+    <sdef n="GD" /> 
+    <sdef n="web" /> 
+  </sdefs>
+<section id="main" type="standard">
+
+<!-- SECCIÓN: Pronombres -->
+
+<!--
+      3 ^se<prn><pro><ref><p3><mf><sp>/@se<prn><pro><ref><p3><mf><sp>$
+      1 ^prpers<prn><enc><p1><mf><sg>/@prpers<prn><enc><p1><mf><sg>$
+-->
+    <e><p><l>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>das<s n="prn"/><s n="ind"/></r></p></e>
+    <e><p><l>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>das<s n="prn"/><s n="ind"/></r></p></e>
+
+
+    <e><p><l>algo<s n="prn"/><s n="tn"/><s n="m"/></l><r>etwas<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>nada<s n="prn"/><s n="tn"/><s n="m"/></l><r>nichts<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>nadie<s n="prn"/><s n="tn"/><s n="m"/></l><r>niemand<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+    <e><p><l>todo<b/>el<b/>mundo<s n="prn"/><s n="tn"/><s n="m"/></l><r>alle<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+    <e><p><l>la<b/>mayoría<s n="prn"/><s n="tn"/><s n="m"/></l><r>die<b/>meisten<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+    <e><p><l>bastantes<s n="prn"/><s n="tn"/><s n="mf"/></l><r>genug<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+
+    <e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>wer<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></l><r>wer<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>de<b/>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>wessen<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>de<b/>quién<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></l><r>wessen<s n="prn"/><s n="itg"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>qué<s n="prn"/><s n="itg"/><s n="m"/></l><r>was<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
+    <e><p><l>qué<s n="prn"/><s n="itg"/><s n="m"/></l><r>was<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
+
+    <e r="LR"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>alguien<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>cada<b/>cual<s n="prn"/><s n="tn"/><s n="m"/></l><r>jeder<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>cada<b/>cual<s n="prn"/><s n="tn"/><s n="m"/></l><r>jeder<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>cada<b/>cual<s n="prn"/><s n="tn"/><s n="m"/></l><r>jeder<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>cada<b/>cual<s n="prn"/><s n="tn"/><s n="m"/></l><r>jeder<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>todo<s n="prn"/><s n="tn"/><s n="m"/></l><r>aller<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>todo<s n="prn"/><s n="tn"/><s n="m"/></l><r>aller<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>todo<s n="prn"/><s n="tn"/><s n="m"/></l><r>aller<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>todo<s n="prn"/><s n="tn"/><s n="m"/></l><r>aller<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>uno<s n="prn"/><s n="tn"/><s n="m"/></l><r>einer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>uno<s n="prn"/><s n="tn"/><s n="m"/></l><r>einer<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>uno<s n="prn"/><s n="tn"/><s n="m"/></l><r>einer<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>uno<s n="prn"/><s n="tn"/><s n="m"/></l><r>einer<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>cuánto<s n="prn"/><s n="itg"/><s n="m"/></l><r>wie<b/>viel<s n="prn"/><s n="itg"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>cuánto<s n="prn"/><s n="itg"/><s n="m"/></l><r>wie<b/>viel<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>cuánto<s n="prn"/><s n="itg"/><s n="m"/></l><r>wie<b/>viel<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>cuánto<s n="prn"/><s n="itg"/><s n="m"/></l><r>wie<b/>viel<s n="prn"/><s n="itg"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>muchos<s n="prn"/><s n="tn"/><s n="m"/></l><r>viel<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>muchos<s n="prn"/><s n="tn"/><s n="m"/></l><r>viel<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>muchos<s n="prn"/><s n="tn"/><s n="m"/></l><r>viel<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>muchos<s n="prn"/><s n="tn"/><s n="m"/></l><r>viel<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>pocos<s n="prn"/><s n="tn"/><s n="m"/></l><r>wenig<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>pocos<s n="prn"/><s n="tn"/><s n="m"/></l><r>wenig<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>pocos<s n="prn"/><s n="tn"/><s n="m"/></l><r>wenig<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>pocos<s n="prn"/><s n="tn"/><s n="m"/></l><r>wenig<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>alguno<s n="prn"/><s n="tn"/><s n="m"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>alguno<s n="prn"/><s n="tn"/><s n="f"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>alguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>irgendeiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="m"/></l><r>keiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="f"/></l><r>keiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>keiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>keiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>ninguno<s n="prn"/><s n="tn"/><s n="GD"/></l><r>keiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>ambos<s n="prn"/><s n="tn"/><s n="m"/></l><r>beides<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>ambos<s n="prn"/><s n="tn"/><s n="m"/></l><r>beide<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+
+    <e><p><l>los<b/>dos<s n="prn"/><s n="tn"/><s n="m"/></l><r>beides<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>los<b/>dos<s n="prn"/><s n="tn"/><s n="m"/></l><r>beide<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+
+    <e><p><l>cualquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>qualquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>quienquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>quienquiera<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></l><r>irgendwer<s n="prn"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e><p><l>cualquier<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>cualquier<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e><p><l>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>alguna<b/>cosa<s n="prn"/><s n="tn"/><s n="f"/></l><r>irgendwas<s n="prn"/><s n="ind"/><s n="mf"/></r></p></e>
+
+    <e r="LR"><p><l>aquel<s n="prn"/><s n="tn"/><s n="m"/></l><r>jener<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>aquel<s n="prn"/><s n="tn"/><s n="f"/></l><r>jener<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>aquel<s n="prn"/><s n="tn"/><s n="GD"/></l><r>jener<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>aquel<s n="prn"/><s n="tn"/><s n="GD"/></l><r>jener<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>aquel<s n="prn"/><s n="tn"/><s n="GD"/></l><r>jener<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>aquél<s n="prn"/><s n="tn"/><s n="m"/></l><r>jener<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>aquél<s n="prn"/><s n="tn"/><s n="f"/></l><r>jener<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>aquél<s n="prn"/><s n="tn"/><s n="GD"/></l><r>jener<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>aquél<s n="prn"/><s n="tn"/><s n="GD"/></l><r>jener<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>aquél<s n="prn"/><s n="tn"/><s n="GD"/></l><r>jener<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>aquello<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></l><r>jenes<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    <e r="LR"><p><l>otro<s n="prn"/><s n="tn"/><s n="m"/></l><r>anderer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>otro<s n="prn"/><s n="tn"/><s n="f"/></l><r>anderer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="prn"/><s n="tn"/><s n="GD"/></l><r>anderer<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="prn"/><s n="tn"/><s n="GD"/></l><r>anderer<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>otro<s n="prn"/><s n="tn"/><s n="GD"/></l><r>anderer<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>este<s n="prn"/><s n="tn"/><s n="m"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>este<s n="prn"/><s n="tn"/><s n="f"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>este<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>este<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>este<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>éste<s n="prn"/><s n="tn"/><s n="m"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>éste<s n="prn"/><s n="tn"/><s n="f"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>éste<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>éste<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>éste<s n="prn"/><s n="tn"/><s n="GD"/></l><r>dieser<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>esto<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></l><r>dies<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    <e r="LR"><p><l>ese<s n="prn"/><s n="tn"/><s n="m"/></l><r>der<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>ese<s n="prn"/><s n="tn"/><s n="f"/></l><r>der<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>ese<s n="prn"/><s n="tn"/><s n="GD"/></l><r>der<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>ese<s n="prn"/><s n="tn"/><s n="GD"/></l><r>der<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>ese<s n="prn"/><s n="tn"/><s n="GD"/></l><r>der<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>ése<s n="prn"/><s n="tn"/><s n="m"/></l><r>der<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>ése<s n="prn"/><s n="tn"/><s n="f"/></l><r>der<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>ése<s n="prn"/><s n="tn"/><s n="GD"/></l><r>der<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>ése<s n="prn"/><s n="tn"/><s n="GD"/></l><r>der<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>ése<s n="prn"/><s n="tn"/><s n="GD"/></l><r>der<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>eso<s n="prn"/><s n="tn"/><s n="m"/><s n="sp"/></l><r>das<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+
+    <e r="LR"><p><l>cuál<s n="prn"/><s n="itg"/><s n="m"/></l><r>welcher<s n="prn"/><s n="itg"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>cuál<s n="prn"/><s n="itg"/><s n="f"/></l><r>welcher<s n="prn"/><s n="itg"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>cuál<s n="prn"/><s n="itg"/><s n="GD"/></l><r>welcher<s n="prn"/><s n="itg"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>cuál<s n="prn"/><s n="itg"/><s n="GD"/></l><r>welcher<s n="prn"/><s n="itg"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>cuál<s n="prn"/><s n="itg"/><s n="GD"/></l><r>welcher<s n="prn"/><s n="itg"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>el<b/>mío<s n="prn"/><s n="pos"/><s n="m"/></l><r>meiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>el<b/>mío<s n="prn"/><s n="pos"/><s n="f"/></l><r>meiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<b/>mío<s n="prn"/><s n="pos"/><s n="GD"/></l><r>meiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>el<b/>mío<s n="prn"/><s n="pos"/><s n="GD"/></l><r>meiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>el<b/>mío<s n="prn"/><s n="pos"/><s n="GD"/></l><r>meiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>el<b/>nuestro<s n="prn"/><s n="pos"/><s n="m"/></l><r>unserer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>el<b/>nuestro<s n="prn"/><s n="pos"/><s n="f"/></l><r>unserer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<b/>nuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>unserer<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>el<b/>nuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>unserer<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>el<b/>nuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>unserer<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>el<b/>suyo<s n="prn"/><s n="pos"/><s n="m"/></l><r>seiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>el<b/>suyo<s n="prn"/><s n="pos"/><s n="f"/></l><r>seiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<b/>suyo<s n="prn"/><s n="pos"/><s n="GD"/></l><r>seiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>el<b/>suyo<s n="prn"/><s n="pos"/><s n="GD"/></l><r>seiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>el<b/>suyo<s n="prn"/><s n="pos"/><s n="GD"/></l><r>seiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>el<b/>tuyo<s n="prn"/><s n="pos"/><s n="m"/></l><r>deiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>el<b/>tuyo<s n="prn"/><s n="pos"/><s n="f"/></l><r>deiner<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<b/>tuyo<s n="prn"/><s n="pos"/><s n="GD"/></l><r>deiner<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>el<b/>tuyo<s n="prn"/><s n="pos"/><s n="GD"/></l><r>deiner<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>el<b/>tuyo<s n="prn"/><s n="pos"/><s n="GD"/></l><r>deiner<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e r="LR"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="m"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="LR"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="f"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="GD"/></r></p></e>
+    <e r="RL"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="m"/></r></p></e>
+    <e r="RL"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e r="RL"><p><l>el<b/>vuestro<s n="prn"/><s n="pos"/><s n="GD"/></l><r>eurer<s n="prn"/><s n="ind"/><s n="f"/></r></p></e>
+
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></l><r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>er<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="sg"/></l><r>Sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="nt"/><s n="sg"/></l><r>es<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>Sie<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></l><r>wir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></l><r>wir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="GD"/><s n="pl"/></l><r>wir<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></l><r>ihr<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></l><r>ihr<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p2"/><s n="GD"/><s n="pl"/></l><r>ihr<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
+
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></l><r>Sie<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>Sie<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+
+    <e r="LR"><p><l>prpers<s n="prn"/><s n="pro"/></l><r></r></p></e>
+
+
+<!-- SECCIÓN: Conjunciones -->
+
+    <e><p><l>que<s n="cnjsub"/></l><r>dass<s n="cnjsub"/></r></p></e>
+    <e><p><l>siempre<b/>que<s n="cnjsub"/></l><r>immer<b/>wenn<s n="cnjsub"/></r></p></e>
+
+
+    <e><p><l>o<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
+    <e><p><l>que<s n="cnjcoo"/></l><r>dass<s n="cnjcoo"/></r></p></e>
+    <e><p><l>ni<s n="cnjcoo"/></l><r>weder<s n="cnjcoo"/></r></p></e>         <!-- weder…noch -->
+    <e><p><l>ni<s n="cnjcoo"/></l><r>noch<s n="cnjcoo"/></r></p></e>
+    <e><p><l>o<b/>bien<s n="cnjcoo"/></l><r>entweder<s n="cnjcoo"/></r></p></e>   <!-- entweder…oder -->
+    <e><p><l>o<b/>bien<s n="cnjcoo"/></l><r>oder<s n="cnjcoo"/></r></p></e>
+    <e><p><l>sino<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
+    <e><p><l>pero<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
+    <e><p><l>tanto<s n="cnjcoo"/></l><r>sowohl<s n="cnjcoo"/></r></p></e>         <!--sowohl…als auch -->
+    <e><p><l>como<s n="cnjcoo"/></l><r>als<b/>auch<s n="cnjcoo"/></r></p></e>
+    <e><p><l>mas<s n="cnjcoo"/></l><r>aber<s n="cnjcoo"/></r></p></e>
+    <e><p><l>y<s n="cnjcoo"/></l><r>und<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>como<b/>su<b/>propio<b/>nombre<b/>indica<s n="cnjadv"/></l><r>wie<b/>sein<b/>Name<b/>andeutet<s n="cnjadv"/></r></p></e>
+    <e><p><l>hoy<b/>toca<s n="cnjadv"/></l><r>heute<b/>haben<s n="cnjadv"/></r></p></e>     <!-- jemand -->
+    <e><p><l>a<b/>quien<b/>madruga<b/>Dios<b/>le<b/>ayuda<s n="cnjadv"/></l><r>Morgenstunde<b/>hat<b/>Gold<b/>im<b/>Munde<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>fila<b/>de<b/>a<s n="cnjadv"/></l><r>in<b/>Reihe<b/>von<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>filas<b/>de<b/>a<s n="cnjadv"/></l><r>in<b/>Reihen<b/>von<s n="cnjadv"/></r></p></e>
+    <e><p><l>sobre<b/>la<b/>marcha<s n="cnjadv"/></l><r>zum<b/>richtigen<b/>Zeitpunkt<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>mucha<b/>gracia<s n="cnjadv"/></l><r>sehr<b/>geistreich<s n="cnjadv"/></r></p></e>
+    <e><p><l>pasara<b/>lo<b/>que<b/>pasara<s n="cnjadv"/></l><r>auf<b/>jeden<b/>Fall<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>la<b/>frente<b/>alta<s n="cnjadv"/></l><r>hocherhobenen<b/>Hauptes<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>la<b/>frente<b/>muy<b/>alta<s n="cnjadv"/></l><r>hocherhobenen<b/>Hauptes<s n="cnjadv"/></r></p></e>
+    <e><p><l>como<b/>su<b/>propio<b/>nombre<b/>dice<s n="cnjadv"/></l><r>wie<b/>sein<b/>Name<b/>zeigt<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>ende<s n="cnjadv"/></l><r>folglich<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>perjuicio<b/>de<s n="cnjadv"/></l><r>unbeschadet<b/>der<b/>Tatsache<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>su<b/>propio<b/>pie<s n="cnjadv"/></l><r>es<b/>kommt<b/>von<b/>selber<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<b/>y<b/>conforme<s n="cnjadv"/></l><r>je<b/>nachdem<s n="cnjadv"/></r></p></e>
+    <e><p><l>pase<b/>lo<b/>que<b/>pase<s n="cnjadv"/></l><r>egal<b/>was<b/>passiert<s n="cnjadv"/></r></p></e>
+    <e><p><l>frente<b/>a<b/>frente<s n="cnjadv"/></l><r>von<b/>Angesicht<b/>zu<b/>Angesicht<s n="cnjadv"/></r></p></e>
+    <e><p><l>frente<b/>por<b/>frente<s n="cnjadv"/></l><r>genau<b/>gegenüber<s n="cnjadv"/></r></p></e>    <!-- etwas -->
+    <e><p><l>que<b/>conste<s n="cnjadv"/></l><r>es<b/>sei<b/>festgestellt<s n="cnjadv"/></r></p></e>
+    <e><p><l>para<b/>que<b/>así<b/>conste<s n="cnjadv"/></l><r>um<b/>es<b/>festzustellen<s n="cnjadv"/></r></p></e>
+    <e><p><l>la<b/>que<b/>sigue<s n="cnjadv"/></l><r>folgende<s n="cnjadv"/></r></p></e>
+    <e><p><l>el<b/>que<b/>sigue<s n="cnjadv"/></l><r>folgender<s n="cnjadv"/></r></p></e>
+    <e><p><l>lo<b/>que<b/>sigue<s n="cnjadv"/></l><r>folgendes<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>forma<b/>que<s n="cnjadv"/></l><r>so<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>debido<b/>a<b/>que<s n="cnjadv"/></l><r>wegen<s n="cnjadv"/></r></p></e>
+    <e><p><l>para<b/>que<s n="cnjadv"/></l><r>damit<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>manera<b/>que<s n="cnjadv"/></l><r>so<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>hasta<b/>que<s n="cnjadv"/></l><r>bis<s n="cnjadv"/></r></p></e>
+    <e><p><l>ya<b/>que<s n="cnjadv"/></l><r>da<s n="cnjadv"/></r></p></e>
+    <e><p><l>ya<b/>que<s n="cnjadv"/></l><r>weil<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>fin<b/>de<b/>que<s n="cnjadv"/></l><r>damit<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>condición<b/>de<b/>que<s n="cnjadv"/></l><r>unter<b/>der<b/>Bedingung<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>pesar<b/>de<b/>que<s n="cnjadv"/></l><r>obwohl<s n="cnjadv"/></r></p></e>
+    <e><p><l>desde<b/>que<s n="cnjadv"/></l><r>seitdem<s n="cnjadv"/></r></p></e>
+    <e><p><l>antes<b/>de<b/>que<s n="cnjadv"/></l><r>bevor<s n="cnjadv"/></r></p></e>
+    <e><p><l>después<b/>de<b/>que<s n="cnjadv"/></l><r>nachdem<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>suerte<b/>que<s n="cnjadv"/></l><r>so<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>que<b/>conste<b/>que<s n="cnjadv"/></l><r>es<b/>seit<b/>festgestellt<b/>,<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>así<b/>que<s n="cnjadv"/></l><r>daher<s n="cnjadv"/></r></p></e>
+    <e><p><l>aunque<s n="cnjadv"/></l><r>obwohl<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>según<b/>qué<s n="cnjadv"/></l><r>je<b/>nachdem<s n="cnjadv"/></r></p></e>
+    <e><p><l>resulta<b/>irónico<b/>que<s n="cnjadv"/></l><r>es<b/>ironisch<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>dado<b/>que<s n="cnjadv"/></l><r>angenommen<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>modo<b/>que<s n="cnjadv"/></l><r>sodass<s n="cnjadv"/></r></p></e>
+    <e><p><l>sino<b/>que<s n="cnjadv"/></l><r>sondern<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>es<b/>por<b/>eso<b/>que<s n="cnjadv"/></l><r>deswegen<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>cuanto<b/>que<s n="cnjadv"/></l><r>da<s n="cnjadv"/></r></p></e>
+    <e><p><l>puesto<b/>que<s n="cnjadv"/></l><r>da<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>no<b/>ser<b/>que<s n="cnjadv"/></l><r>es<b/>sei<b/>dass<s n="cnjadv"/></r></p></e>
+    <e><p><l>porque<s n="cnjadv"/></l><r>weil<s n="cnjadv"/></r></p></e>
+    <e><p><l>mientras<b/>que<s n="cnjadv"/></l><r>während<s n="cnjadv"/></r></p></e>
+    <e><p><l>mientras<b/>que<s n="cnjadv"/></l><r>solange<s n="cnjadv"/></r></p></e>
+    <e><p><l>lo<b/>que<b/>pasa<b/>es<b/>que<s n="cnjadv"/></l><r>es<b/>ist<b/>Folgendes<s n="cnjadv"/></r></p></e>
+    <e><p><l>si<s n="cnjadv"/></l><r>wenn<s n="cnjadv"/></r></p></e>
+    <e><p><l>si<s n="cnjadv"/></l><r>ob<s n="cnjadv"/></r></p></e>
+    <e><p><l>aun<b/>así<s n="cnjadv"/></l><r>trotzdem<s n="cnjadv"/></r></p></e>
+    <e><p><l>aún<b/>así<s n="cnjadv"/></l><r>immer<b/>noch<s n="cnjadv"/></r></p></e>
+    <e><p><l>como<b/>si<s n="cnjadv"/></l><r>als<b/>ob<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>si<s n="cnjadv"/></l><r>für<b/>den<b/>Fall<s n="cnjadv"/></r></p></e>
+    <e><p><l>nada<b/>en<b/>especial<s n="cnjadv"/></l><r>nichts<b/>besonders<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>lo<b/>particular<b/>a<b/>lo<b/>general<s n="cnjadv"/></l><r>vom<b/>Besonderen<b/>auf<b/>das<b/>Allgemeine<s n="cnjadv"/></r></p></e>
+    <e><p><l>si<b/>bien<s n="cnjadv"/></l><r>wenn<b/>auch<s n="cnjadv"/></r></p></e>
+    <e><p><l>propio<b/>bien<s n="cnjadv"/></l><r>eigenes<b/>Wohl<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>seguir<b/>bien<s n="cnjadv"/></l><r><s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>particular<b/>énfasis<b/>en<s n="cnjadv"/></l><r>mit<b/>besonderem<b/>Nachdruck<s n="cnjadv"/></r></p></e>
+    <e><p><l>las<b/>que<b/>siguen<s n="cnjadv"/></l><r>folgenden<s n="cnjadv"/></r></p></e>
+    <e><p><l>los<b/>que<b/>siguen<s n="cnjadv"/></l><r>folgenden<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<s n="cnjadv"/></l><r>laut<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<s n="cnjadv"/></l><r>nach<s n="cnjadv"/></r></p></e>
+    <e><p><l>cuando<s n="cnjadv"/></l><r>wenn<s n="cnjadv"/></r></p></e>
+    <e><p><l>aun<b/>cuando<s n="cnjadv"/></l><r>auch<b/>wenn<s n="cnjadv"/></r></p></e>
+    <e><p><l>siempre<b/>y<b/>cuando<s n="cnjadv"/></l><r>immer<b/>wenn<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>nombre<b/>propio<s n="cnjadv"/></l><r>in<b/>eigenem<b/>Namen<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>beneficio<b/>propio<s n="cnjadv"/></l><r>zu<b/>eigenem<b/>Nutzen<s n="cnjadv"/></r></p></e>
+    <e><p><l>muy<b/>propio<s n="cnjadv"/></l><r>sehr<b/>eigentümlich<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>domicilio<b/>fijo<s n="cnjadv"/></l><r>ohne<b/>feste<b/>Anschrift<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>ello<s n="cnjadv"/></l><r>deswegen<s n="cnjadv"/></r></p></e>
+    <e><p><l>como<s n="cnjadv"/></l><r>wie<s n="cnjadv"/></r></p></e>
+    <e><p><l>así<b/>como<s n="cnjadv"/></l><r>sowie<b/>auch<s n="cnjadv"/></r></p></e>
+    <e><p><l>tanto<b/>como<s n="cnjadv"/></l><r>als<b/>auch<s n="cnjadv"/></r></p></e>
+    <e><p><l>casi<b/>tanto<b/>como<s n="cnjadv"/></l><r>fast<b/>als<b/>auch<s n="cnjadv"/></r></p></e>
+    <e><p><l>tal<b/>y<b/>como<s n="cnjadv"/></l><r>genauso<b/>wie<s n="cnjadv"/></r></p></e>
+    <e><p><l>según<b/>y<b/>como<s n="cnjadv"/></l><r>je<b/>nachdem<s n="cnjadv"/></r></p></e>
+    <e><p><l>no<b/>por<b/>mucho<b/>madrugar<b/>amanece<b/>más<b/>temprano<s n="cnjadv"/></l><r>Eile<b/>mit<b/>Weile<s n="cnjadv"/></r></p></e>
+    <e><p><l>al<b/>propio<b/>tiempo<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>eso<s n="cnjadv"/></l><r>deswegen<s n="cnjadv"/></r></p></e>
+    <e><p><l>al<b/>respecto<s n="cnjadv"/></l><r>diesbezüglich<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>la<b/>frente<b/>en<b/>alto<s n="cnjadv"/></l><r>mit<b/>hocherhobenem<b/>Haupt<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>lo<b/>tanto<s n="cnjadv"/></l><r>also<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>tanto<b/>en<b/>cuanto<s n="cnjadv"/></l><r>während<s n="cnjadv"/></r></p></e>
+    <e><p><l>al<b/>llegar<b/>a<b/>este<b/>punto<s n="cnjadv"/></l><r>an<b/>diesen<b/>Punkt<b/>gekommen<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>este<b/>particular<s n="cnjadv"/></l><r>zu<b/>dieser<b/>Angelegenheit<s n="cnjadv"/></r></p></e>
+    <e><p><l>sobre<b/>este<b/>particular<s n="cnjadv"/></l><r>über<b/>diese<b/>Angelegenheit<s n="cnjadv"/></r></p></e>
+    <e><p><l>nada<b/>en<b/>particular<s n="cnjadv"/></l><r>nichts<b/>Besonderes<s n="cnjadv"/></r></p></e>
+    <e><p><l>de<b/>lo<b/>general<b/>a<b/>lo<b/>particular<s n="cnjadv"/></l><r>vom<b/>Allgemeinen<b/>ins<b/>Besondere<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>título<b/>particular<s n="cnjadv"/></l><r>persönlich<s n="cnjadv"/></r></p></e>
+    <e><p><l>sin<b/>otro<b/>particular<s n="cnjadv"/></l><r>ohne<b/>weiteres<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>el<b/>fondo<b/>del<b/>mar<s n="cnjadv"/></l><r>auf<b/>dem<b/>Meeresboden<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>seguir<s n="cnjadv"/></l><r>weiter<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>babor<s n="cnjadv"/></l><r>backbord<s n="cnjadv"/></r></p></e>
+    <e><p><l>a<b/>babor<s n="cnjadv"/></l><r>backbords<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>tandas<s n="cnjadv"/></l><r>reihenweise<s n="cnjadv"/></r></p></e>
+    <e><p><l>por<b/>asociación<b/>de<b/>ideas<s n="cnjadv"/></l><r>wegen<b/>Gedankenassoziation<s n="cnjadv"/></r></p></e>
+    <e><p><l>con<b/>puntos<b/>y<b/>comas<s n="cnjadv"/></l><r>haarklein<s n="cnjadv"/></r></p></e>
+    <e><p><l>apenas<s n="cnjadv"/></l><r>kaum<s n="cnjadv"/></r></p></e>
+    <e><p><l>mientras<s n="cnjadv"/></l><r>während<s n="cnjadv"/></r></p></e>
+    <e><p><l>en<b/>mis<b/>propias<b/>narices<s n="cnjadv"/></l><r>vor<b/>der<b/>Nase<s n="cnjadv"/></r></p></e>
+    <e><p><l>entonces<s n="cnjadv"/></l><r>dann<s n="cnjadv"/></r></p></e>
+    <e><p><l>pues<s n="cnjadv"/></l><r>dann<s n="cnjadv"/></r></p></e>
+    <e><p><l>todo<b/>el<b/>trayecto<b/>a<b/>través<s n="cnjadv"/></l><r>die<b/>ganze<b/>Strecke<b/>durch<s n="cnjadv"/></r></p></e>
+    <e><p><l>para<b/>que<b/>consten<b/>los<b/>hechos<s n="cnjadv"/></l><r>um<b/>die<b/>Tatsache<b/>festzustellen<s n="cnjadv"/></r></p></e>
+    <e><p><l>propios<b/>y<b/>extraños<s n="cnjadv"/></l><r>eigene<b/>und<b/>fremde<s n="cnjadv"/></r></p></e>
+    <e><p><l>entre<b/>otros<s n="cnjadv"/></l><r>unter<b/>anderen<s n="cnjadv"/></r></p></e>
+
+
+<!-- SECCIÓN: Preposiciones -->
+
+<e><p><l>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+<e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+<e><p><l>de<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+<e><p><l>de<s n="pr"/></l><r>aus<s n="pr"/></r></p></e>
+<e><p><l>en<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+<e><p><l>contra<s n="pr"/></l><r>gegen<s n="pr"/></r></p></e>
+<e><p><l>por<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
+<e><p><l>a<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+
+    <e><p><l>por<b/>el<b/>bien<b/>de<s n="pr"/></l><r>zum<g><b/>Wohl</g><s n="pr"/></r></p></e> <!-- jemandes -->
+    <e><p><l>al<b/>otro<b/>lado<b/>de<s n="pr"/></l><r>auf<b/>der<b/>anderen<b/>Seite<s n="pr"/></r></p></e>   <!-- genitive -->
+    <e><p><l>directo<b/>a<b/>través<s n="pr"/></l><r>direkt<b/>durch<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>otro<b/>lado<b/>del<b/>charco<s n="pr"/></l><r>auf<b/>der<b/>anderen<b/>Seite<b/>des<b/>Pfützes<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>detrimento<b/>de<s n="pr"/></l><r>zu<b/>Schaden<s n="pr"/></r></p></e>     <!-- jemandes -->
+    <e><p><l>en<b/>vísperas<b/>de<s n="pr"/></l><r>kurz<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>proveniente<b/>de<s n="pr"/></l><r>herkommend<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>provenientes<b/>de<s n="pr"/></l><r>herkommend<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>gracia<b/>a<s n="pr"/></l><r>angesichts<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>menoscabo<b/>de<s n="pr"/></l><r>zu<b/>Schaden<s n="pr"/></r></p></e>    <!-- genitive -->
+    <e><p><l>en<b/>menoscabo<b/>de<s n="pr"/></l><r>auf<b/>Kosten<s n="pr"/></r></p></e>     <!-- genitive -->
+    <e><p><l>sin<b/>menoscabo<b/>de<s n="pr"/></l><r>unbeschadet<s n="pr"/></r></p></e>
+    <e><p><l>bajo<b/>la<b/>jefatura<b/>de<s n="pr"/></l><r>unter<b/>der<b/>Leitung<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>la<b/>espera<b/>de<s n="pr"/></l><r>in<b/>Erwartung<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>costa<b/>de<s n="pr"/></l><r>auf<b/>Kosten<s n="pr"/></r></p></e>      <!-- jemandes -->
+    <e><p><l>del<b/>orden<b/>de<s n="pr"/></l><r>von<b/>etwa<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>miras<b/>a<s n="pr"/></l><r>im<b/>Hinblick<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>frente<b/>a<s n="pr"/></l><r>gegen<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>nombre<b/>de<s n="pr"/></l><r>im<b/>Namen<s n="pr"/></r></p></e>   <!-- genitive -->
+    <e><p><l>propio<b/>de<s n="pr"/></l><r>eigen<s n="pr"/></r></p></e>
+    <e><p><l>propio<b/>para<s n="pr"/></l><r>geeignet<b/>für<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>el<b/>fondo<b/>de<s n="pr"/></l><r>im<b/>Grunde<s n="pr"/></r></p></e>     <!-- genitive -->
+    <e><p><l>de<b/>frente<b/>a<s n="pr"/></l><r>direkt<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>medio<b/>de<s n="pr"/></l><r>inmitten<s n="pr"/></r></p></e>      <!--genitive -->
+    <e><p><l>por<b/>ello<s n="pr"/></l><r>deshalb<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>orden<b/>de<s n="pr"/></l><r>auf<b/>Befehl<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>orden<b/>de<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>sin<b/>el<b/>estorbo<b/>de<s n="pr"/></l><r>ohne<b/>den<b/>Hindernis<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>la<b/>mayoría<s n="pr"/></l><r>die<b/>meisten<s n="pr"/></r></p></e>
+    <e><p><l>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+    <e><p><l>con<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>expensas<b/>de<s n="pr"/></l><r>auf<b/>Kosten<s n="pr"/></r></p></e>     <!-- jemandes -->
+    <e><p><l>aparte<b/>de<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>aparte<b/>de<s n="pr"/></l><r>abgesehen<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>lo<b/>largo<b/>de<s n="pr"/></l><r>entlang<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>partir<b/>de<s n="pr"/></l><r>ab<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>diferencia<b/>de<s n="pr"/></l><r>im<b/>Unterschied<b/>zu<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>pesar<b/>de<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>raíz<b/>de<s n="pr"/></l><r>als<b/>Folge<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>acerca<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>acorde<b/>con<s n="pr"/></l><r>in<b/>Übereinstimmung<b/>mit<s n="pr"/></r></p></e>
+    <e><p><l>además<b/>de<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>objeto<b/>de<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>objeto<b/>de<s n="pr"/></l><r>damit<s n="pr"/></r></p></e>
+    <e><p><l>alrededor<b/>de<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>alrededor<b/>de<s n="pr"/></l><r>ungefähr<s n="pr"/></r></p></e>
+    <e><p><l>ante<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>bajo<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>cerca<s n="pr"/></l><r>in<b/>der<b/>Nähe<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>como<s n="pr"/></l><r>wie<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>objeto<b/>de<s n="pr"/></l><r>um<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>objeto<b/>de<s n="pr"/></l><r>damit<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>relación<b/>a<s n="pr"/></l><r>im<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>relación<b/>a<s n="pr"/></l><r>bezüglich<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>respecto<b/>a<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>con<b/>respecto<b/>de<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>través<b/>de<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>de<b/>acuerdo<b/>con<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>de<b/>acuerdo<b/>con<s n="pr"/></l><r>gemäß<s n="pr"/></r></p></e>
+    <e><p><l>debajo<b/>de<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>dentro<b/>de<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>dentro<b/>de<s n="pr"/></l><r>innerhalb<s n="pr"/></r></p></e>
+    <e><p><l>arriba<b/>de<s n="pr"/></l><r>oberhalb<s n="pr"/></r></p></e>
+    <e><p><l>fuera<b/>de<s n="pr"/></l><r>aus<s n="pr"/></r></p></e>
+    <e><p><l>fuera<b/>de<s n="pr"/></l><r>außerhalb<s n="pr"/></r></p></e>
+    <e><p><l>debido<b/>a<s n="pr"/></l><r>wegen<s n="pr"/></r></p></e>
+    <e><p><l>delante<b/>de<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>detrás<b/>de<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>después<b/>de<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>poco<b/>después<b/>de<s n="pr"/></l><r>gleich<b/>nach<s n="pr"/></r></p></e>
+    <e><p><l>antes<b/>de<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>antes<b/>de<s n="pr"/></l><r>bevor<s n="pr"/></r></p></e>
+    <e><p><l>poco<b/>antes<b/>de<s n="pr"/></l><r>gleich<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>poco<b/>antes<b/>de<s n="pr"/></l><r>gleich<b/>bevor<s n="pr"/></r></p></e>
+    <e><p><l>desde<s n="pr"/></l><r>seit<s n="pr"/></r></p></e>
+    <e><p><l>desde<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>durante<s n="pr"/></l><r>während<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>conformidad<b/>con<s n="pr"/></l><r>in<b/>Übereinstimmung<b/>mit<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>consonancia<b/>con<s n="pr"/></l><r>in<b/>Einklang<b/>mit<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>cuanto<b/>a<s n="pr"/></l><r>was<b/>betrifft<s n="pr"/></r></p></e>                  <!-- accusative -->
+    <e><p><l>en<b/>frente<b/>de<s n="pr"/></l><r>gegenüber<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>was<b/>angeht<s n="pr"/></r></p></e>     <!-- accusative -->
+    <e><p><l>en<b/>lo<b/>que<b/>se<b/>refiere<b/>a<s n="pr"/></l><r>was<b/>betrifft<s n="pr"/></r></p></e>     <!--accusative -->
+    <e><p><l>en<b/>lo<b/>referente<b/>a<s n="pr"/></l><r>mit<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>referente<b/>a<s n="pr"/></l><r>im<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>lo<b/>relativo<b/>a<s n="pr"/></l><r>im<b/>Bezug<b/>auf<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>orden<b/>a<s n="pr"/></l><r>bezüglich<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>pos<b/>de<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>anstatt<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vez<b/>de<s n="pr"/></l><r>statt<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>persecución<b/>de<s n="pr"/></l><r>verfolgend<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>vista<b/>de<s n="pr"/></l><r>angesichts<s n="pr"/></r></p></e>
+    <e><p><l>entre<s n="pr"/></l><r>zwischen<s n="pr"/></r></p></e>
+    <e><p><l>de<b/>entre<s n="pr"/></l><r>von<s n="pr"/></r></p></e>
+    <e><p><l>excepto<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>gracias<b/>a<s n="pr"/></l><r>dank<s n="pr"/></r></p></e>
+    <e><p><l>hacia<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>hacia<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+    <e><p><l>hasta<s n="pr"/></l><r>bis<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>a<s n="pr"/></l><r>neben<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>a<s n="pr"/></l><r>an<s n="pr"/></r></p></e>
+    <e><p><l>junto<b/>con<s n="pr"/></l><r>mit<s n="pr"/></r></p></e>
+    <e><p><l>mediante<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>mediante<s n="pr"/></l><r>mittels<s n="pr"/></r></p></e>
+    <e><p><l>merced<b/>a<s n="pr"/></l><r>dank<s n="pr"/></r></p></e>
+    <e><p><l>para<s n="pr"/></l><r>für<s n="pr"/></r></p></e>
+    <e><p><l>pese<b/>a<s n="pr"/></l><r>trotz<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>encima<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>entre<s n="pr"/></l><r>durch<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>intermedio<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>por<b/>lo<b/>que<b/>respecta<b/>a<s n="pr"/></l><r>was<b/>angeht<s n="pr"/></r></p></e>      <!-- accusative -->
+    <e><p><l>por<b/>medio<b/>de<s n="pr"/></l><r>mittels<s n="pr"/></r></p></e> 
+    <e><p><l>respecto<b/>a<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>respecto<b/>de<s n="pr"/></l><r>hinsichtlich<s n="pr"/></r></p></e>
+    <e><p><l>salvo<s n="pr"/></l><r>außer<s n="pr"/></r></p></e>
+    <e><p><l>según<s n="pr"/></l><r>laut<s n="pr"/></r></p></e>
+    <e><p><l>según<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>sin<s n="pr"/></l><r>ohne<s n="pr"/></r></p></e>
+    <e><p><l>so<s n="pr"/></l><r>unter<s n="pr"/></r></p></e>
+    <e><p><l>sobre<s n="pr"/></l><r>auf<s n="pr"/></r></p></e>
+    <e><p><l>tras<b/>de<s n="pr"/></l><r>hinter<s n="pr"/></r></p></e>
+    <e><p><l>tras<b/>de<s n="pr"/></l><r>nach<s n="pr"/></r></p></e>
+    <e><p><l>al<b/>frente<b/>de<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>mediados<b/>de<s n="pr"/></l><r>Mitte<s n="pr"/></r></p></e>    <!-- genitive -->
+    <e><p><l>a<b/>fuerza<b/>de<s n="pr"/></l><r>mittels<s n="pr"/></r></p></e>
+    <e><p><l>justo<b/>delante<b/>de<s n="pr"/></l><r>genau<b/>vor<s n="pr"/></r></p></e>
+    <e><p><l>más<b/>que<s n="pr"/></l><r>mehr<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>más<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>más<b/>de<s n="pr"/></l><r>mehr<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>menos<b/>que<s n="pr"/></l><r>weniger<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>menos<b/>de<s n="pr"/></l><r>weniger<b/>als<s n="pr"/></r></p></e>
+    <e><p><l>vía<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
+    <e><p><l>vía<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>causa<b/>de<s n="pr"/></l><r>aufgrund<s n="pr"/></r></p></e>
+    <e><p><l>más<s n="pr"/></l><r>mehr<s n="pr"/></r></p></e>
+    <e><p><l>más<s n="pr"/></l><r>lieber<s n="pr"/></r></p></e>
+    <e><p><l>allende<s n="pr"/></l><r>jenseits<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>torno<b/>a<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+    <e><p><l>en<b/>torno<b/>a<s n="pr"/></l><r>um<b/>herum<s n="pr"/></r></p></e>    <!-- etwas -->
+    <e><p><l>conforme<b/>a<s n="pr"/></l><r>gemäß<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>razón<b/>de<s n="pr"/></l><r>zu<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>principios<b/>de<s n="pr"/></l><r>Anfang<s n="pr"/></r></p></e>
+    <e><p><l>esperando<b/>a<s n="pr"/></l><r>in<b/>Erwartung<b/>von<s n="pr"/></r></p></e>
+    <e><p><l>concerniente<b/>a<s n="pr"/></l><r>betreffend<s n="pr"/></r></p></e>        <!-- accusative -->
+    <e><p><l>con<b/>anterioridad<b/>a<s n="pr"/></l><r>vor<s n="pr"/></r></p></e>
+    <e><p><l>a<b/>propósito<b/>de<s n="pr"/></l><r>über<s n="pr"/></r></p></e>
+
+
+<e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></l><r>ich<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e><p><l>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></l><r>er<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ein<s n="det"/><s n="ind"/></r></p></e>
+<e><p><l>el<s n="det"/><s n="def"/></l><r>der<s n="det"/><s n="def"/></r></p></e>
+<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>sein<s n="det"/><s n="pos"/></r></p></e>
+<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>ihr<s n="det"/><s n="pos"/></r></p></e>
+
+<e r="LR"><p><l>otro<s n="det"/><s n="ind"/><s n="m"/></l><r>ander<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>otro<s n="det"/><s n="ind"/><s n="f"/></l><r>ander<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="GD"/></l><r>ander<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="GD"/></l><r>ander<s n="det"/><s n="ind"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>otro<s n="det"/><s n="ind"/><s n="GD"/></l><r>ander<s n="det"/><s n="ind"/><s n="nt"/></r></p></e>
+
+<e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="m"/></l><r>kein<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="LR"><p><l>ninguno<s n="det"/><s n="ind"/><s n="f"/></l><r>kein<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
+<e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/></l><r>kein<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/></l><r>kein<s n="det"/><s n="ind"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>ninguno<s n="det"/><s n="ind"/><s n="GD"/></l><r>kein<s n="det"/><s n="ind"/><s n="nt"/></r></p></e>
+
+<e r="LR"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>más<s n="det"/><s n="qnt"/><s n="mf"/><s n="sp"/></l><r>mehr<s n="det"/><s n="qnt"/><s n="nt"/><s n="pl"/></r></p></e>
+
+<e r="LR"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="GD"/><s n="ND"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="nt"/><s n="sg"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>qué<s n="det"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>welche<s n="det"/><s n="itg"/><s n="nt"/><s n="pl"/></r></p></e>
+
+<e><p><l>uno<s n="num"/></l><r>ein<s n="num"/></r></p></e>
+<e><p><l>dos<s n="num"/></l><r>zwei<s n="num"/></r></p></e>
+<e><p><l>tres<s n="num"/></l><r>drei<s n="num"/></r></p></e>
+<e><p><l>cuatro<s n="num"/></l><r>vier<s n="num"/></r></p></e>
+<e><p><l>cinco<s n="num"/></l><r>fünf<s n="num"/></r></p></e>
+<e><p><l>seis<s n="num"/></l><r>sechs<s n="num"/></r></p></e>
+<e><p><l>siete<s n="num"/></l><r>sieben<s n="num"/></r></p></e>
+<e><p><l>ocho<s n="num"/></l><r>acht<s n="num"/></r></p></e>
+<e><p><l>nueve<s n="num"/></l><r>neun<s n="num"/></r></p></e>
+<e><p><l>diez<s n="num"/></l><r>zehn<s n="num"/></r></p></e>
+
+<e><p><l>mujer<s n="n"/><s n="f"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>casa<s n="n"/><s n="f"/></l><r>Haus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>trabajo<s n="n"/><s n="m"/></l><r>Arbeit<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>Studentin<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>Student<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>coche<s n="n"/><s n="m"/></l><r>Auto<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>ventana<s n="n"/><s n="f"/></l><r>Fenster<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL"><p><l>niño<s n="n"/><s n="GD"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>niño<s n="n"/><s n="f"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR"><p><l>niño<s n="n"/><s n="m"/></l><r>Kind<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>problema<s n="n"/><s n="m"/></l><r>Problem<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>situación<s n="n"/><s n="f"/></l><r>Situation<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>perro<s n="n"/><s n="m"/></l><r>Hund<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>agua<s n="n"/><s n="f"/></l><r>Wasser<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>madre<s n="n"/><s n="f"/></l><r>Mutter<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>jardín<s n="n"/><s n="m"/></l><r>Garten<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gato<s n="n"/><s n="m"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>árbol<s n="n"/><s n="m"/></l><r>Baum<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>año<s n="n"/><s n="m"/></l><r>Jahr<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>sonido<s n="n"/><s n="m"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e> <!-- XX -->
+<e><p><l>silla<s n="n"/><s n="f"/></l><r>Stuhl<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ruido<s n="n"/><s n="m"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>respuesta<s n="n"/><s n="f"/></l><r>Antwort<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>pregunta<s n="n"/><s n="f"/></l><r>Frage<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>ojo<s n="n"/><s n="m"/></l><r>Auge<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>mesa<s n="n"/><s n="f"/></l><r>Tisch<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>mano<s n="n"/><s n="f"/></l><r>Hand<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>juego<s n="n"/><s n="m"/></l><r>Spiel<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>hermano<s n="n"/><s n="f"/></l><r>Bruder<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>gente<s n="n"/><s n="f"/><s n="sg"/></l><r>Leute<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e><p><l>gente<s n="n"/><s n="f"/><s n="pl"/></l><r>Volk<s n="n"/><s n="nt"/><s n="pl"/></r></p></e>
+<e><p><l>clima<s n="n"/><s n="m"/></l><r>Wetter<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>clima<s n="n"/><s n="m"/></l><r>Klima<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>cabeza<s n="n"/><s n="f"/></l><r>Kopf<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>ave<s n="n"/><s n="f"/></l><r>Vogel<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>atención<s n="n"/><s n="f"/></l><r>Aufmerksamkeit<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>animal<s n="n"/><s n="m"/></l><r>Tier<s n="n"/><s n="nt"/></r></p></e>
+
+<e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+<e><p><l>viejo<s n="adj"/></l><r>alt<s n="adj"/></r></p></e>
+<e><p><l>pequeño<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
+<e><p><l>grande<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
+<e><p><l>junto<s n="adj"/></l><r>zusammen<s n="adj"/></r></p></e>
+<e><p><l>gran<s n="adj"/></l><r>groß<s n="adj"/></r></p></e>
+<e><p><l>frío<s n="adj"/></l><r>kalt<s n="adj"/></r></p></e>
+<e><p><l>feliz<s n="adj"/></l><r>froh<s n="adj"/></r></p></e>
+<e><p><l>de<b/>atrás<s n="adj"/></l><r>hinter<s n="adj"/></r></p></e>
+<e><p><l>claro<s n="adj"/></l><r>klar<s n="adj"/></r></p></e>
+<e><p><l>cálido<s n="adj"/></l><r>warm<s n="adj"/></r></p></e>
+<e><p><l>bajo<s n="adj"/></l><r>tief<s n="adj"/></r></p></e>
+<e><p><l>agradable<s n="adj"/></l><r>schön<s n="adj"/></r></p></e>
+
+
+<e><p><l>no<s n="adv"/></l><r>nicht<s n="adv"/></r></p></e>
+
+<e><p><l>dónde<s n="adv"/><s n="itg"/></l><r>wo<s n="adv"/></r></p></e>
+<e><p><l>donde<s n="rel"/><s n="adv"/></l><r>wo<s n="adv"/></r></p></e>
+
+<e><p><l>muy<s n="preadv"/></l><r>sehr<s n="adv"/></r></p></e>
+<e><p><l>también<s n="adv"/></l><r>auch<s n="adv"/></r></p></e>
+<e><p><l>ahora<s n="adv"/></l><r>jetzt<s n="adv"/></r></p></e>
+<e><p><l>por<b/>qué<s n="adv"/><s n="itg"/></l><r>warum<s n="adv"/></r></p></e>
+<e><p><l>ahí<s n="adv"/></l><r>dort<s n="adv"/></r></p></e>
+<e><p><l>ya<s n="adv"/></l><r>schon<s n="adv"/></r></p></e>
+<e><p><l>un<b/>poco<s n="adv"/></l><r>ein<b/>bisschen<s n="adv"/></r></p></e>
+<e><p><l>siempre<s n="adv"/></l><r>immer<s n="adv"/></r></p></e>
+<e><p><l>rápidamente<s n="adv"/></l><r>schnell<s n="adv"/></r></p></e>
+<e><p><l>probablemente<s n="adv"/></l><r>vielleicht<s n="adv"/></r></p></e>
+<e><p><l>otra<b/>vez<s n="adv"/></l><r>nocht<b/>einmal<s n="adv"/></r></p></e>
+<e><p><l>nunca<s n="adv"/></l><r>nie<s n="adv"/></r></p></e>
+<e><p><l>nada<s n="adv"/></l><r>nichts<s n="adv"/></r></p></e>
+<e><p><l>mucho<s n="adv"/></l><r>viel<s n="adv"/></r></p></e>
+<e><p><l>luego<s n="adv"/></l><r>dannach<s n="adv"/></r></p></e>
+<e><p><l>lentamente<s n="adv"/></l><r>langsam<s n="adv"/></r></p></e>
+<e><p><l>hoy<s n="adv"/></l><r>heute<s n="adv"/></r></p></e>
+<e><p><l>en<b/>todas<b/>partes<s n="adv"/></l><r>überalle<s n="adv"/></r></p></e>
+<e><p><l>cerca<s n="adv"/></l><r>nah<s n="adv"/></r></p></e>
+<e><p><l>bien<s n="adv"/></l><r>gut<s n="adv"/></r></p></e>
+<e><p><l>ayer<s n="adv"/></l><r>gestern<s n="adv"/></r></p></e>
+<e><p><l>aún<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
+<e><p><l>alrededor<s n="adv"/></l><r>herum<s n="adv"/></r></p></e>
+<e><p><l>afuera<s n="adv"/></l><r>draußen<s n="adv"/></r></p></e>
+
+
+<e><p><l>ser<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
+<e><p><l>estar<s n="vblex"/></l><r>sein<s n="vblex"/></r></p></e>
+<e><p><l>haber<s n="vbhaver"/></l><r>haben<s n="vbhaver"/></r></p></e>
+<e><p><l>poder<s n="vbmod"/></l><r>können<s n="vbmod"/></r></p></e>
+<e><p><l>querer<s n="vbmod"/></l><r>möchten<s n="vbmod"/></r></p></e>
+<e><p><l>querer<s n="vbmod"/></l><r>wollen<s n="vbmod"/></r></p></e>
+<e><p><l>deber<s n="vblex"/></l><r>müssen<s n="vblex"/></r></p></e>
+
+<e><p><l>ser<g><b/>hora<b/>de</g><s n="vblex"/></l><r>sein<g><b/>Zeit</g><s n="vblex"/></r></p></e>
+<e><p><l>analizar<s n="vblex"/></l><r>analysieren<s n="vblex"/></r></p></e>
+<e><p><l>comer<s n="vblex"/></l><r>essen<s n="vblex"/></r></p></e>
+<e><p><l>dar<s n="vblex"/></l><r>geben<s n="vblex"/></r></p></e>
+<e><p><l>luchar<s n="vblex"/></l><r>kämpfen<s n="vblex"/></r></p></e>
+<e><p><l>acercarse<s n="vblex"/><s n="pron"/></l><r>nähern<s n="vblex"/></r></p></e>
+<e><p><l>bajar<s n="vblex"/></l><r>gehen<g><b/>unten</g><s n="vblex"/></r></p></e>
+<e><p><l>buscar<s n="vblex"/></l><r>suchen<s n="vblex"/></r></p></e>
+<e><p><l>caminar<s n="vblex"/></l><r>laufen<s n="vblex"/></r></p></e>
+<e><p><l>caminar<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+<e><p><l>contar<s n="vblex"/></l><r>zahlen<s n="vblex"/></r></p></e>
+<e><p><l>contestar<s n="vblex"/></l><r>antworten<s n="vblex"/></r></p></e>
+<e><p><l>correr<s n="vblex"/></l><r>rennen<s n="vblex"/></r></p></e>
+<e><p><l>decir<s n="vblex"/></l><r>sagen<s n="vblex"/></r></p></e>
+<e><p><l>dormir<s n="vblex"/></l><r>schlafen<s n="vblex"/></r></p></e>
+<e><p><l>encantar<s n="vblex"/></l><r>lieben<s n="vblex"/></r></p></e>
+<e><p><l>encontrar<s n="vblex"/></l><r>finden<s n="vblex"/></r></p></e>
+<e><p><l>esconder<s n="vblex"/></l><r>verstecken<s n="vblex"/></r></p></e>
+<e><p><l>escuchar<s n="vblex"/></l><r>suchen<s n="vblex"/></r></p></e>
+<e><p><l>gustar<s n="vblex"/></l><r>mögen<s n="vblex"/></r></p></e>
+<e><p><l>hablar<s n="vblex"/></l><r>spechen<s n="vblex"/></r></p></e>
+<e><p><l>hacer<s n="vblex"/></l><r>machen<s n="vblex"/></r></p></e>
+<e><p><l>ir<s n="vblex"/></l><r>gehen<s n="vblex"/></r></p></e>
+<e><p><l>jugar<s n="vblex"/></l><r>spielen<s n="vblex"/></r></p></e>
+<e><p><l>lograr<s n="vblex"/></l><r>schaffen<s n="vblex"/></r></p></e>
+<e><p><l>mirar<s n="vblex"/></l><r>gucken<s n="vblex"/></r></p></e>
+<e><p><l>observar<s n="vblex"/></l><r>schauen<s n="vblex"/></r></p></e>
+<e><p><l>obtener<s n="vblex"/></l><r>kriegen<s n="vblex"/></r></p></e>
+<e><p><l>oír<s n="vblex"/></l><r>hören<s n="vblex"/></r></p></e>
+<e><p><l>pensar<s n="vblex"/></l><r>denken<s n="vblex"/></r></p></e>
+<e><p><l>preguntar<s n="vblex"/></l><r>fragen<s n="vblex"/></r></p></e>
+<e><p><l>reír<s n="vblex"/></l><r>lachen<s n="vblex"/></r></p></e>
+<e><p><l>saber<s n="vblex"/></l><r>wissen<s n="vblex"/></r></p></e>
+<e><p><l>sentar<s n="vblex"/></l><r>setzen<s n="vblex"/></r></p></e> <!-- XX: sitzen -->
+<e><p><l>tener<s n="vblex"/></l><r>haben<s n="vblex"/></r></p></e>
+<e><p><l>terminar<s n="vblex"/></l><r>sein<g><b/>fertig</g><s n="vblex"/></r></p></e>
+<e><p><l>tomar<s n="vblex"/></l><r>nehmen<s n="vblex"/></r></p></e>
+<e><p><l>tratar<s n="vblex"/></l><r>versuchen<s n="vblex"/></r></p></e>
+<e><p><l>tratar<s n="vblex"/></l><r>behandeln<s n="vblex"/></r></p></e>
+<e><p><l>venir<s n="vblex"/></l><r>kommen<s n="vblex"/></r></p></e>
+<e><p><l>ver<s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
+
+
+<e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen<s n="ij"/></r></p></e>
+
+<e><p><l>,<s n="cm"/></l>                  <r>,<s n="cm"/></r></p></e>
+<e><p><l>(<s n="lpar"/></l>                <r>(<s n="lpar"/></r></p></e>
+<e><p><l>)<s n="rpar"/></l>                <r>)<s n="rpar"/></r></p></e>
+<e><p><l>[<s n="lpar"/></l>                <r>[<s n="lpar"/></r></p></e>
+<e><p><l>]<s n="rpar"/></l>                <r>]<s n="rpar"/></r></p></e>
+<e><p><l>«<s n="lquot"/></l>               <r>«<s n="lquot"/></r></p></e>
+<e><p><l>»<s n="rquot"/></l>               <r>»<s n="rquot"/></r></p></e>
+<e><p><l>“<s n="lquot"/></l>               <r>“<s n="lquot"/></r></p></e>
+<e><p><l>”<s n="rquot"/></l>               <r>”<s n="rquot"/></r></p></e>
+<e><p><l>-<s n="guio"/></l>                <r>-<s n="guio"/></r></p></e>
+<e><p><l>—<s n="guio"/></l>                <r>—<s n="guio"/></r></p></e>
+<e><p><l>'<s n="apos"/></l>                <r>'<s n="apos"/></r></p></e>
+<e r="LR"><p><l>¡<s n="lquest"/></l>              <r></r></p></e>
+<e r="LR"><p><l>¿<s n="lquest"/></l>              <r></r></p></e>
+<e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+
+<e>       <re>[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+</section>
+
+</dictionary>
