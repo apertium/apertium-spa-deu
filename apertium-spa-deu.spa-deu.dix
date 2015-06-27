@@ -625,7 +625,7 @@
 <e><p><l>diez<s n="num"/></l><r>zehn<s n="num"/></r></p></e>
 
 <e><p><l>mujer<s n="n"/><s n="f"/></l><r>Frau<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>casa<s n="n"/><s n="f"/></l><r>Haus<s n="n"/><s n="m"/></r></p></e>
+<e><p><l>casa<s n="n"/><s n="f"/></l><r>Haus<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>trabajo<s n="n"/><s n="m"/></l><r>Arbeit<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>Studentin<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>estudiante<s n="n"/><s n="mf"/></l><r>Student<s n="n"/><s n="m"/></r></p></e>
@@ -641,10 +641,10 @@
 <e><p><l>madre<s n="n"/><s n="f"/></l><r>Mutter<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>jardín<s n="n"/><s n="m"/></l><r>Garten<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>gato<s n="n"/><s n="m"/></l><r>Katze<s n="n"/><s n="f"/></r></p></e>
-<e><p><l>árbol<s n="n"/><s n="m"/></l><r>Baum<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>árbol<s n="n"/><s n="m"/></l><r>Baum<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>año<s n="n"/><s n="m"/></l><r>Jahr<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>sonido<s n="n"/><s n="m"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e> <!-- XX -->
-<e><p><l>silla<s n="n"/><s n="f"/></l><r>Stuhl<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>silla<s n="n"/><s n="f"/></l><r>Stuhl<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>ruido<s n="n"/><s n="m"/></l><r>Geräusch<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>respuesta<s n="n"/><s n="f"/></l><r>Antwort<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>pregunta<s n="n"/><s n="f"/></l><r>Frage<s n="n"/><s n="f"/></r></p></e>
