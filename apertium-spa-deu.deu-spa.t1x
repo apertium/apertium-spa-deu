@@ -2,6 +2,7 @@
 <transfer default="chunk">
 
 	<section-def-cats>
+
 		<!-- sortiz: RE-DEFINE -->
 		<def-cat n="to"> <!--BCN-->
 			<cat-item lemma="to" tags="pr"/>
@@ -104,6 +105,7 @@
 			<cat-item tags="det.ord.*"/>
 			<cat-item tags="predet.*"/>
 			<cat-item tags="rel.aa.*"/>
+			<cat-item tags="prn.rel.aa.*"/>
 		</def-cat>
 
 		<def-cat n="det2"> <!--Poden anar precedits d'un altre determinant i anar després d'un genitiu saxó -->
@@ -162,6 +164,7 @@
 			<cat-item tags="vbser.past"/>
 			<cat-item tags="vbser.past.*"/>
 			<cat-item tags="vbser.pri.*"/>
+
 			<!--<cat-item tags="vbhaver.inf"/>-->
 			<cat-item tags="vbhaver.pres"/> <!--afegit 29/08, per quan es cola per aquesta regla un vbhaver mal desambiguat -->
 			<cat-item tags="vbhaver.past"/>
@@ -629,17 +632,21 @@
 			<cat-item lemma="be" tags="vbser.pres"/>
 			<cat-item lemma="be" tags="vbser.pri.*"/>
 		</def-cat>
+
 		<def-cat n="relnom">
 			<cat-item tags="rel.nn.*"/>
+			<cat-item tags="prn.rel.nn.*"/>
 		</def-cat>
 
 		<def-cat n="reladj">
 			<cat-item tags="rel.an.*"/>
+			<cat-item tags="prn.rel.an.*"/>
 		</def-cat>
 
 		<def-cat n="which">
 			<cat-item lemma="which" tags="prn.itg.*"/> <!-- BCN-->
 			<cat-item lemma="which" tags="rel.an.*"/>
+			<cat-item lemma="which" tags="prn.rel.an.*"/>
 		</def-cat>
 
 		<def-cat n="sent">
@@ -698,11 +705,13 @@
 		<def-attr n="a_nom">
 			<attr-item tags="n"/>
 			<attr-item tags="n.acr"/>
-			<attr-item tags="np.loc"/>
 			<attr-item tags="np.ant"/>
 			<attr-item tags="np.cog"/>
+			<attr-item tags="np.loc"/>
+			<attr-item tags="np.top"/>
+			<attr-item tags="np.org"/>
 			<attr-item tags="np.al"/>
-			<attr-item tags="adv"/>
+			<!--<attr-item tags="adv"/>-->
 		</def-attr>
 
 		<def-attr n="a_np">
@@ -722,7 +731,7 @@
 			<attr-item tags="vblex.pron.pp"/> <!-- BCN ok-->
 		</def-attr>
 
-		<def-attr n="grau_adj">
+		<def-attr n="a_grau_adj">
 			<attr-item tags="comp"/>
 			<attr-item tags="sup"/>
 		</def-attr>
@@ -739,6 +748,7 @@
 			<attr-item tags="num"/>
 			<attr-item tags="predet"/>
 			<attr-item tags="rel.aa"/>
+			<attr-item tags="prn.rel.aa"/>
 		</def-attr>
 
 		<def-attr n="a_prnpro">
@@ -794,15 +804,17 @@
 			<attr-item tags="rel.nn"/>
 			<attr-item tags="rel.an"/>
 			<attr-item tags="rel.adv"/>
+			<attr-item tags="prn.rel.nn"/>
+			<attr-item tags="prn.rel.an"/>
 		</def-attr>
 
-		<def-attr n="tipus_rel">
+		<def-attr n="a_tipus_rel">
 			<attr-item tags="nn"/>
 			<attr-item tags="an"/>
 			<attr-item tags="adv"/>
 		</def-attr>
 
-		<def-attr n="tipus_prn">
+		<def-attr n="a_tipus_prn">
 			<attr-item tags="tn"/>
 			<attr-item tags="obj"/>
 			<attr-item tags="enc"/>
@@ -810,49 +822,48 @@
 			<attr-item tags="pos"/>
 		</def-attr>
 
-		<def-attr n="pers">
+		<def-attr n="a_pers">
 			<attr-item tags="p1"/>
 			<attr-item tags="p2"/>
 			<attr-item tags="p3"/>
 			<attr-item tags="PD"/>
 		</def-attr>
 
-		<def-attr n="gen">
+		<def-attr n="a_gen">
 			<attr-item tags="m"/>
 			<attr-item tags="f"/>
 			<attr-item tags="mf"/>
-			<attr-item tags="GD"/>
 			<attr-item tags="nt"/>
+			<attr-item tags="mfn"/>
+			<attr-item tags="GD"/>
 		</def-attr>
-
-		<def-attr n="gen_sense_mf">
+		<def-attr n="a_gen_sense_mf">
 			<attr-item tags="m"/>
 			<attr-item tags="f"/>
-			<attr-item tags="GD"/>
 			<attr-item tags="nt"/>
+			<attr-item tags="GD"/>
 		</def-attr>
-
-		<def-attr n="gen_mf">
+		<def-attr n="a_gen_mf">
 			<attr-item tags="mf"/>
+			<attr-item tags="mfn"/>
 		</def-attr>
 
-		<def-attr n="nbr">
+		<def-attr n="a_nbr">
 			<attr-item tags="sg"/>
 			<attr-item tags="pl"/>
 			<attr-item tags="sp"/>
 			<attr-item tags="ND"/>
 		</def-attr>
-		<def-attr n="nbr_sense_sp">
+		<def-attr n="a_nbr_sense_sp">
 			<attr-item tags="sg"/>
 			<attr-item tags="pl"/>
 			<attr-item tags="ND"/>
 		</def-attr>
-
-		<def-attr n="nbr_sp">
+		<def-attr n="a_nbr_sp">
 			<attr-item tags="sp"/>
 		</def-attr>
 
-		<def-attr n="temps">
+		<def-attr n="a_temps">
 			<attr-item tags="cni"/>
 			<attr-item tags="fti"/>
 			<attr-item tags="ifi"/>
@@ -875,7 +886,7 @@
 
 	<section-def-vars>
 		<!-- RE-DEFINE -->
-		<def-var n="genere" v="&amp;lt;m&amp;gt;"/>
+		<def-var n="v_genere" v="&amp;lt;m&amp;gt;"/>
 	</section-def-vars>
 
 
@@ -909,12 +920,12 @@
 				<when>
 					<test>
 						<equal>
-							<clip pos="1" side="tl" part="gen"/>
+							<clip pos="1" side="tl" part="a_gen"/>
 							<lit-tag v="GD"/>
 						</equal>
 					</test>
 					<let>
-						<clip pos="1" side="tl" part="gen"/>
+						<clip pos="1" side="tl" part="a_gen"/>
 						<lit-tag v="m"/>
 					</let>
 				</when>
@@ -923,12 +934,12 @@
 				<when>
 					<test>
 						<equal>
-							<clip pos="1" side="tl" part="nbr"/>
+							<clip pos="1" side="tl" part="a_nbr"/>
 							<lit-tag v="ND"/>
 						</equal>
 					</test>
 					<let>
-						<clip pos="1" side="tl" part="nbr"/>
+						<clip pos="1" side="tl" part="a_nbr"/>
 						<lit-tag v="sg"/>
 					</let>
 				</when>

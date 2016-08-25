@@ -80,8 +80,8 @@
 			<cat-item tags="SV.reporting.cni.*"/>
 			<cat-item tags="SV.reporting.fti*"/>
 			<cat-item tags="SV.reporting.pii*"/>
-			<cat-item lemma="going_to_inf"	tags="SV.*"/>
-			<cat-item lemma="pro_going_to_inf"	tags="SV.*"/>
+			<cat-item lemma="going_to_inf" tags="SV.*"/>
+			<cat-item lemma="pro_going_to_inf" tags="SV.*"/>
 		</def-cat>
 
 		<def-cat n="SVGER"> <!-- BCN. Per ara no entren els compostos amb have (having won)-->
@@ -137,16 +137,16 @@
 		</def-cat>
 
 		<def-cat n="pp">
-			<cat-item lemma="pp"	tags="SA.*"/>
-			<cat-item lemma="adj"	tags="SA.*"/> <!-- BCN per que agafi bé resolutions adopted -->
+			<cat-item lemma="pp" tags="SA.*"/>
+			<cat-item lemma="adj" tags="SA.*"/> <!-- BCN per que agafi bé resolutions adopted -->
 		</def-cat>
 
 		<def-cat n="adj">
-			<cat-item lemma="adj"	tags="SA.*"/>
-			<cat-item lemma="pp_pr_np"	tags="SA.*"/>
-			<cat-item lemma="adv_ger"	tags="SA.*"/>
-			<cat-item lemma="adj_ger"	tags="SA.*"/>
-			<cat-item lemma="nom_ger"	tags="SA.*"/>
+			<cat-item lemma="adj" tags="SA.*"/>
+			<cat-item lemma="pp_pr_np" tags="SA.*"/>
+			<cat-item lemma="adv_ger" tags="SA.*"/>
+			<cat-item lemma="adj_ger" tags="SA.*"/>
+			<cat-item lemma="nom_ger" tags="SA.*"/>
 		</def-cat>
 
 		<def-cat n="DET">
@@ -186,14 +186,14 @@
 
 	<section-def-attrs>
 
-		<def-attr n="pers">
+		<def-attr n="a_pers">
 			<attr-item tags="p1"/>
 			<attr-item tags="p2"/>
 			<attr-item tags="p3"/>
 			<attr-item tags="PD"/>
 		</def-attr>
 
-		<def-attr n="gen">
+		<def-attr n="a_gen">
 			<attr-item tags="m"/>
 			<attr-item tags="f"/>
 			<attr-item tags="mf"/>
@@ -201,14 +201,14 @@
 			<attr-item tags="nt"/>
 		</def-attr>
 
-		<def-attr n="nbr">
+		<def-attr n="a_nbr">
 			<attr-item tags="sg"/>
 			<attr-item tags="pl"/>
 			<attr-item tags="sp"/>
 			<attr-item tags="ND"/>
 		</def-attr>
 
-		<def-attr n="temps">
+		<def-attr n="a_temps">
 			<attr-item tags="inf"/>
 			<attr-item tags="pres"/>
 			<attr-item tags="past"/>
@@ -233,6 +233,8 @@
 			<attr-item tags="vbhaver"/>
 			<attr-item tags="vbser"/>
 			<attr-item tags="vbmod"/>
+			<attr-item tags="vaux"/>
+			<attr-item tags="vbdo"/>
 			<attr-item tags="HAVER"/>
 		</def-attr>
 
@@ -244,7 +246,7 @@
 			<attr-item tags="PDET"/> <!--'Per determinar', per a SN UNDET que han de passar a determinats, transformació que farà el postchunk detectant els PDET. -->
 		</def-attr>
 
-		<def-attr n="tipus_prn">
+		<def-attr n="a_tipus_prn">
 			<attr-item tags="tn"/>
 			<attr-item tags="obj"/>
 			<attr-item tags="enc"/>
@@ -260,9 +262,9 @@
 
 
 	<section-def-vars>
-		<def-var n="uno"/>
-		<def-var n="nombre" v="&lt;sg&gt;"/>
-		<def-var n="genere"/>
+		<def-var n="v_uno"/>
+		<def-var n="v_nombre" v="&lt;sg&gt;"/>
+		<def-var n="v_genere"/>
 	</section-def-vars>
 
 
@@ -275,46 +277,46 @@
 				<when>
 					<test>
 						<equal>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</equal>
 					</test>
-					<let><var n="nombre"/><lit-tag v="sg"/></let>
+					<let><var n="v_nombre"/><lit-tag v="sg"/></let>
 				</when>
 				<when>
 					<test>
 						<equal>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="pl"/>
 						</equal>
 					</test>
-					<let><var n="nombre"/><lit-tag v="pl"/></let>
+					<let><var n="v_nombre"/><lit-tag v="pl"/></let>
 				</when>
 				<otherwise>
-					<let><var n="nombre"/><lit-tag v="sg"/></let>
+					<let><var n="v_nombre"/><lit-tag v="sg"/></let>
 				</otherwise>
 			</choose>
 			<choose>
 				<when>
 					<test>
 						<equal>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</equal>
 					</test>
-					<let><var n="genere"/><lit-tag v="m"/></let>
+					<let><var n="v_genere"/><lit-tag v="m"/></let>
 				</when>
 				<when>
 					<test>
 						<equal>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="f"/>
 						</equal>
 					</test>
-					<let><var n="genere"/><lit-tag v="f"/></let>
+					<let><var n="v_genere"/><lit-tag v="f"/></let>
 				</when>
 				<otherwise>
-					<let><var n="genere"/><lit-tag v="m"/></let>
+					<let><var n="v_genere"/><lit-tag v="m"/></let>
 				</otherwise>
 			</choose>
 		</def-macro>
@@ -361,7 +363,7 @@
 									<or>
 										<and>
 											<equal>
-												<clip pos="2" part="pers"/>
+												<clip pos="2" part="a_pers"/>
 												<lit-tag v="p3"/>
 											</equal>
 											<equal caseless="yes">
@@ -370,7 +372,7 @@
 											</equal>
 										</and>
 										<equal>
-											<clip pos="2" part="pers"/>
+											<clip pos="2" part="a_pers"/>
 											<lit-tag v="PD"/>
 										</equal>
 									</or>
@@ -383,19 +385,19 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="2" part="pers"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="2" part="a_pers"/>
+								<clip pos="1" part="a_pers"/>
 							</let>
 							<choose>
 								<when>
 									<test>
 										<and>
 											<equal>
-												<clip pos="1" part="nbr"/>
+												<clip pos="1" part="a_nbr"/>
 												<lit-tag v="sg"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="pers"/>
+												<clip pos="1" part="a_pers"/>
 												<lit-tag v="p3"/>
 											</equal>
 										</and>
@@ -413,7 +415,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="2" part="nbr"/>
+										<clip pos="2" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 									<not>
@@ -425,8 +427,8 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="2" part="nbr"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="2" part="a_nbr"/>
+								<clip pos="1" part="a_nbr"/>
 							</let>
 						</when>
 					</choose>
@@ -434,7 +436,7 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="2" part="gen"/>
+									<clip pos="2" part="a_gen"/>
 									<lit-tag v="GD"/>
 								</equal>
 							</test>
@@ -443,19 +445,19 @@
 									<test>
 										<not>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 										</not>
 									</test>
 									<let>
-										<clip pos="2" part="gen"/>
-										<clip pos="1" part="gen"/>
+										<clip pos="2" part="a_gen"/>
+										<clip pos="1" part="a_gen"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="2" part="gen"/>
+										<clip pos="2" part="a_gen"/>
 										<lit-tag v="m"/>
 									</let>
 								</otherwise>
@@ -469,12 +471,12 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="GD"/>
 								</equal>
 							</test>
 							<let>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="m"/>
 							</let>
 						</when>
@@ -483,7 +485,7 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="ND"/>
 								</equal>
 							</test>
@@ -496,13 +498,13 @@
 												<lit-tag v="pri"/>
 											</equal>
 											<equal>
-												<clip pos="2" part="nbr"/>
+												<clip pos="2" part="a_nbr"/>
 												<lit-tag v="ND"/>
 											</equal>
 										</and>
 									</test>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="pl"/>
 									</let>
 								</when>
@@ -514,7 +516,7 @@
 										</equal>
 									</test>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="sg"/>
 									</let>
 								</when>
@@ -530,19 +532,19 @@
 												<lit v="be"/>
 											</equal>
 											<equal>
-												<clip pos="2" part="nbr"/>
+												<clip pos="2" part="a_nbr"/>
 												<lit-tag v="ND"/>
 											</equal>
 										</and>
 									</test>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="pl"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="sg"/>
 									</let>
 								</otherwise>
@@ -555,7 +557,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="2" part="pers"/>
+										<clip pos="2" part="a_pers"/>
 										<lit-tag v="PD"/>
 									</equal>
 									<not>
@@ -567,7 +569,7 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="2" part="pers"/>
+								<clip pos="2" part="a_pers"/>
 								<lit-tag v="p3"/>
 							</let>
 						</when>
@@ -577,7 +579,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="2" part="nbr"/>
+										<clip pos="2" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 									<not>
@@ -593,19 +595,19 @@
 									<test>
 										<not>
 											<equal>
-												<clip pos="1" part="nbr"/>
+												<clip pos="1" part="a_nbr"/>
 												<lit-tag v="sp"/>
 											</equal>
 										</not>
 									</test>
 									<let>
-										<clip pos="2" part="nbr"/>
-										<clip pos="1" part="nbr"/>
+										<clip pos="2" part="a_nbr"/>
+										<clip pos="1" part="a_nbr"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="2" part="nbr"/>
+										<clip pos="2" part="a_nbr"/>
 										<lit-tag v="sg"/>
 									</let>
 								</otherwise>
@@ -616,7 +618,7 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="2" part="gen"/>
+									<clip pos="2" part="a_gen"/>
 									<lit-tag v="GD"/>
 								</equal>
 							</test>
@@ -625,19 +627,19 @@
 									<test>
 										<not>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 										</not>
 									</test>
 									<let>
-										<clip pos="2" part="gen"/>
-										<clip pos="1" part="gen"/>
+										<clip pos="2" part="a_gen"/>
+										<clip pos="1" part="a_gen"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="2" part="gen"/>
+										<clip pos="2" part="a_gen"/>
 										<lit-tag v="m"/>
 									</let>
 								</otherwise>
@@ -672,7 +674,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="3" part="pers"/>
+										<clip pos="3" part="a_pers"/>
 										<lit-tag v="PD"/>
 									</equal>
 									<not> <!--en les regles de SV no hi entren els 'ger', però s'ha afegit perquè en les regles de reporting verbs hi entren tots els temps -->
@@ -684,8 +686,8 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="3" part="pers"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="3" part="a_pers"/>
+								<clip pos="1" part="a_pers"/>
 							</let>
 						</when>
 					</choose>
@@ -694,7 +696,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="3" part="nbr"/>
+										<clip pos="3" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 									<not>
@@ -706,7 +708,7 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="pl"/>				<!-- el nombre del verb sempre pl-->
 							</let>
 						</when>
@@ -715,7 +717,7 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="GD"/>
 								</equal>
 							</test>
@@ -725,24 +727,24 @@
 										<and>
 											<not>
 												<equal>
-													<clip pos="1" part="gen"/>
+													<clip pos="1" part="a_gen"/>
 													<lit-tag v="mf"/>
 												</equal>
 											</not>
 											<equal>
-												<clip pos="1" part="gen"/>
-												<clip pos="2" part="gen"/>
+												<clip pos="1" part="a_gen"/>
+												<clip pos="2" part="a_gen"/>
 											</equal>
 										</and>
 									</test>
 									<let>
-										<clip pos="3" part="gen"/>
-										<clip pos="1" part="gen"/>
+										<clip pos="3" part="a_gen"/>
+										<clip pos="1" part="a_gen"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="3" part="gen"/>
+										<clip pos="3" part="a_gen"/>
 										<lit-tag v="m"/>
 									</let>
 								</otherwise>
@@ -756,12 +758,12 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="GD"/>
 								</equal>
 							</test>
 							<let>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="m"/>
 							</let>
 						</when>
@@ -770,7 +772,7 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="ND"/>
 								</equal>
 							</test>
@@ -783,13 +785,13 @@
 												<lit-tag v="pri"/>
 											</equal>
 											<equal>
-												<clip pos="3" part="nbr"/>
+												<clip pos="3" part="a_nbr"/>
 												<lit-tag v="ND"/>
 											</equal>
 										</and>
 									</test>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="pl"/>
 									</let>
 								</when>
@@ -801,7 +803,7 @@
 										</equal>
 									</test>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="sg"/>
 									</let>
 								</when>
@@ -817,19 +819,19 @@
 												<lit v="be"/>
 											</equal>
 											<equal>
-												<clip pos="3" part="nbr"/>
+												<clip pos="3" part="a_nbr"/>
 												<lit-tag v="ND"/>
 											</equal>
 										</and>
 									</test>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="pl"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="sg"/>
 									</let>
 								</otherwise>
@@ -842,7 +844,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="3" part="pers"/>
+										<clip pos="3" part="a_pers"/>
 										<lit-tag v="PD"/>
 									</equal>
 									<not>
@@ -854,7 +856,7 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="3" part="pers"/>
+								<clip pos="3" part="a_pers"/>
 								<lit-tag v="p3"/> <!-- MG: revisar casos, no sempre serà p3 -->
 							</let>
 						</when>
@@ -864,7 +866,7 @@
 							<test>
 								<and>
 									<equal>
-										<clip pos="3" part="nbr"/>
+										<clip pos="3" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 									<not>
@@ -876,7 +878,7 @@
 								</and>
 							</test>
 							<let>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="pl"/> <!--verbs sempre pl-->
 							</let>
 						</when>
@@ -885,7 +887,7 @@
 						<when>
 							<test>
 								<equal>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="GD"/>
 								</equal>
 							</test>
@@ -895,24 +897,24 @@
 										<and>
 											<not>
 												<equal>
-													<clip pos="1" part="gen"/>
+													<clip pos="1" part="a_gen"/>
 													<lit-tag v="mf"/>
 												</equal>
 											</not>
 											<equal>
-												<clip pos="1" part="gen"/>
-												<clip pos="2" part="gen"/>
+												<clip pos="1" part="a_gen"/>
+												<clip pos="2" part="a_gen"/>
 											</equal>
 										</and>
 									</test>
 									<let>
-										<clip pos="3" part="gen"/>
-										<clip pos="1" part="gen"/>
+										<clip pos="3" part="a_gen"/>
+										<clip pos="1" part="a_gen"/>
 									</let>
 								</when>
 								<otherwise>
 									<let>
-										<clip pos="3" part="gen"/>
+										<clip pos="3" part="a_gen"/>
 										<lit-tag v="m"/>
 									</let>
 								</otherwise>
@@ -925,12 +927,12 @@
 				<when>
 					<test>
 						<equal>
-							<clip pos="2" part="gen"/>
+							<clip pos="2" part="a_gen"/>
 							<lit-tag v="GD"/>
 						</equal>
 					</test>
 					<let>
-						<clip pos="2" part="gen"/>
+						<clip pos="2" part="a_gen"/>
 						<lit-tag v="m"/>
 					</let>
 				</when>
@@ -939,12 +941,12 @@
 				<when>
 					<test>
 						<equal>
-							<clip pos="2" part="nbr"/>
+							<clip pos="2" part="a_nbr"/>
 							<lit-tag v="ND"/>
 						</equal>
 					</test>
 					<let>
-						<clip pos="2" part="nbr"/>
+						<clip pos="2" part="a_nbr"/>
 						<lit-tag v="sg"/>
 					</let>
 				</when>
@@ -1040,12 +1042,12 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="2" part="pers"/>
+					<clip pos="2" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="2" part="nbr"/>
-					<clip pos="3" part="nbr"/>
+					<clip pos="2" part="a_nbr"/>
+					<clip pos="3" part="a_nbr"/>
 				</let>
 				<choose>
 					<when>
@@ -1102,9 +1104,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="1"/>
@@ -1115,12 +1117,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -1130,19 +1132,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -1151,12 +1153,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -1186,7 +1188,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -1198,12 +1200,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
+							<clip pos="3" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -1212,12 +1214,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="nbr"/>
+							<clip pos="3" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -1264,12 +1266,12 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="3" part="pers"/>
+					<clip pos="3" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="3" part="nbr"/>
-					<clip pos="4" part="nbr"/>
+					<clip pos="3" part="a_nbr"/>
+					<clip pos="4" part="a_nbr"/>
 				</let>
 				<choose>
 					<when>
@@ -1329,9 +1331,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="2"/>
@@ -1342,12 +1344,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -1357,19 +1359,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -1378,12 +1380,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -1417,7 +1419,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -1429,12 +1431,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="gen"/>
+								<clip pos="4" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="gen"/>
+							<clip pos="4" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -1443,12 +1445,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="nbr"/>
+								<clip pos="4" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="nbr"/>
+							<clip pos="4" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -1496,12 +1498,12 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="4" part="pers"/>
+					<clip pos="4" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="4" part="nbr"/>
-					<clip pos="5" part="nbr"/>
+					<clip pos="4" part="a_nbr"/>
+					<clip pos="5" part="a_nbr"/>
 				</let>
 				<choose>
 					<when>
@@ -1565,9 +1567,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="3"/>
@@ -1578,12 +1580,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -1593,19 +1595,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -1614,12 +1616,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -1657,7 +1659,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -1669,12 +1671,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
+							<clip pos="5" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -1683,12 +1685,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
+							<clip pos="5" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -1848,9 +1850,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="1"/>
@@ -1861,12 +1863,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -1876,19 +1878,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -1897,12 +1899,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -1931,7 +1933,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -2090,9 +2092,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="2"/>
@@ -2103,12 +2105,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -2118,19 +2120,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -2139,12 +2141,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -2179,7 +2181,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -2343,9 +2345,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="3"/>
@@ -2356,12 +2358,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -2371,19 +2373,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -2392,12 +2394,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -2436,7 +2438,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -2473,11 +2475,11 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="2" part="pers"/>
+					<clip pos="2" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="2" part="nbr"/>
+					<clip pos="2" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<choose>
@@ -2534,9 +2536,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="1"/>
@@ -2547,12 +2549,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -2562,19 +2564,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -2583,12 +2585,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -2618,7 +2620,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -2656,11 +2658,11 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="3" part="pers"/>
+					<clip pos="3" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="3" part="nbr"/>
+					<clip pos="3" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<choose>
@@ -2721,9 +2723,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="1"/>
@@ -2734,12 +2736,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -2749,19 +2751,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -2770,12 +2772,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -2808,7 +2810,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -2847,11 +2849,11 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="4" part="pers"/>
+					<clip pos="4" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="4" part="nbr"/>
+					<clip pos="4" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<choose>
@@ -2916,9 +2918,9 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro"/>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="mf"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit v="$}"/>
 							</chunk>
 							<b pos="1"/>
@@ -2929,12 +2931,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -2944,19 +2946,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="pl"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v="pl"/>
 								</let>
 							</otherwise>
@@ -2965,12 +2967,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -3007,7 +3009,7 @@
 									<lit v="prpers"/>
 								</get-case-from>
 								<lit-tag v="prn.pro.p3.mf"/>
-								<var n="nombre"/>
+								<var n="v_nombre"/>
 								<lit v="$}"/>
 							</chunk>
 							<b/>
@@ -3045,11 +3047,11 @@
 					</when>
 				</choose>
 				<let> <!--posa-ho com a p3 sg perquè 'hay' sempre és p3 i sg (hay coches) -->
-					<clip pos="2" part="pers"/>
+					<clip pos="2" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="2" part="nbr"/>
+					<clip pos="2" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<let>
@@ -3061,12 +3063,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
+							<clip pos="3" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -3075,7 +3077,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -3088,13 +3090,13 @@
 											<lit-tag v="pri"/>
 										</equal>
 										<equal>
-											<clip pos="2" part="nbr"/>
+											<clip pos="2" part="a_nbr"/>
 											<lit-tag v="ND"/>
 										</equal>
 									</and>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</let>
 							</when>
@@ -3106,7 +3108,7 @@
 									</equal>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -3122,19 +3124,19 @@
 											<lit v="be"/>
 										</equal>
 										<equal>
-											<clip pos="2" part="nbr"/>
+											<clip pos="2" part="a_nbr"/>
 											<lit-tag v="ND"/>
 										</equal>
 									</and>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -3212,11 +3214,11 @@
 					</when>
 				</choose>
 				<let> <!--posa-ho com a p3 sg perquè en català 'haver-hi' sempre és en p3 i sg (hi ha cotxes) -->
-					<clip pos="3" part="pers"/>
+					<clip pos="3" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="3" part="nbr"/>
+					<clip pos="3" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<let>
@@ -3228,12 +3230,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="gen"/>
+								<clip pos="4" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="gen"/>
+							<clip pos="4" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -3242,7 +3244,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="nbr"/>
+								<clip pos="4" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -3255,13 +3257,13 @@
 											<lit-tag v="pri"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="nbr"/>
+											<clip pos="3" part="a_nbr"/>
 											<lit-tag v="ND"/>
 										</equal>
 									</and>
 								</test>
 								<let>
-									<clip pos="4" part="nbr"/>
+									<clip pos="4" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</let>
 							</when>
@@ -3273,7 +3275,7 @@
 									</equal>
 								</test>
 								<let>
-									<clip pos="4" part="nbr"/>
+									<clip pos="4" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -3289,19 +3291,19 @@
 											<lit v="be"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="nbr"/>
+											<clip pos="3" part="a_nbr"/>
 											<lit-tag v="ND"/>
 										</equal>
 									</and>
 								</test>
 								<let>
-									<clip pos="4" part="nbr"/>
+									<clip pos="4" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="4" part="nbr"/>
+									<clip pos="4" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -3355,11 +3357,11 @@
 					</when>
 				</choose>
 				<let> <!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg -->
-					<clip pos="4" part="pers"/>
+					<clip pos="4" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="4" part="nbr"/>
+					<clip pos="4" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<let>
@@ -3371,12 +3373,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
+							<clip pos="5" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -3385,7 +3387,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -3398,13 +3400,13 @@
 											<lit-tag v="pri"/>
 										</equal>
 										<equal>
-											<clip pos="4" part="nbr"/>
+											<clip pos="4" part="a_nbr"/>
 											<lit-tag v="ND"/>
 										</equal>
 									</and>
 								</test>
 								<let>
-									<clip pos="5" part="nbr"/>
+									<clip pos="5" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</let>
 							</when>
@@ -3416,7 +3418,7 @@
 									</equal>
 								</test>
 								<let>
-									<clip pos="5" part="nbr"/>
+									<clip pos="5" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -3432,19 +3434,19 @@
 											<lit v="be"/>
 										</equal>
 										<equal>
-											<clip pos="4" part="nbr"/>
+											<clip pos="4" part="a_nbr"/>
 											<lit-tag v="ND"/>
 										</equal>
 									</and>
 								</test>
 								<let>
-									<clip pos="5" part="nbr"/>
+									<clip pos="5" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="5" part="nbr"/>
+									<clip pos="5" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -3499,11 +3501,11 @@
 					</when>
 				</choose>
 				<let> <!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg -->
-					<clip pos="2" part="pers"/>
+					<clip pos="2" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="2" part="nbr"/>
+					<clip pos="2" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<let>
@@ -3544,11 +3546,11 @@
 					</when>
 				</choose>
 				<let> <!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg	-->
-					<clip pos="3" part="pers"/>
+					<clip pos="3" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="3" part="nbr"/>
+					<clip pos="3" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<let>
@@ -3594,11 +3596,11 @@
 					</when>
 				</choose>
 				<let> <!--posa-ho com a p3 sg perquè 'hay' sempre és en p3 i sg	-->
-					<clip pos="4" part="pers"/>
+					<clip pos="4" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<let>
-					<clip pos="4" part="nbr"/>
+					<clip pos="4" part="a_nbr"/>
 					<lit-tag v="sg"/>
 				</let>
 				<let>
@@ -3789,12 +3791,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -3803,12 +3805,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -3890,12 +3892,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -3904,12 +3906,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -3953,13 +3955,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="5" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -3967,13 +3969,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
-							<var n="genere"/>
+							<clip pos="5" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -4316,12 +4318,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -4330,12 +4332,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -4423,12 +4425,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -4437,12 +4439,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -4562,13 +4564,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="3" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -4576,13 +4578,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
-							<var n="genere"/>
+							<clip pos="3" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -4652,7 +4654,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -4661,31 +4663,31 @@
 								<test>
 									<or>
 										<equal>
-											<clip pos="1" part="gen"/>
+											<clip pos="1" part="a_gen"/>
 											<lit-tag v="m"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="gen"/>
+											<clip pos="1" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="m"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 									</or>
 								</test>
 								<let>
-									<clip pos="5" part="gen"/>
+									<clip pos="5" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="5" part="gen"/>
+									<clip pos="5" part="a_gen"/>
 									<lit-tag v="f"/>
 								</let>
 							</otherwise>
@@ -4696,12 +4698,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/> <!--sempre serà pl-->
+							<clip pos="5" part="a_nbr"/> <!--sempre serà pl-->
 							<lit-tag v="pl"/>
 						</let>
 					</when>
@@ -4716,7 +4718,7 @@
 					<with-param pos="1"/>
 				</call-macro>
 				<let>
-					<var n="nombre"/>
+					<var n="v_nombre"/>
 					<lit-tag v="pl"/>
 				</let>
 			</action>
@@ -4796,13 +4798,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="3" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -4810,13 +4812,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="5" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -4824,13 +4826,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
-							<var n="genere"/>
+							<clip pos="3" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -4838,13 +4840,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
-							<var n="genere"/>
+							<clip pos="5" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -4945,13 +4947,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="nbr"/>
+								<clip pos="4" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="4" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -4959,13 +4961,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="gen"/>
+								<clip pos="4" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="gen"/>
-							<var n="genere"/>
+							<clip pos="4" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -5058,13 +5060,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="nbr"/>
+								<clip pos="4" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="4" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -5072,13 +5074,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="gen"/>
+								<clip pos="4" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="gen"/>
-							<var n="genere"/>
+							<clip pos="4" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -5180,13 +5182,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="5" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -5194,13 +5196,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
-							<var n="genere"/>
+							<clip pos="5" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -5273,7 +5275,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="6" part="gen"/>
+								<clip pos="6" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -5282,31 +5284,31 @@
 								<test>
 									<or>
 										<equal>
-											<clip pos="1" part="gen"/>
+											<clip pos="1" part="a_gen"/>
 											<lit-tag v="m"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="gen"/>
+											<clip pos="1" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="m"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 									</or>
 								</test>
 								<let>
-									<clip pos="6" part="gen"/>
+									<clip pos="6" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="6" part="gen"/>
+									<clip pos="6" part="a_gen"/>
 									<lit-tag v="f"/>
 								</let>
 							</otherwise>
@@ -5317,12 +5319,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="6" part="nbr"/>
+								<clip pos="6" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="6" part="nbr"/> <!--sempre serà pl-->
+							<clip pos="6" part="a_nbr"/> <!--sempre serà pl-->
 							<lit-tag v="pl"/>
 						</let>
 					</when>
@@ -5337,7 +5339,7 @@
 					<with-param pos="1"/>
 				</call-macro>
 				<let>
-					<var n="nombre"/>
+					<var n="v_nombre"/>
 					<lit-tag v="pl"/>
 				</let>
 			</action>
@@ -5409,7 +5411,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="7" part="gen"/>
+								<clip pos="7" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -5418,31 +5420,31 @@
 								<test>
 									<or>
 										<equal>
-											<clip pos="1" part="gen"/>
+											<clip pos="1" part="a_gen"/>
 											<lit-tag v="m"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="gen"/>
+											<clip pos="1" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="m"/>
 										</equal>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 									</or>
 								</test>
 								<let>
-									<clip pos="7" part="gen"/>
+									<clip pos="7" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="7" part="gen"/>
+									<clip pos="7" part="a_gen"/>
 									<lit-tag v="f"/>
 								</let>
 							</otherwise>
@@ -5453,12 +5455,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="6" part="nbr"/>
+								<clip pos="6" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="7" part="nbr"/> <!--sempre serà pl-->
+							<clip pos="7" part="a_nbr"/> <!--sempre serà pl-->
 							<lit-tag v="pl"/>
 						</let>
 					</when>
@@ -5474,7 +5476,7 @@
 					<with-param pos="1"/>
 				</call-macro>
 				<let>
-					<var n="nombre"/>
+					<var n="v_nombre"/>
 					<lit-tag v="pl"/>
 				</let>
 			</action>
@@ -5571,13 +5573,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="3" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -5585,13 +5587,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
-							<var n="genere"/>
+							<clip pos="3" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -5702,13 +5704,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="nbr"/>
+								<clip pos="4" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="4" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -5716,13 +5718,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="gen"/>
+								<clip pos="4" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="gen"/>
-							<var n="genere"/>
+							<clip pos="4" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -5791,7 +5793,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -5801,24 +5803,24 @@
 									<not>
 										<or>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="nt"/>
 											</equal>
 										</or>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<clip pos="1" part="gen"/>
+									<clip pos="3" part="a_gen"/>
+									<clip pos="1" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -5829,7 +5831,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -5838,20 +5840,20 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="1" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="1" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise> <!--assigna-li el nombre del verb -->
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="4" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="4" part="a_nbr"/>
 								</let>
 							</otherwise>
 						</choose>
@@ -5881,13 +5883,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="5" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -5895,13 +5897,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
-							<var n="genere"/>
+							<clip pos="5" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -5971,7 +5973,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -5981,24 +5983,24 @@
 									<not>
 										<or>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="nt"/>
 											</equal>
 										</or>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<clip pos="1" part="gen"/>
+									<clip pos="3" part="a_gen"/>
+									<clip pos="1" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -6009,7 +6011,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -6018,20 +6020,20 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="1" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="1" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise> <!--assigna-li el nombre del verb -->
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="4" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="4" part="a_nbr"/>
 								</let>
 							</otherwise>
 						</choose>
@@ -6065,13 +6067,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="6" part="nbr"/>
+								<clip pos="6" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="6" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="6" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -6079,13 +6081,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="6" part="gen"/>
+								<clip pos="6" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="6" part="gen"/>
-							<var n="genere"/>
+							<clip pos="6" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -6130,7 +6132,7 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="3" part="tipus_prn"/>
+					<clip pos="3" part="a_tipus_prn"/>
 					<lit-tag v="pro"/>
 				</let>
 				<choose>
@@ -6146,16 +6148,16 @@
 								<test>
 									<and>
 										<equal>
-											<clip pos="1" part="pers"/>
-											<clip pos="3" part="pers"/>
+											<clip pos="1" part="a_pers"/>
+											<clip pos="3" part="a_pers"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="gen"/>
-											<clip pos="3" part="gen"/>
+											<clip pos="1" part="a_gen"/>
+											<clip pos="3" part="a_gen"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="nbr"/>
-											<clip pos="3" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
+											<clip pos="3" part="a_nbr"/>
 										</equal>
 									</and>
 								</test>
@@ -6188,12 +6190,12 @@
 								<test>
 									<and>
 										<equal>
-											<clip pos="3" part="pers"/>
+											<clip pos="3" part="a_pers"/>
 											<lit-tag v="p3"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="nbr"/>
-											<clip pos="3" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
+											<clip pos="3" part="a_nbr"/>
 										</equal>
 
 									</and>
@@ -6256,7 +6258,7 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="4" part="tipus_prn"/>
+					<clip pos="4" part="a_tipus_prn"/>
 					<lit-tag v="pro"/>
 				</let>
 				<choose>
@@ -6272,16 +6274,16 @@
 								<test>
 									<and>
 										<equal>
-											<clip pos="1" part="pers"/>
-											<clip pos="4" part="pers"/>
+											<clip pos="1" part="a_pers"/>
+											<clip pos="4" part="a_pers"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="gen"/>
-											<clip pos="4" part="gen"/>
+											<clip pos="1" part="a_gen"/>
+											<clip pos="4" part="a_gen"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="nbr"/>
-											<clip pos="4" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
+											<clip pos="4" part="a_nbr"/>
 										</equal>
 									</and>
 								</test>
@@ -6318,12 +6320,12 @@
 								<test>
 									<and>
 										<equal>
-											<clip pos="4" part="pers"/>
+											<clip pos="4" part="a_pers"/>
 											<lit-tag v="p3"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="nbr"/>
-											<clip pos="4" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
+											<clip pos="4" part="a_nbr"/>
 										</equal>
 
 									</and>
@@ -6386,12 +6388,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="pers"/>
+										<clip pos="1" part="a_pers"/>
 										<lit-tag v="PD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="pers"/>
+									<clip pos="1" part="a_pers"/>
 									<lit-tag v="p3"/>
 								</let>
 							</when>
@@ -6400,12 +6402,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -6414,12 +6416,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -6427,7 +6429,7 @@
 					</when>
 				</choose>
 				<let>
-					<clip pos="2" part="tipus_prn"/>
+					<clip pos="2" part="a_tipus_prn"/>
 					<lit-tag v="pro"/>
 				</let>
 				<choose>
@@ -6435,12 +6437,12 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="2" part="pers"/>
+									<clip pos="2" part="a_pers"/>
 									<lit-tag v="p3"/>
 								</equal>
 								<equal>
-									<clip pos="1" part="nbr"/>
-									<clip pos="2" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
+									<clip pos="2" part="a_nbr"/>
 								</equal>
 							</and>
 						</test>
@@ -6659,7 +6661,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -6669,24 +6671,24 @@
 									<not>
 										<or>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="nt"/>
 											</equal>
 										</or>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<clip pos="1" part="gen"/>
+									<clip pos="3" part="a_gen"/>
+									<clip pos="1" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -6697,7 +6699,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -6706,20 +6708,20 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="1" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="1" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise> <!--assigna-li el nombre del verb -->
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="4" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="4" part="a_nbr"/>
 								</let>
 							</otherwise>
 						</choose>
@@ -6783,7 +6785,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -6793,24 +6795,24 @@
 									<not>
 										<or>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="nt"/>
 											</equal>
 										</or>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<clip pos="1" part="gen"/>
+									<clip pos="3" part="a_gen"/>
+									<clip pos="1" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -6821,7 +6823,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -6830,20 +6832,20 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="1" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="1" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise> <!--assigna-li el nombre del verb -->
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="4" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="4" part="a_nbr"/>
 								</let>
 							</otherwise>
 						</choose>
@@ -6874,13 +6876,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="5" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -6888,13 +6890,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
-							<var n="genere"/>
+							<clip pos="5" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -6944,7 +6946,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -6954,24 +6956,24 @@
 									<not>
 										<or>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="mf"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="gen"/>
+												<clip pos="1" part="a_gen"/>
 												<lit-tag v="nt"/>
 											</equal>
 										</or>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<clip pos="1" part="gen"/>
+									<clip pos="3" part="a_gen"/>
+									<clip pos="1" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -6982,7 +6984,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -6991,20 +6993,20 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="1" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="1" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise> <!--assigna-li el nombre del verb -->
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="4" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="4" part="a_nbr"/>
 								</let>
 							</otherwise>
 						</choose>
@@ -7038,13 +7040,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="nbr"/>
+								<clip pos="5" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="5" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -7052,13 +7054,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="7" part="nbr"/>
+								<clip pos="7" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="7" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="7" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</when>
 				</choose>
@@ -7066,13 +7068,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="5" part="gen"/>
+								<clip pos="5" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="5" part="gen"/>
-							<var n="genere"/>
+							<clip pos="5" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -7080,13 +7082,13 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="7" part="gen"/>
+								<clip pos="7" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="7" part="gen"/>
-							<var n="genere"/>
+							<clip pos="7" part="a_gen"/>
+							<var n="v_genere"/>
 						</let>
 					</when>
 				</choose>
@@ -7139,12 +7141,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
+							<clip pos="3" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -7153,12 +7155,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="nbr"/>
+							<clip pos="3" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -7247,12 +7249,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -7261,19 +7263,19 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
 				</choose>
 				<!--el gerundi sempre és PD i ND, ara cal assignar-li persona p3 i nbr del SN -->
 				<let>
-					<clip pos="2" part="pers"/>
+					<clip pos="2" part="a_pers"/>
 					<lit-tag v="p3"/>
 				</let>
 				<choose>
@@ -7281,19 +7283,19 @@
 						<test>
 							<not>
 								<equal>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sp"/>
 								</equal>
 							</not>
 						</test>
 						<let>
-							<clip pos="2" part="nbr"/>
-							<clip pos="1" part="nbr"/>
+							<clip pos="2" part="a_nbr"/>
+							<clip pos="1" part="a_nbr"/>
 						</let>
 					</when>
 					<otherwise>
 						<let>
-							<clip pos="2" part="nbr"/>
+							<clip pos="2" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</otherwise>
@@ -7443,12 +7445,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="pers"/>
+								<clip pos="3" part="a_pers"/>
 								<lit-tag v="PD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="pers"/>
+							<clip pos="3" part="a_pers"/>
 							<lit-tag v="p3"/>
 						</let>
 					</when>
@@ -7457,7 +7459,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -7466,19 +7468,19 @@
 								<test>
 									<not>
 										<equal>
-											<var n="nombre"/>
+											<var n="v_nombre"/>
 											<lit v=""/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<var n="nombre"/>
+									<clip pos="3" part="a_nbr"/>
+									<var n="v_nombre"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -7489,7 +7491,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -7498,19 +7500,19 @@
 								<test>
 									<not>
 										<equal>
-											<var n="genere"/>
+											<var n="v_genere"/>
 											<lit v=""/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<var n="genere"/>
+									<clip pos="3" part="a_gen"/>
+									<var n="v_genere"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -7523,12 +7525,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="gen"/>
+								<clip pos="4" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="gen"/>
+							<clip pos="4" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -7537,12 +7539,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="4" part="nbr"/>
+								<clip pos="4" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="4" part="nbr"/>
+							<clip pos="4" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -7612,12 +7614,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="pers"/>
+								<clip pos="2" part="a_pers"/>
 								<lit-tag v="PD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="2" part="pers"/>
+							<clip pos="2" part="a_pers"/>
 							<lit-tag v="p3"/>
 						</let>
 					</when>
@@ -7626,7 +7628,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="nbr"/>
+								<clip pos="2" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -7635,19 +7637,19 @@
 								<test>
 									<not>
 										<equal>
-											<var n="nombre"/>
+											<var n="v_nombre"/>
 											<lit v=""/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="2" part="nbr"/>
-									<var n="nombre"/>
+									<clip pos="2" part="a_nbr"/>
+									<var n="v_nombre"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="2" part="nbr"/>
+									<clip pos="2" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -7658,7 +7660,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="gen"/>
+								<clip pos="2" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -7667,19 +7669,19 @@
 								<test>
 									<not>
 										<equal>
-											<var n="genere"/>
+											<var n="v_genere"/>
 											<lit v=""/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="2" part="gen"/>
-									<var n="genere"/>
+									<clip pos="2" part="a_gen"/>
+									<var n="v_genere"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="2" part="gen"/>
+									<clip pos="2" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -7724,12 +7726,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="pers"/>
+								<clip pos="3" part="a_pers"/>
 								<lit-tag v="PD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="pers"/>
+							<clip pos="3" part="a_pers"/>
 							<lit-tag v="p3"/>
 						</let>
 					</when>
@@ -7738,7 +7740,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -7747,19 +7749,19 @@
 								<test>
 									<not>
 										<equal>
-											<var n="nombre"/>
+											<var n="v_nombre"/>
 											<lit v=""/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<var n="nombre"/>
+									<clip pos="3" part="a_nbr"/>
+									<var n="v_nombre"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -7770,7 +7772,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -7779,19 +7781,19 @@
 								<test>
 									<not>
 										<equal>
-											<var n="genere"/>
+											<var n="v_genere"/>
 											<lit v=""/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="gen"/>
-									<var n="genere"/>
+									<clip pos="3" part="a_gen"/>
+									<var n="v_genere"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="gen"/>
+									<clip pos="3" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -7826,12 +7828,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="gen"/>
+								<clip pos="2" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="2" part="gen"/>
+							<clip pos="2" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -7840,12 +7842,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="nbr"/>
+								<clip pos="2" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="2" part="nbr"/>
+							<clip pos="2" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -7854,7 +7856,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -7863,19 +7865,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="2" part="gen"/>
+											<clip pos="2" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
-									<clip pos="2" part="gen"/>
+									<clip pos="1" part="a_gen"/>
+									<clip pos="2" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -7886,7 +7888,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -7895,19 +7897,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="2" part="nbr"/>
+											<clip pos="2" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
-									<clip pos="2" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
+									<clip pos="2" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -7949,12 +7951,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
+							<clip pos="3" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -7963,7 +7965,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -7973,24 +7975,24 @@
 									<not>
 										<or>
 											<equal>
-												<clip pos="1" part="nbr"/>
+												<clip pos="1" part="a_nbr"/>
 												<lit-tag v="sp"/>
 											</equal>
 											<equal>
-												<clip pos="1" part="nbr"/>
+												<clip pos="1" part="a_nbr"/>
 												<lit-tag v="ND"/>
 											</equal>
 										</or>
 									</not>
 								</test>
 								<let>
-									<clip pos="3" part="nbr"/>
-									<clip pos="1" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
+									<clip pos="1" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="3" part="nbr"/>
+									<clip pos="3" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -8001,7 +8003,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="gen"/>
+								<clip pos="2" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -8010,19 +8012,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="2" part="gen"/>
-									<clip pos="3" part="gen"/>
+									<clip pos="2" part="a_gen"/>
+									<clip pos="3" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="2" part="gen"/>
+									<clip pos="2" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -8033,7 +8035,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="2" part="nbr"/>
+								<clip pos="2" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -8042,19 +8044,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="3" part="nbr"/>
+											<clip pos="3" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="2" part="nbr"/>
-									<clip pos="3" part="nbr"/>
+									<clip pos="2" part="a_nbr"/>
+									<clip pos="3" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="2" part="nbr"/>
+									<clip pos="2" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -8065,7 +8067,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
@@ -8074,19 +8076,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="3" part="gen"/>
+											<clip pos="3" part="a_gen"/>
 											<lit-tag v="mf"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
-									<clip pos="3" part="gen"/>
+									<clip pos="1" part="a_gen"/>
+									<clip pos="3" part="a_gen"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</otherwise>
@@ -8097,7 +8099,7 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
@@ -8106,19 +8108,19 @@
 								<test>
 									<not>
 										<equal>
-											<clip pos="3" part="nbr"/>
+											<clip pos="3" part="a_nbr"/>
 											<lit-tag v="sp"/>
 										</equal>
 									</not>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
-									<clip pos="3" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
+									<clip pos="3" part="a_nbr"/>
 								</let>
 							</when>
 							<otherwise>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</otherwise>
@@ -8163,12 +8165,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8177,12 +8179,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -8191,12 +8193,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="gen"/>
+								<clip pos="3" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="gen"/>
+							<clip pos="3" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8205,12 +8207,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="3" part="nbr"/>
+								<clip pos="3" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="3" part="nbr"/>
+							<clip pos="3" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -8261,12 +8263,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8276,24 +8278,24 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="ND"/>
 								</equal>
 								<equal>
-									<var n="nombre"/>
+									<var n="v_nombre"/>
 									<lit-tag v=""/>
 								</equal>
 							</and>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
 					<otherwise>
 						<let>
-							<clip pos="1" part="nbr"/>
-							<var n="nombre"/>
+							<clip pos="1" part="a_nbr"/>
+							<var n="v_nombre"/>
 						</let>
 					</otherwise>
 				</choose>
@@ -8315,12 +8317,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8329,12 +8331,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -8360,12 +8362,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8374,12 +8376,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -8418,12 +8420,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="pers"/>
+										<clip pos="1" part="a_pers"/>
 										<lit-tag v="PD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="pers"/>
+									<clip pos="1" part="a_pers"/>
 									<lit-tag v="p3"/>
 								</let>
 							</when>
@@ -8432,12 +8434,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="nbr"/>
+										<clip pos="1" part="a_nbr"/>
 										<lit-tag v="ND"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</let>
 							</when>
@@ -8446,12 +8448,12 @@
 							<when>
 								<test>
 									<equal>
-										<clip pos="1" part="gen"/>
+										<clip pos="1" part="a_gen"/>
 										<lit-tag v="GD"/>
 									</equal>
 								</test>
 								<let>
-									<clip pos="1" part="gen"/>
+									<clip pos="1" part="a_gen"/>
 									<lit-tag v="m"/>
 								</let>
 							</when>
@@ -8479,12 +8481,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8493,12 +8495,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -8521,12 +8523,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="gen"/>
+								<clip pos="1" part="a_gen"/>
 								<lit-tag v="GD"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="m"/>
 						</let>
 					</when>
@@ -8535,12 +8537,12 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_nbr"/>
 								<lit-tag v="ND"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sg"/>
 						</let>
 					</when>
@@ -8560,7 +8562,7 @@
 			</pattern>
 			<action>
 				<let>
-					<var n="nombre"/>
+					<var n="v_nombre"/>
 					<lit-tag v="sg"/>
 				</let>
 				<out>

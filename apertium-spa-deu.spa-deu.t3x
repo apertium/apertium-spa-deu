@@ -63,22 +63,23 @@
 
 	<section-def-attrs>
 
-		<def-attr n="pers">
+		<def-attr n="a_pers">
 			<attr-item tags="p1"/>
 			<attr-item tags="p2"/>
 			<attr-item tags="p3"/>
 			<attr-item tags="PD"/>
 		</def-attr>
 
-		<def-attr n="gen">
+		<def-attr n="a_gen">
 			<attr-item tags="m"/>
 			<attr-item tags="f"/>
 			<attr-item tags="mf"/>
-			<attr-item tags="GD"/>
 			<attr-item tags="nt"/>
+			<attr-item tags="mfn"/>
+			<attr-item tags="GD"/>
 		</def-attr>
 
-		<def-attr n="nbr">
+		<def-attr n="a_nbr">
 			<attr-item tags="sg"/>
 			<attr-item tags="pl"/>
 			<attr-item tags="sp"/>
@@ -91,9 +92,10 @@
 			<attr-item tags="vbhaver"/>
 			<attr-item tags="vbmod"/>
 			<attr-item tags="vaux"/>
+			<attr-item tags="vbdo"/>
 		</def-attr>
 
-		<def-attr n="temps">
+		<def-attr n="a_temps">
 			<attr-item tags="inf"/>
 			<attr-item tags="pres"/>
 			<attr-item tags="past"/>
@@ -111,7 +113,7 @@
 			<attr-item tags="fti"/>
 		</def-attr>
 
-		<def-attr n="flexio">
+		<def-attr n="a_flexio">
 			<attr-item tags="p1.sg"/>
 			<attr-item tags="p1.pl"/>
 			<attr-item tags="p2.sg"/>
@@ -130,8 +132,8 @@
 
 
 	<section-def-vars>
-		<def-var n="paraula"/>
-		<def-var n="temps_aux"/>
+		<def-var n="v_paraula"/>
+		<def-var n="v_temps_aux"/>
 	</section-def-vars>
 
 
@@ -289,17 +291,17 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="1" part="temps"/>
+									<clip pos="1" part="a_temps"/>
 									<lit-tag v="pri"/>
 								</equal>
 								<not>
 									<or>
 										<equal>
-											<clip pos="1" part="flexio"/>
+											<clip pos="1" part="a_flexio"/>
 											<lit-tag v="p3.sg"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="flexio"/>
+											<clip pos="1" part="a_flexio"/>
 											<lit-tag v="p1.sg"/>
 										</equal>
 									</or>
@@ -307,11 +309,11 @@
 							</and>
 						</test>
 						<let>
-							<clip pos="1" part="temps"/>
+							<clip pos="1" part="a_temps"/>
 							<lit-tag v="pres"/>
 						</let>
 						<let>
-							<clip pos="1" part="flexio"/>
+							<clip pos="1" part="a_flexio"/>
 							<lit v=""/>
 						</let>
 					</when>
@@ -322,17 +324,17 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="1" part="temps"/>
+									<clip pos="1" part="a_temps"/>
 									<lit-tag v="past"/>
 								</equal>
 								<not>
 									<or>
 										<equal>
-											<clip pos="1" part="flexio"/>
+											<clip pos="1" part="a_flexio"/>
 											<lit-tag v="p3.sg"/>
 										</equal>
 										<equal>
-											<clip pos="1" part="flexio"/>
+											<clip pos="1" part="a_flexio"/>
 											<lit-tag v="p1.sg"/>
 										</equal>
 									</or>
@@ -340,11 +342,11 @@
 							</and>
 						</test>
 						<let>
-							<clip pos="1" part="temps"/>
+							<clip pos="1" part="a_temps"/>
 							<lit-tag v="past"/>
 						</let>
 						<let>
-							<clip pos="1" part="flexio"/>
+							<clip pos="1" part="a_flexio"/>
 							<lit v=""/>
 						</let>
 					</when>
@@ -354,16 +356,16 @@
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="temps"/>
+								<clip pos="1" part="a_temps"/>
 								<lit-tag v="pii"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="temps"/>
+							<clip pos="1" part="a_temps"/>
 							<lit-tag v="past"/>
 						</let>
 						<let>
-							<clip pos="1" part="flexio"/>
+							<clip pos="1" part="a_flexio"/>
 							<lit v=""/>
 						</let>
 					</when>
@@ -409,33 +411,33 @@
 										<test>
 											<and>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="pri"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="pers"/>
+													<clip pos="0" part="a_pers"/>
 													<lit-tag v="p3"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="nbr"/>
+													<clip pos="0" part="a_nbr"/>
 													<lit-tag v="sg"/>
 												</equal>
 											</and>
 										</test>
 										<let>
-											<var n="temps_aux"/>
+											<var n="v_temps_aux"/>
 											<lit-tag v="pri.p3.sg"/>
 										</let>
 										<let>
-											<clip pos="1" part="temps"/>
+											<clip pos="1" part="a_temps"/>
 											<lit-tag v="inf"/>
 										</let>
 										<let>
-											<clip pos="1" part="pers"/>
+											<clip pos="1" part="a_pers"/>
 											<lit v=""/>
 										</let>
 										<let>
-											<clip pos="1" part="nbr"/>
+											<clip pos="1" part="a_nbr"/>
 											<lit v=""/>
 										</let>
 									</when>
@@ -443,21 +445,21 @@
 										<test>
 											<or>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="pri"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="prs"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="imp"/>
 												</equal>
 											</or>
 										</test>
 										<let>
-											<var n="temps_aux"/>
+											<var n="v_temps_aux"/>
 											<lit-tag v="pres"/>
 										</let>
 									</when>
@@ -465,33 +467,33 @@
 										<test>
 											<or>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="cni"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="ifi"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="pii"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="pis"/>
 												</equal>
 												<equal>
-													<clip pos="0" part="temps"/>
+													<clip pos="0" part="a_temps"/>
 													<lit-tag v="past"/>
 												</equal>
 											</or>
 										</test>
 										<let>
-											<var n="temps_aux"/>
+											<var n="v_temps_aux"/>
 											<lit-tag v="past"/>
 										</let>
 										<let>
-											<clip pos="1" part="temps"/>
+											<clip pos="1" part="a_temps"/>
 											<lit-tag v="inf"/>
 										</let>
 									</when>
@@ -502,7 +504,7 @@
 											<lit v="do"/>
 										</get-case-from>
 										<lit-tag v="vbdo"/>
-										<var n="temps_aux"/>
+										<var n="v_temps_aux"/>
 									</lu>
 									<b/>
 									<lu>
@@ -561,9 +563,9 @@
 							<lu>
 								<clip pos="1" part="lemh"/>
 								<clip pos="1" part="a_verb"/>
-								<clip pos="1" part="temps"/>
-								<clip pos="1" part="pers"/>
-								<clip pos="1" part="nbr"/>
+								<clip pos="1" part="a_temps"/>
+								<clip pos="1" part="a_pers"/>
+								<clip pos="1" part="a_nbr"/>
 							</lu>
 							<b/>
 							<lu>
@@ -595,39 +597,39 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="1" part="pers"/>
+									<clip pos="1" part="a_pers"/>
 									<lit-tag v="p3"/>
 								</equal>
 								<equal>
-									<clip pos="1" part="nbr"/>
+									<clip pos="1" part="a_nbr"/>
 									<lit-tag v="sg"/>
 								</equal>
 							</and>
 						</test>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="nt"/>
 						</let>
 					</when>
 					<when>
 						<test>
 							<equal>
-								<clip pos="1" part="pers"/>
+								<clip pos="1" part="a_pers"/>
 								<lit-tag v="p2"/>
 							</equal>
 						</test>
 						<let>
-							<clip pos="1" part="nbr"/>
+							<clip pos="1" part="a_nbr"/>
 							<lit-tag v="sp"/>
 						</let>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="mf"/>
 						</let>
 					</when>
 					<otherwise>
 						<let>
-							<clip pos="1" part="gen"/>
+							<clip pos="1" part="a_gen"/>
 							<lit-tag v="mf"/>
 						</let>
 					</otherwise>
@@ -651,11 +653,11 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="pri"/>
 								</equal>
 								<equal>
-									<clip pos="0" part="nbr"/>
+									<clip pos="0" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</equal>
 							</and>
@@ -676,11 +678,11 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="past"/>
 								</equal>
 								<equal>
-									<clip pos="0" part="nbr"/>
+									<clip pos="0" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</equal>
 							</and>
@@ -693,7 +695,7 @@
 							<lu>
 								<clip pos="2" part="lem"/>
 								<clip pos="2" part="a_verb"/>
-								<clip pos="2" part="temps"/>
+								<clip pos="2" part="a_temps"/>
 							</lu>
 						</out>
 					</when>
@@ -731,11 +733,11 @@
 						<test>
 							<or>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="cni"/>
 								</equal>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="fti"/>
 								</equal>
 							</or>
@@ -762,11 +764,11 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="0" part="nbr"/>
+									<clip pos="0" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</equal>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="pri"/>
 								</equal>
 							</and>
@@ -788,11 +790,11 @@
 						<test>
 							<and>
 								<equal>
-									<clip pos="0" part="nbr"/>
+									<clip pos="0" part="a_nbr"/>
 									<lit-tag v="pl"/>
 								</equal>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="past"/>
 								</equal>
 							</and>
@@ -805,7 +807,7 @@
 							<lu>
 								<clip pos="2" part="lem"/>
 								<clip pos="2" part="a_verb"/>
-								<clip pos="2" part="temps"/>
+								<clip pos="2" part="a_temps"/>
 							</lu>
 							<b pos="2"/>
 						</out>
@@ -851,11 +853,11 @@
 						<test>
 							<or>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="cni"/>
 								</equal>
 								<equal>
-									<clip pos="0" part="temps"/>
+									<clip pos="0" part="a_temps"/>
 									<lit-tag v="fti"/>
 								</equal>
 							</or>
