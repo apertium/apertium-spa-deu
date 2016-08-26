@@ -662,8 +662,12 @@
 <e><p><l>atención<s n="n"/><s n="f"/></l><r>Aufmerksamkeit<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>animal<s n="n"/><s n="m"/></l><r>Tier<s n="n"/><s n="nt"/></r></p></e>
 
+<e><p><l>hora<s n="n"/><s n="f"/></l><r>Zeit<s n="n"/><s n="f"/></r></p></e>
+<e><p><l>busca<s n="n"/><s n="f"/></l><r>Suche<s n="n"/><s n="f"/></r></p></e>
+
 <e><p><l>Jaime<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaime<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>María<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e><p><l>María<s n="np"/><s n="ant"/><s n="f"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 <e><p><l>viejo<s n="adj"/></l><r>alt<s n="adj"/></r></p></e>
 <e><p><l>pequeño<s n="adj"/></l><r>klein<s n="adj"/></r></p></e>
@@ -708,6 +712,9 @@
 <e><p><l>aún<s n="adv"/></l><r>noch<s n="adv"/></r></p></e>
 <e><p><l>alrededor<s n="adv"/></l><r>herum<s n="adv"/></r></p></e>
 <e><p><l>afuera<s n="adv"/></l><r>draußen<s n="adv"/></r></p></e>
+
+<e><p><l>pero<s n="adv"/></l><r>allerdings<s n="adv"/></r></p></e>
+<e><p><l>pero<b/>no<s n="adv"/></l><r>aber<b/>nicht<s n="adv"/></r></p></e>
 
 
 <e><p><l>ser<s n="vbser"/></l><r>sein<s n="vbser"/></r></p></e>
@@ -761,7 +768,7 @@
 <e><p><l>ver<s n="vblex"/></l><r>sehen<s n="vblex"/></r></p></e>
 
 
-<e><p><l>adiós<s n="ij"/></l><r>auf<b/>wiedersehen<s n="ij"/></r></p></e>
+<e><p><l>adiós<s n="ij"/></l><r>auf<b/>Wiedersehen<s n="ij"/></r></p></e>
 
 <e><p><l>,<s n="cm"/></l>                  <r>,<s n="cm"/></r></p></e>
 <e><p><l>(<s n="lpar"/></l>                <r>(<s n="lpar"/></r></p></e>
