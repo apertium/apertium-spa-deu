@@ -269,6 +269,9 @@
 					</test>
 					<let><var n="pronom_lema"/><lit v="ich"/></let>
 				</when>
+				<otherwise>
+					<let><var n="pronom_lema"/><lit v="es"/></let>
+				</otherwise>
 			</choose>
 
 			<choose>
@@ -749,12 +752,12 @@
 						<out>
 							<chunk>
 								<get-case-from pos="3">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="{^"/>
 								<get-case-from pos="3">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="$}"/>
@@ -814,12 +817,12 @@
 						<out>
 							<chunk>
 								<get-case-from pos="2">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="{^"/>
 								<get-case-from pos="2">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="$}"/>
@@ -866,12 +869,12 @@
 					<b pos="2"/>
 					<chunk>
 						<get-case-from pos="3">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="3">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -915,12 +918,12 @@
 					<b pos="2"/>
 					<chunk>
 						<get-case-from pos="3">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="3">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -993,12 +996,12 @@
 					<b pos="3"/>
 					<chunk>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -1072,12 +1075,12 @@
 					<b pos="3"/>
 					<chunk>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -1099,7 +1102,7 @@
 		</rule>
 
 
-		<!-- <rule comment="REGLA: SN ADV SV">
+		<!-- <r-ule comment="REGLA: SN ADV SV">
 			<pattern>
 				<pattern-item n="SN_fuerte"/>
 				<pattern-item n="ADV"/>
@@ -1429,12 +1432,12 @@
 						<out>
 							<chunk>
 								<get-case-from pos="3">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="{^"/>
 								<get-case-from pos="3">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="$}"/>
@@ -1587,12 +1590,12 @@
 						<out>
 							<chunk>
 								<get-case-from pos="4">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="{^"/>
 								<get-case-from pos="4">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="$}"/>
@@ -1674,12 +1677,12 @@
 					<b pos="3"/>
 					<chunk>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -1758,12 +1761,12 @@
 					<b pos="3"/>
 					<chunk>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="4">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -2055,12 +2058,12 @@
 						<out>
 							<chunk>
 								<get-case-from pos="4">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="{^"/>
 								<get-case-from pos="4">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="$}"/>
@@ -2228,12 +2231,12 @@
 						<out>
 							<chunk>
 								<get-case-from pos="5">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="{^"/>
 								<get-case-from pos="5">
-									<lit v="to"/>
+									<lit v="zu"/> <!--<lit v="to"/>-->
 								</get-case-from>
 								<lit-tag v="pr"/>
 								<lit v="$}"/>
@@ -2320,12 +2323,12 @@
 					<b pos="4"/>
 					<chunk>
 						<get-case-from pos="5">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="{^"/>
 						<get-case-from pos="5">
-							<lit v="to"/>
+							<lit v="zu"/> <!--<lit v="to"/>-->
 						</get-case-from>
 						<lit-tag v="pr"/>
 						<lit v="$}"/>
@@ -2347,7 +2350,7 @@
 		</rule>
 
 
-		<!-- <rule comment="REGLA: , SV , (, dicen, - , they say, )">
+		<!-- <r-ule comment="REGLA: , SV , (, dicen, - , they say, )">
 			<pattern>
 				<pattern-item n="coma"/>
 				<pattern-item n="SV_pers"/>
@@ -2419,7 +2422,7 @@
 		</rule>
 
 
-		<!-- <rule comment="REGLA: coma">
+		<!-- <r-ule comment="REGLA: coma">
 			<pattern>
 				<pattern-item n="coma"/>
 			</pattern>
@@ -2568,7 +2571,7 @@
 								<lit-tag v="cnjsub"/>
 								<lit v="{^"/>
 								<get-case-from pos="1">
-									<lit v="that"/>
+									<lit v="das"/> <!--<lit v="that"/>-->
 								</get-case-from>
 								<lit-tag v="cnjsub"/>
 								<lit v="$}"/>
@@ -2595,7 +2598,7 @@
 		</rule>
 
 
-		<!-- <rule comment="REGLA: cnjsub">
+		<!-- <r-ule comment="REGLA: cnjsub">
 			<pattern>
 				<pattern-item n="cnjsub"/>
 			</pattern>
@@ -2626,7 +2629,7 @@
 		</rule> -->
 
 
-		<!-- <rule comment="REGLA: PREADV">
+		<!-- <r-ule comment="REGLA: PREADV">
 			<pattern>
 				<pattern-item n="PREADV"/>
 			</pattern>
@@ -2658,7 +2661,7 @@
 						<lit v="verbcj"/>
 						<lit-tag v="SV"/>
 						<lit v="{^"/>
-						<lit v="be"/>
+						<lit v="sein"/> <!--<lit v="be"/>-->
 						<lit-tag v="vbser"/>
 						<clip pos="1" part="temps"/>
 						<clip pos="1" part="a_pers"/>
@@ -2674,7 +2677,7 @@
 						<lit v="nom"/>
 						<lit-tag v="SN"/>
 						<lit v="{^"/>
-						<lit v="old"/>
+						<lit v="alt"/> <!--<lit v="old"/>-->
 						<lit-tag v="adj"/>
 						<lit-tag v="sint"/>
 						<lit v="$}"/>

@@ -160,7 +160,7 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<lit v="not"/>
+								<lit v="nicht"/> <!--<lit v="not"/>-->
 								<lit-tag v="adv"/>
 							</lu>
 							<b/>
@@ -204,7 +204,7 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<lit v="not"/>
+								<lit v="nicht"/> <!--<lit v="not"/>-->
 								<lit-tag v="adv"/>
 							</lu>
 							<b/>
@@ -248,7 +248,7 @@
 							</lu>
 							<b pos="1"/>
 							<lu>
-								<lit v="not"/>
+								<lit v="nicht"/> <!--<lit v="not"/>-->
 								<lit-tag v="adv"/>
 							</lu>
 							<b pos="2"/>
@@ -400,7 +400,7 @@
 									</lu>
 									<b/>
 									<lu>
-										<lit v="not"/>
+										<lit v="nicht"/> <!--<lit v="not"/>-->
 										<lit-tag v="adv"/>
 									</lu>
 								</out>
@@ -501,14 +501,14 @@
 								<out>
 									<lu>
 										<get-case-from pos="1">
-											<lit v="do"/>
+											<lit v="tun"/> <!--<lit v="do"/>-->
 										</get-case-from>
 										<lit-tag v="vbdo"/>
 										<var n="v_temps_aux"/>
 									</lu>
 									<b/>
 									<lu>
-										<lit v="not"/>
+										<lit v="nicht"/> <!--<lit v="not"/>-->
 										<lit-tag v="adv"/>
 									</lu>
 									<b/>
@@ -722,7 +722,7 @@
 						<out>
 							<b/>
 							<lu>
-								<lit v="not"/>
+								<lit v="nicht"/> <!--<lit v="not"/>-->
 								<lit-tag v="adv"/>
 							</lu>
 						</out>
@@ -836,7 +836,7 @@
 						</test>
 						<out>
 							<lu>
-								<lit v="not"/>
+								<lit v="nicht"/> <!--<lit v="not"/>-->
 								<lit-tag v="adv"/>
 							</lu>
 							<b/>
