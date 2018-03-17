@@ -1,0 +1,31 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-spa-deu.deu-spa.lrx -text
+/apertium-spa-deu.deu-spa.t1x -text
+/apertium-spa-deu.deu-spa.t2x -text
+/apertium-spa-deu.deu-spa.t3x -text
+/apertium-spa-deu.spa-deu.dix -text
+/apertium-spa-deu.spa-deu.lrx -text
+/apertium-spa-deu.spa-deu.t1x -text
+/apertium-spa-deu.spa-deu.t2x -text
+/apertium-spa-deu.spa-deu.t3x -text
+/autogen.sh -text
+/configure.ac -text
+dev/apertium-es-de.es-de-crossed.dix -text
+dev/cuento_deu.google.txt -text
+dev/cuento_deu.txt -text
+dev/cuento_spa.txt -text
+dev/testvoc/inconsistency-summary.sh -text
+dev/testvoc/inconsistency.sh -text
+dev/testvoc/testvoc.sh -text
+/modes.xml -text svneol=unset#application/xml
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
