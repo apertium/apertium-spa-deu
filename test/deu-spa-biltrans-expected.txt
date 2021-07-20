@@ -1,0 +1,36 @@
+[-3FwmwtOMqbn#0] ^um<pr><acc>/alrededor de<pr><acc>/al objeto de<pr><acc>/con objeto de<pr><acc>$ ^der<det><def><nt><sg><acc>/el<det><def><nt><sg><acc>$
+[/-3FwmwtOMqbn]
+[-nx42O25I3MC#0] ^*gekonni/*gekonni$
+[/-nx42O25I3MC]
+[5oI8JgMibUbO#0] ^gehen<vblex><pri><p3><sg>/ir<vblex><pri><p3><sg>/caminar<vblex><pri><p3><sg>$ ^es<prn><pers><p3><nt><sg><nom>/prpers<prn><tn><p3><nt><sg><nom>$
+[/5oI8JgMibUbO]
+[Jl_aF6NGEbFT#0] ^'<apos>/'<apos>$
+[/Jl_aF6NGEbFT]
+[Muuxq8wcYBzr#0] ^(<lpar>/(<lpar>$
+[/Muuxq8wcYBzr]
+[OIdBqQu5lwIh#0] ^trotz<pr><gen>/con<pr><gen>/pese a<pr><gen>/a pesar de<pr><gen>$
+[/OIdBqQu5lwIh]
+[OXPgIukyIPkh#0] ^-<guio>/-<guio>$
+[/OXPgIukyIPkh]
+[QbgF6nrAFOI1#0] ^;<sent>/;<sent>$
+[/QbgF6nrAFOI1]
+[V-vgeejssV47#0] ^*seistt/*seistt$
+[/V-vgeejssV47]
+[bREbmLMWWY_f#0] ^von<pr><dat>/desde<pr><dat>/de entre<pr><dat>$ ^der<det><def><m><sg><dat>/el<det><def><m><sg><dat>$
+[/bREbmLMWWY_f]
+[fI2Rxvvh0kns#0] ^du<prn><pers><p2><mf><sg><nom>/prpers<prn><tn><p2><mf><sg><nom>$ ^es<prn><pers><p3><nt><sg><nom>/prpers<prn><tn><p3><nt><sg><nom>$
+[/fI2Rxvvh0kns]
+[iGTecQVuWGMp#0] ^analysieren<vblex><prs><p2><sg>/analizar<vblex><prs><p2><sg>$
+[/iGTecQVuWGMp]
+[lM2wBFoNLJ6f#0] ^*Wasserc/*Wasserc$
+[/lM2wBFoNLJ6f]
+[np1mx59ND7gl#0] ^analysieren<vblex><imp><sg>/analizar<vblex><imp><sg>$
+[/np1mx59ND7gl]
+[nuXEMu3rwWrk#0] ^du<prn><pers><p2><mf><sg><nom>/prpers<prn><tn><p2><mf><sg><nom>$ ^es<prn><pers><p3><nt><sg><nom>/prpers<prn><tn><p3><nt><sg><nom>$
+[/nuXEMu3rwWrk]
+[q733Jp1nc6B_#0] ^analysieren<vblex><pri><p2><sg>/analizar<vblex><pri><p2><sg>$
+[/q733Jp1nc6B_]
+[u3IIvJtdfATx#0] ^!<sent>/!<sent>$
+[/u3IIvJtdfATx]
+[uTPUfrXnKeye#0] ^*kommte/*kommte$
+[/uTPUfrXnKeye]

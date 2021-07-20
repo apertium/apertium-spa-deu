@@ -1,0 +1,36 @@
+[-3FwmwtOMqbn#0] ^ums/um<pr><acc>+der<det><def><nt><sg><acc>$
+[/-3FwmwtOMqbn]
+[-nx42O25I3MC#0] ^gekonni/*gekonni$
+[/-nx42O25I3MC]
+[5oI8JgMibUbO#0] ^geht’s/gehen<vblex><pri><p3><sg>+es<prn><pers><p3><nt><sg><nom>$
+[/5oI8JgMibUbO]
+[Jl_aF6NGEbFT#0] ^'/'<apos>$
+[/Jl_aF6NGEbFT]
+[Muuxq8wcYBzr#0] ^(/(<lpar>$
+[/Muuxq8wcYBzr]
+[OIdBqQu5lwIh#0] ^trotz/trotz<pr><gen>/trotz<pr><dat>$
+[/OIdBqQu5lwIh]
+[OXPgIukyIPkh#0] ^-/-<guio>$
+[/OXPgIukyIPkh]
+[QbgF6nrAFOI1#0] ^;/;<sent>$
+[/QbgF6nrAFOI1]
+[V-vgeejssV47#0] ^seistt/*seistt$
+[/V-vgeejssV47]
+[bREbmLMWWY_f#0] ^vom/von<pr><dat>+der<det><def><m><sg><dat>/von<pr><dat>+der<det><def><nt><sg><dat>$
+[/bREbmLMWWY_f]
+[fI2Rxvvh0kns#0] ^du`s/du<prn><pers><p2><mf><sg><nom>+es<prn><pers><p3><nt><sg><nom>$
+[/fI2Rxvvh0kns]
+[iGTecQVuWGMp#0] ^analysierest/analysieren<vblex><prs><p2><sg>/analysieren<vblex><prs><p2><sg><heur>$
+[/iGTecQVuWGMp]
+[lM2wBFoNLJ6f#0] ^Wasserc/*Wasserc$
+[/lM2wBFoNLJ6f]
+[np1mx59ND7gl#0] ^analysier/analysieren<vblex><imp><sg>/analysieren<vblex><imp><sg><heur>$
+[/np1mx59ND7gl]
+[nuXEMu3rwWrk#0] ^du’s/du<prn><pers><p2><mf><sg><nom>+es<prn><pers><p3><nt><sg><nom>$
+[/nuXEMu3rwWrk]
+[q733Jp1nc6B_#0] ^analysierst/analysieren<vblex><pri><p2><sg>/analysieren<vblex><pri><p2><sg><heur>$
+[/q733Jp1nc6B_]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]
+[uTPUfrXnKeye#0] ^kommte/*kommte$
+[/uTPUfrXnKeye]

@@ -1,0 +1,10 @@
+{
+    "deu-spa": {
+        "input": "deu-spa-input.txt",
+        "mode": "deu-spa"
+    },
+    "spa-deu": {
+        "input": "spa-deu-input.txt",
+        "mode": "spa-deu"
+    }
+}

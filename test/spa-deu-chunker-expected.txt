@@ -1,0 +1,24 @@
+[0wLXY8nrBriO#0] ^unknown<unknown>{^*eresá$}$
+[/0wLXY8nrBriO]
+[1HNeOiZeFu7g#0] ^Num<SN>{^2<num>$}$
+[/1HNeOiZeFu7g]
+[DWXqyjsp6Q1B#0] ^unknown<unknown>{^*fuéramo$}$
+[/DWXqyjsp6Q1B]
+[NCFBkOjA1GBZ#0] 
+[/NCFBkOjA1GBZ]
+[T-ZS3wr-yGAJ#0] ^unknown<unknown>{^*ayerqnn$}$
+[/T-ZS3wr-yGAJ]
+[afWcJztuZprD#0] ^Num<SN>{^90<num>$}$
+[/afWcJztuZprD]
+[n0H1VuKlBAbL#0] ^unknown<unknown>{^*ochoq$}$
+[/n0H1VuKlBAbL]
+[t1BajfOr6TEE#0] ^Prn<SN><GD><sg>{^der<prn><3><4>$}$
+[/t1BajfOr6TEE]
+[u3IIvJtdfATx#0] ^punt<sent>{^!<sent>$}$
+[/u3IIvJtdfATx]
+[ul7FHQekrA6V#0] ^default<default>{^)<rpar>$}$
+[/ul7FHQekrA6V]
+[wRAoNBp1eifI#0] ^Num<SN>{^0926<num>$}$
+[/wRAoNBp1eifI]
+[zbTuKuppzGqD#0] ^punt<sent>{^.<sent>$}$
+[/zbTuKuppzGqD]
